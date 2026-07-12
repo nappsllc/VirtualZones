@@ -1,0 +1,136 @@
+# VirtualZones — Greek translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Έναρξη
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Ακύρωση
+common.save = Αποθήκευση
+common.close = Κλείσιμο
+common.add = Προσθήκη
+common.clear = Εκκαθάριση
+common.edit = Επεξεργασία
+common.start = Έναρξη
+common.stop = Διακοπή
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Προσθήκη
+main.status_active = Ενεργό: τα παράθυρα πλήρους οθόνης/μεγιστοποιημένα προσκολλώνται σε ζώνες· Shift+σύρσιμο για προσκόλληση.
+main.status_no_layouts = Δεν υπάρχουν ακόμη διατάξεις — κάντε κλικ στο «Προσθήκη» για να δημιουργήσετε μία.
+main.status_idle = Αδρανές
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Τρέχουσα διάταξη
+main.screen_enabled_toggle = Ενεργοποιημένο
+main.no_layouts = Καμία διάταξη
+main.edit_layouts_link = Επεξεργασία διατάξεων…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Προτιμήσεις
+main.pref_show_zones = Εμφάνιση ζωνών
+main.pref_auto_start = Ενεργοποίηση κατά την εκκίνηση
+main.pref_cover_taskbar = Κάλυψη γραμμής εργασιών
+main.pref_start_with_windows = Εκκίνηση με τα Windows
+main.pref_show_in_tray = Εμφάνιση στη γραμμή ειδοποιήσεων
+main.pref_start_minimized = Εκκίνηση ελαχιστοποιημένο
+main.pref_update_automatically = Αυτόματη ενημέρωση
+main.shortcuts_button = Συντομεύσεις πληκτρολογίου…
+main.app_color_button = Χρώμα εφαρμογής…
+
+# Main window — Card 3 (License)
+main.license_heading = Άδεια χρήσης
+main.license_button = Άδεια χρήσης…
+main.about_button = Σχετικά
+main.license_status_licensed = Με άδεια χρήσης.
+main.license_status_trial_expired = Η δοκιμαστική περίοδος έληξε — κάντε κλικ στο «Άδεια χρήσης» για ενεργοποίηση ή αγορά.
+
+# License dialog
+license.heading = Άδεια χρήσης
+license.subtitle = Εισαγάγετε το κλειδί άδειας χρήσης σας:
+license.note = Η ενεργοποίηση απαιτεί σύνδεση στο internet.
+license.activate_button = Ενεργοποίηση
+license.buy_button = Αγορά άδειας χρήσης
+license.status_verifying = Επαλήθευση άδειας χρήσης μέσω Lemon Squeezy…
+license.status_activated = Η άδεια χρήσης ενεργοποιήθηκε. Ευχαριστούμε που υποστηρίζετε το VirtualZones!
+license.status_empty_key = Εισαγάγετε ένα κλειδί άδειας χρήσης.
+license.status_network_error = Δεν ήταν δυνατή η σύνδεση με τον διακομιστή αδειών χρήσης ({reason}). Ελέγξτε τη σύνδεσή σας στο internet και δοκιμάστε ξανά.
+license.trial_days_left = Δοκιμή: απομένουν {days} ημέρες.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Συντομεύσεις πληκτρολογίου
+shortcuts.change_button = Αλλαγή
+shortcuts.press_keys = Πατήστε πλήκτρα…
+shortcuts.binding_unbound = Μη εκχωρημένο
+shortcuts.action_start_stop = Έναρξη / Διακοπή
+shortcuts.action_toggle_zones = Εμφάνιση / απόκρυψη ζωνών
+shortcuts.action_cycle_layout = Εναλλαγή διάταξης
+shortcuts.action_move_left = Μετακίνηση παραθύρου αριστερά
+shortcuts.action_move_right = Μετακίνηση παραθύρου δεξιά
+shortcuts.action_move_up = Μετακίνηση παραθύρου πάνω
+shortcuts.action_move_down = Μετακίνηση παραθύρου κάτω
+shortcuts.error_no_modifier = Οι συντομεύσεις απαιτούν τουλάχιστον ένα πλήκτρο τροποποίησης (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Αυτός ο συνδυασμός είναι δεσμευμένος από τα Windows.
+shortcuts.error_reserved_share_zone = Αυτός ο συνδυασμός είναι δεσμευμένος για τη «Κοινόχρηστη ζώνη» (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Χρησιμοποιείται ήδη για «{action}».
+shortcuts.error_in_use_by_app = Χρησιμοποιείται ήδη από άλλη εφαρμογή.
+
+# About dialog
+about.title = Σχετικά
+about.app_name = VirtualZones για Windows
+about.version_line = Έκδοση {version} · {date}
+about.tagline = Διατηρήστε τα παράθυρα πλήρους οθόνης και τα μεγιστοποιημένα παράθυρα εντός μιας ζώνης της οθόνης σας.
+about.credit = Με αγάπη από το Λος Άντζελες, από τον Denis Platonov
+about.visit_website_button = Επίσκεψη ιστότοπου
+
+# Color picker dialog
+color.title = Χρώμα εφαρμογής
+color.presets_heading = Προεπιλογές
+color.hue_heading = Απόχρωση
+color.done_button = Τέλος
+
+# Update dialog
+update.title = Διαθέσιμη ενημέρωση
+update.heading_available = Το VirtualZones {version} είναι διαθέσιμο
+update.install_and_restart = Εγκατάσταση και επανεκκίνηση
+update.download_and_install = Λήψη και εγκατάσταση
+update.later_button = Αργότερα
+update.skip_button = Παράλειψη αυτής της έκδοσης
+
+# Layout editor — Manage view
+editor.window_title = Επεξεργασία διατάξεων
+manage.title = Διατάξεις
+manage.empty_state = Δεν υπάρχουν ακόμη προσαρμοσμένες διατάξεις — κάντε κλικ στο «Προσθήκη» για να δημιουργήσετε μία, ή επαναφέρετε τις προεπιλογές.
+manage.restore_defaults_button = Επαναφορά προεπιλογών
+manage.zone_count_one = 1 ζώνη
+manage.zone_count_other = {n} ζώνες
+
+# Layout editor — Edit view
+edit.title = Επεξεργασία διάταξης
+edit.layout_name_label = Όνομα διάταξης
+edit.templates_label = Πρότυπα
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Γραμμές
+edit.columns_label = Στήλες
+edit.canvas_hint_line1 = Κάντε κλικ σε μια ζώνη για διαχωρισμό (Shift = οριζόντια)
+edit.canvas_hint_line2 = Κάντε κλικ σε κοινό όριο για συγχώνευση
+edit.zone_column_header = Ζώνη
+edit.width_column_header = Πλάτος
+edit.height_column_header = Ύψος
+edit.zone_row_label = Ζώνη {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Εισαγάγετε ένα όνομα για αυτή τη διάταξη.
+edit.error_name_invalid = Τα ονόματα διατάξεων δεν μπορούν να περιέχουν ", \, {, }, [ ή ].
+
+# Tray menu
+tray.show = Εμφάνιση
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Εμφάνιση ζωνών
+tray.hide_zones = Απόκρυψη ζωνών
+tray.layout_with_hotkey = Διάταξη	{hotkey}
+tray.share = Κοινή χρήση
+tray.exit = Έξοδος

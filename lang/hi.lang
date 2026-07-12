@@ -1,0 +1,136 @@
+# VirtualZones — Hindi translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = आरंभ करें
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = रद्द करें
+common.save = सहेजें
+common.close = बंद करें
+common.add = जोड़ें
+common.clear = साफ़ करें
+common.edit = संपादित करें
+common.start = आरंभ करें
+common.stop = रोकें
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = जोड़ें
+main.status_active = सक्रिय: पूर्ण स्क्रीन/अधिकतम विंडो ज़ोन से चिपक जाती हैं; चिपकाने के लिए Shift+खींचें।
+main.status_no_layouts = अभी तक कोई लेआउट नहीं है — एक बनाने के लिए "जोड़ें" पर क्लिक करें।
+main.status_idle = निष्क्रिय
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = वर्तमान लेआउट
+main.screen_enabled_toggle = सक्षम
+main.no_layouts = कोई लेआउट नहीं
+main.edit_layouts_link = लेआउट संपादित करें…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = प्राथमिकताएँ
+main.pref_show_zones = ज़ोन दिखाएँ
+main.pref_auto_start = आरंभ पर सक्षम करें
+main.pref_cover_taskbar = टास्कबार को ढकें
+main.pref_start_with_windows = Windows के साथ आरंभ करें
+main.pref_show_in_tray = ट्रे में दिखाएँ
+main.pref_start_minimized = न्यूनतम स्थिति में आरंभ करें
+main.pref_update_automatically = स्वचालित रूप से अपडेट करें
+main.shortcuts_button = कीबोर्ड शॉर्टकट…
+main.app_color_button = ऐप का रंग…
+
+# Main window — Card 3 (License)
+main.license_heading = लाइसेंस
+main.license_button = लाइसेंस…
+main.about_button = जानकारी
+main.license_status_licensed = लाइसेंस प्राप्त।
+main.license_status_trial_expired = परीक्षण अवधि समाप्त हो गई है — सक्रिय करने या खरीदने के लिए "लाइसेंस" पर क्लिक करें।
+
+# License dialog
+license.heading = लाइसेंस
+license.subtitle = अपनी लाइसेंस कुंजी दर्ज करें:
+license.note = सक्रियण के लिए इंटरनेट कनेक्शन आवश्यक है।
+license.activate_button = सक्रिय करें
+license.buy_button = लाइसेंस खरीदें
+license.status_verifying = Lemon Squeezy के माध्यम से लाइसेंस सत्यापित किया जा रहा है…
+license.status_activated = लाइसेंस सक्रिय हो गया है। VirtualZones को समर्थन देने के लिए धन्यवाद!
+license.status_empty_key = कृपया एक लाइसेंस कुंजी दर्ज करें।
+license.status_network_error = लाइसेंस सर्वर तक नहीं पहुंचा जा सका ({reason})। अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें।
+license.trial_days_left = परीक्षण: {days} दिन शेष।
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = कीबोर्ड शॉर्टकट
+shortcuts.change_button = बदलें
+shortcuts.press_keys = कुंजियाँ दबाएँ…
+shortcuts.binding_unbound = निर्दिष्ट नहीं
+shortcuts.action_start_stop = आरंभ / रोकें
+shortcuts.action_toggle_zones = ज़ोन दिखाएँ / छिपाएँ
+shortcuts.action_cycle_layout = लेआउट बदलें
+shortcuts.action_move_left = विंडो को बाईं ओर ले जाएँ
+shortcuts.action_move_right = विंडो को दाईं ओर ले जाएँ
+shortcuts.action_move_up = विंडो को ऊपर ले जाएँ
+shortcuts.action_move_down = विंडो को नीचे ले जाएँ
+shortcuts.error_no_modifier = शॉर्टकट के लिए कम से कम एक मॉडिफायर कुंजी आवश्यक है (Ctrl/Alt/Shift/Win)।
+shortcuts.error_reserved_windows = यह संयोजन Windows द्वारा आरक्षित है।
+shortcuts.error_reserved_share_zone = यह संयोजन "साझा ज़ोन" के लिए आरक्षित है (Ctrl+Alt+1-9)।
+shortcuts.error_duplicate = पहले से ही "{action}" के लिए उपयोग किया जा रहा है।
+shortcuts.error_in_use_by_app = पहले से ही किसी अन्य ऐप द्वारा उपयोग में है।
+
+# About dialog
+about.title = जानकारी
+about.app_name = Windows के लिए VirtualZones
+about.version_line = संस्करण {version} · {date}
+about.tagline = पूर्ण स्क्रीन और अधिकतम विंडो को अपने मॉनिटर के एक ज़ोन के भीतर रखें।
+about.credit = लॉस एंजिल्स से प्यार के साथ, डेनिस प्लैटोनोव द्वारा
+about.visit_website_button = वेबसाइट देखें
+
+# Color picker dialog
+color.title = ऐप का रंग
+color.presets_heading = प्रीसेट
+color.hue_heading = रंगत
+color.done_button = हो गया
+
+# Update dialog
+update.title = अपडेट उपलब्ध है
+update.heading_available = VirtualZones {version} उपलब्ध है
+update.install_and_restart = इंस्टॉल करें और पुनः आरंभ करें
+update.download_and_install = डाउनलोड करें और इंस्टॉल करें
+update.later_button = बाद में
+update.skip_button = इस संस्करण को छोड़ें
+
+# Layout editor — Manage view
+editor.window_title = लेआउट संपादित करें
+manage.title = लेआउट
+manage.empty_state = अभी तक कोई कस्टम लेआउट नहीं है — एक बनाने के लिए "जोड़ें" पर क्लिक करें, या डिफ़ॉल्ट पुनर्स्थापित करें।
+manage.restore_defaults_button = डिफ़ॉल्ट पुनर्स्थापित करें
+manage.zone_count_one = 1 ज़ोन
+manage.zone_count_other = {n} ज़ोन
+
+# Layout editor — Edit view
+edit.title = लेआउट संपादित करें
+edit.layout_name_label = लेआउट नाम
+edit.templates_label = टेम्पलेट
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = पंक्तियाँ
+edit.columns_label = स्तंभ
+edit.canvas_hint_line1 = किसी ज़ोन को विभाजित करने के लिए उस पर क्लिक करें (Shift = क्षैतिज)
+edit.canvas_hint_line2 = संयोजित करने के लिए साझा सीमा पर क्लिक करें
+edit.zone_column_header = ज़ोन
+edit.width_column_header = चौड़ाई
+edit.height_column_header = ऊंचाई
+edit.zone_row_label = ज़ोन {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = कृपया इस लेआउट के लिए एक नाम दर्ज करें।
+edit.error_name_invalid = लेआउट नामों में ", \, {, }, [ या ] नहीं हो सकते।
+
+# Tray menu
+tray.show = दिखाएँ
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = ज़ोन दिखाएँ
+tray.hide_zones = ज़ोन छिपाएँ
+tray.layout_with_hotkey = लेआउट	{hotkey}
+tray.share = साझा करें
+tray.exit = बाहर निकलें

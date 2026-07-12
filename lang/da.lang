@@ -1,0 +1,136 @@
+# VirtualZones — Danish translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Start
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Annuller
+common.save = Gem
+common.close = Luk
+common.add = Tilføj
+common.clear = Ryd
+common.edit = Rediger
+common.start = Start
+common.stop = Stop
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Tilføj
+main.status_active = Aktiv: vinduer i fuld skærm/maksimeret klikker fast til zoner; Shift+træk for at klikke fast.
+main.status_no_layouts = Ingen layouts endnu — klik på "Tilføj" for at oprette et.
+main.status_idle = Inaktiv
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Aktuelt layout
+main.screen_enabled_toggle = Aktiveret
+main.no_layouts = Ingen layouts
+main.edit_layouts_link = Rediger layouts…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Indstillinger
+main.pref_show_zones = Vis zoner
+main.pref_auto_start = Aktivér ved opstart
+main.pref_cover_taskbar = Dæk proceslinjen
+main.pref_start_with_windows = Start med Windows
+main.pref_show_in_tray = Vis i statusfeltet
+main.pref_start_minimized = Start minimeret
+main.pref_update_automatically = Opdater automatisk
+main.shortcuts_button = Tastaturgenveje…
+main.app_color_button = App-farve…
+
+# Main window — Card 3 (License)
+main.license_heading = Licens
+main.license_button = Licens…
+main.about_button = Om
+main.license_status_licensed = Licenseret.
+main.license_status_trial_expired = Prøveperioden er udløbet — klik på "Licens" for at aktivere eller købe.
+
+# License dialog
+license.heading = Licens
+license.subtitle = Indtast din licensnøgle:
+license.note = Aktivering kræver internetforbindelse.
+license.activate_button = Aktivér
+license.buy_button = Køb licens
+license.status_verifying = Verificerer licens via Lemon Squeezy…
+license.status_activated = Licensen er aktiveret. Tak fordi du støtter VirtualZones!
+license.status_empty_key = Indtast en licensnøgle.
+license.status_network_error = Kunne ikke oprette forbindelse til licensserveren ({reason}). Tjek din internetforbindelse, og prøv igen.
+license.trial_days_left = Prøveperiode: {days} dag(e) tilbage.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Tastaturgenveje
+shortcuts.change_button = Skift
+shortcuts.press_keys = Tryk på taster…
+shortcuts.binding_unbound = Ikke tildelt
+shortcuts.action_start_stop = Start / Stop
+shortcuts.action_toggle_zones = Vis / skjul zoner
+shortcuts.action_cycle_layout = Skift layout
+shortcuts.action_move_left = Flyt vindue til venstre
+shortcuts.action_move_right = Flyt vindue til højre
+shortcuts.action_move_up = Flyt vindue op
+shortcuts.action_move_down = Flyt vindue ned
+shortcuts.error_no_modifier = Genveje kræver mindst én modifikatortast (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Denne kombination er reserveret af Windows.
+shortcuts.error_reserved_share_zone = Denne kombination er reserveret til "Delt zone" (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Bruges allerede til "{action}".
+shortcuts.error_in_use_by_app = Bruges allerede af en anden app.
+
+# About dialog
+about.title = Om
+about.app_name = VirtualZones til Windows
+about.version_line = Version {version} · {date}
+about.tagline = Hold fuldskærms- og maksimerede vinduer inden for en zone på din skærm.
+about.credit = Med kærlighed fra Los Angeles, af Denis Platonov
+about.visit_website_button = Besøg webstedet
+
+# Color picker dialog
+color.title = App-farve
+color.presets_heading = Forudindstillinger
+color.hue_heading = Farvetone
+color.done_button = Udført
+
+# Update dialog
+update.title = Opdatering tilgængelig
+update.heading_available = VirtualZones {version} er tilgængelig
+update.install_and_restart = Installer og genstart
+update.download_and_install = Download og installer
+update.later_button = Senere
+update.skip_button = Spring denne version over
+
+# Layout editor — Manage view
+editor.window_title = Rediger layouts
+manage.title = Layouts
+manage.empty_state = Ingen brugerdefinerede layouts endnu — klik på "Tilføj" for at oprette et, eller gendan standardindstillinger.
+manage.restore_defaults_button = Gendan standardindstillinger
+manage.zone_count_one = 1 zone
+manage.zone_count_other = {n} zoner
+
+# Layout editor — Edit view
+edit.title = Rediger layout
+edit.layout_name_label = Layoutnavn
+edit.templates_label = Skabeloner
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Rækker
+edit.columns_label = Kolonner
+edit.canvas_hint_line1 = Klik på en zone for at opdele den (Shift = vandret)
+edit.canvas_hint_line2 = Klik på en fælles kant for at flette
+edit.zone_column_header = Zone
+edit.width_column_header = Bredde
+edit.height_column_header = Højde
+edit.zone_row_label = Zone {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Indtast et navn til dette layout.
+edit.error_name_invalid = Layoutnavne må ikke indeholde ", \, {, }, [ eller ].
+
+# Tray menu
+tray.show = Vis
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Vis zoner
+tray.hide_zones = Skjul zoner
+tray.layout_with_hotkey = Layout	{hotkey}
+tray.share = Del
+tray.exit = Afslut

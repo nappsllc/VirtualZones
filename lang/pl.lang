@@ -1,0 +1,136 @@
+# VirtualZones — Polish translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Start
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Anuluj
+common.save = Zapisz
+common.close = Zamknij
+common.add = Dodaj
+common.clear = Wyczyść
+common.edit = Edytuj
+common.start = Start
+common.stop = Stop
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Dodaj
+main.status_active = Aktywne: okna pełnoekranowe/zmaksymalizowane przyciągają się do stref; Shift+przeciąganie, aby przyciągnąć.
+main.status_no_layouts = Nie ma jeszcze żadnych układów — kliknij „Dodaj”, aby utworzyć jeden.
+main.status_idle = Bezczynny
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Bieżący układ
+main.screen_enabled_toggle = Włączony
+main.no_layouts = Brak układów
+main.edit_layouts_link = Edytuj układy…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Preferencje
+main.pref_show_zones = Pokaż strefy
+main.pref_auto_start = Włącz przy uruchomieniu
+main.pref_cover_taskbar = Zakryj pasek zadań
+main.pref_start_with_windows = Uruchamiaj z Windows
+main.pref_show_in_tray = Pokaż w zasobniku
+main.pref_start_minimized = Uruchamiaj zminimalizowany
+main.pref_update_automatically = Aktualizuj automatycznie
+main.shortcuts_button = Skróty klawiszowe…
+main.app_color_button = Kolor aplikacji…
+
+# Main window — Card 3 (License)
+main.license_heading = Licencja
+main.license_button = Licencja…
+main.about_button = O programie
+main.license_status_licensed = Licencja aktywna.
+main.license_status_trial_expired = Okres próbny wygasł — kliknij „Licencja”, aby aktywować lub kupić.
+
+# License dialog
+license.heading = Licencja
+license.subtitle = Wprowadź klucz licencyjny:
+license.note = Aktywacja wymaga połączenia z internetem.
+license.activate_button = Aktywuj
+license.buy_button = Kup licencję
+license.status_verifying = Weryfikacja licencji przez Lemon Squeezy…
+license.status_activated = Licencja aktywowana. Dziękujemy za wsparcie VirtualZones!
+license.status_empty_key = Wprowadź klucz licencyjny.
+license.status_network_error = Nie udało się połączyć z serwerem licencji ({reason}). Sprawdź połączenie z internetem i spróbuj ponownie.
+license.trial_days_left = Okres próbny: pozostało {days} dni.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Skróty klawiszowe
+shortcuts.change_button = Zmień
+shortcuts.press_keys = Naciśnij klawisze…
+shortcuts.binding_unbound = Nieprzypisany
+shortcuts.action_start_stop = Start / Stop
+shortcuts.action_toggle_zones = Pokaż / ukryj strefy
+shortcuts.action_cycle_layout = Przełącz układ
+shortcuts.action_move_left = Przenieś okno w lewo
+shortcuts.action_move_right = Przenieś okno w prawo
+shortcuts.action_move_up = Przenieś okno w górę
+shortcuts.action_move_down = Przenieś okno w dół
+shortcuts.error_no_modifier = Skróty wymagają co najmniej jednego klawisza modyfikującego (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Ta kombinacja jest zarezerwowana przez Windows.
+shortcuts.error_reserved_share_zone = Ta kombinacja jest zarezerwowana dla „Udostępnionej strefy” (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Już używane przez „{action}”.
+shortcuts.error_in_use_by_app = Już używane przez inną aplikację.
+
+# About dialog
+about.title = O programie
+about.app_name = VirtualZones dla Windows
+about.version_line = Wersja {version} · {date}
+about.tagline = Utrzymuj okna pełnoekranowe i zmaksymalizowane w obrębie strefy monitora.
+about.credit = Z miłością z Los Angeles, Denis Platonov
+about.visit_website_button = Odwiedź stronę
+
+# Color picker dialog
+color.title = Kolor aplikacji
+color.presets_heading = Ustawienia wstępne
+color.hue_heading = Odcień
+color.done_button = Gotowe
+
+# Update dialog
+update.title = Dostępna aktualizacja
+update.heading_available = Dostępna jest wersja VirtualZones {version}
+update.install_and_restart = Zainstaluj i uruchom ponownie
+update.download_and_install = Pobierz i zainstaluj
+update.later_button = Później
+update.skip_button = Pomiń tę wersję
+
+# Layout editor — Manage view
+editor.window_title = Edytuj układy
+manage.title = Układy
+manage.empty_state = Nie ma jeszcze żadnych własnych układów — kliknij „Dodaj”, aby utworzyć jeden, lub przywróć domyślne.
+manage.restore_defaults_button = Przywróć domyślne
+manage.zone_count_one = 1 strefa
+manage.zone_count_other = Stref: {n}
+
+# Layout editor — Edit view
+edit.title = Edytuj układ
+edit.layout_name_label = Nazwa układu
+edit.templates_label = Szablony
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Wiersze
+edit.columns_label = Kolumny
+edit.canvas_hint_line1 = Kliknij strefę, aby ją podzielić (Shift = poziomo)
+edit.canvas_hint_line2 = Kliknij wspólną granicę, aby połączyć
+edit.zone_column_header = Strefa
+edit.width_column_header = Szerokość
+edit.height_column_header = Wysokość
+edit.zone_row_label = Strefa {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Wprowadź nazwę tego układu.
+edit.error_name_invalid = Nazwy układów nie mogą zawierać ", \, {, }, [ ani ].
+
+# Tray menu
+tray.show = Pokaż
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Pokaż strefy
+tray.hide_zones = Ukryj strefy
+tray.layout_with_hotkey = Układ	{hotkey}
+tray.share = Udostępnij
+tray.exit = Zamknij

@@ -1,0 +1,136 @@
+# VirtualZones — Turkish translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Başlat
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = İptal
+common.save = Kaydet
+common.close = Kapat
+common.add = Ekle
+common.clear = Temizle
+common.edit = Düzenle
+common.start = Başlat
+common.stop = Durdur
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Ekle
+main.status_active = Etkin: tam ekran/büyütülmüş pencereler bölgelere yapışır; Shift+sürükleme ile yapıştırın.
+main.status_no_layouts = Henüz düzen yok — oluşturmak için "Ekle"ye tıklayın.
+main.status_idle = Boşta
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Geçerli düzen
+main.screen_enabled_toggle = Etkin
+main.no_layouts = Düzen yok
+main.edit_layouts_link = Düzenleri düzenle…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Tercihler
+main.pref_show_zones = Bölgeleri göster
+main.pref_auto_start = Başlangıçta etkinleştir
+main.pref_cover_taskbar = Görev çubuğunu kapat
+main.pref_start_with_windows = Windows ile başlat
+main.pref_show_in_tray = Sistem tepsisinde göster
+main.pref_start_minimized = Simge durumunda başlat
+main.pref_update_automatically = Otomatik güncelle
+main.shortcuts_button = Klavye kısayolları…
+main.app_color_button = Uygulama rengi…
+
+# Main window — Card 3 (License)
+main.license_heading = Lisans
+main.license_button = Lisans…
+main.about_button = Hakkında
+main.license_status_licensed = Lisanslı.
+main.license_status_trial_expired = Deneme süresi doldu — etkinleştirmek veya satın almak için "Lisans"a tıklayın.
+
+# License dialog
+license.heading = Lisans
+license.subtitle = Lisans anahtarınızı girin:
+license.note = Etkinleştirme için internet bağlantısı gereklidir.
+license.activate_button = Etkinleştir
+license.buy_button = Lisans satın al
+license.status_verifying = Lemon Squeezy üzerinden lisans doğrulanıyor…
+license.status_activated = Lisans etkinleştirildi. VirtualZones'u desteklediğiniz için teşekkürler!
+license.status_empty_key = Lütfen bir lisans anahtarı girin.
+license.status_network_error = Lisans sunucusuna ulaşılamadı ({reason}). İnternet bağlantınızı kontrol edip tekrar deneyin.
+license.trial_days_left = Deneme: {days} gün kaldı.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Klavye kısayolları
+shortcuts.change_button = Değiştir
+shortcuts.press_keys = Tuşlara basın…
+shortcuts.binding_unbound = Atanmadı
+shortcuts.action_start_stop = Başlat / Durdur
+shortcuts.action_toggle_zones = Bölgeleri göster / gizle
+shortcuts.action_cycle_layout = Düzeni değiştir
+shortcuts.action_move_left = Pencereyi sola taşı
+shortcuts.action_move_right = Pencereyi sağa taşı
+shortcuts.action_move_up = Pencereyi yukarı taşı
+shortcuts.action_move_down = Pencereyi aşağı taşı
+shortcuts.error_no_modifier = Kısayollar en az bir değiştirici tuş gerektirir (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Bu kombinasyon Windows tarafından ayrılmıştır.
+shortcuts.error_reserved_share_zone = Bu kombinasyon "Paylaşılan Bölge" için ayrılmıştır (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Zaten "{action}" için kullanılıyor.
+shortcuts.error_in_use_by_app = Zaten başka bir uygulama tarafından kullanılıyor.
+
+# About dialog
+about.title = Hakkında
+about.app_name = Windows için VirtualZones
+about.version_line = Sürüm {version} · {date}
+about.tagline = Tam ekran ve büyütülmüş pencereleri monitörünüzün bir bölgesi içinde tutun.
+about.credit = Los Angeles'tan sevgiyle, Denis Platonov
+about.visit_website_button = Web sitesini ziyaret et
+
+# Color picker dialog
+color.title = Uygulama rengi
+color.presets_heading = Hazır ayarlar
+color.hue_heading = Ton
+color.done_button = Bitti
+
+# Update dialog
+update.title = Güncelleme mevcut
+update.heading_available = VirtualZones {version} kullanılabilir
+update.install_and_restart = Yükle ve yeniden başlat
+update.download_and_install = İndir ve yükle
+update.later_button = Daha sonra
+update.skip_button = Bu sürümü atla
+
+# Layout editor — Manage view
+editor.window_title = Düzenleri düzenle
+manage.title = Düzenler
+manage.empty_state = Henüz özel düzen yok — oluşturmak için "Ekle"ye tıklayın veya varsayılanları geri yükleyin.
+manage.restore_defaults_button = Varsayılanları geri yükle
+manage.zone_count_one = 1 bölge
+manage.zone_count_other = {n} bölge
+
+# Layout editor — Edit view
+edit.title = Düzeni düzenle
+edit.layout_name_label = Düzen adı
+edit.templates_label = Şablonlar
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Satırlar
+edit.columns_label = Sütunlar
+edit.canvas_hint_line1 = Bölmek için bir bölgeye tıklayın (Shift = yatay)
+edit.canvas_hint_line2 = Birleştirmek için ortak bir sınıra tıklayın
+edit.zone_column_header = Bölge
+edit.width_column_header = Genişlik
+edit.height_column_header = Yükseklik
+edit.zone_row_label = Bölge {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Bu düzen için bir ad girin.
+edit.error_name_invalid = Düzen adları ", \, {, }, [ veya ] içeremez.
+
+# Tray menu
+tray.show = Göster
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Bölgeleri göster
+tray.hide_zones = Bölgeleri gizle
+tray.layout_with_hotkey = Düzen	{hotkey}
+tray.share = Paylaş
+tray.exit = Çıkış

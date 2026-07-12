@@ -1,0 +1,136 @@
+# VirtualZones — Ukrainian translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Пуск
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Скасувати
+common.save = Зберегти
+common.close = Закрити
+common.add = Додати
+common.clear = Очистити
+common.edit = Змінити
+common.start = Пуск
+common.stop = Стоп
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Додати
+main.status_active = Активно: розгорнуті на весь екран вікна прилипають до зон; Shift+перетягування — для прилипання.
+main.status_no_layouts = Поки немає розкладок — натисніть «Додати», щоб створити першу.
+main.status_idle = Очікування
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Поточна розкладка
+main.screen_enabled_toggle = Увімкнено
+main.no_layouts = Немає розкладок
+main.edit_layouts_link = Змінити розкладки…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Налаштування
+main.pref_show_zones = Показувати зони
+main.pref_auto_start = Вмикати під час запуску
+main.pref_cover_taskbar = Перекривати панель завдань
+main.pref_start_with_windows = Запускати разом із Windows
+main.pref_show_in_tray = Показувати в треї
+main.pref_start_minimized = Запускати згорнутим
+main.pref_update_automatically = Оновлювати автоматично
+main.shortcuts_button = Гарячі клавіші…
+main.app_color_button = Колір застосунку…
+
+# Main window — Card 3 (License)
+main.license_heading = Ліцензія
+main.license_button = Ліцензія…
+main.about_button = Про програму
+main.license_status_licensed = Ліцензія активна.
+main.license_status_trial_expired = Пробний період завершився — натисніть «Ліцензія», щоб активувати або купити.
+
+# License dialog
+license.heading = Ліцензія
+license.subtitle = Введіть ліцензійний ключ:
+license.note = Для активації потрібне підключення до інтернету.
+license.activate_button = Активувати
+license.buy_button = Купити ліцензію
+license.status_verifying = Перевірка ліцензії через Lemon Squeezy…
+license.status_activated = Ліцензію активовано. Дякуємо за підтримку VirtualZones!
+license.status_empty_key = Введіть ліцензійний ключ.
+license.status_network_error = Не вдалося зв'язатися із сервером ліцензій ({reason}). Перевірте підключення до інтернету та спробуйте ще раз.
+license.trial_days_left = Пробний період: залишилося {days} дн.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Гарячі клавіші
+shortcuts.change_button = Змінити
+shortcuts.press_keys = Натисніть клавіші…
+shortcuts.binding_unbound = Не призначено
+shortcuts.action_start_stop = Пуск / Стоп
+shortcuts.action_toggle_zones = Приховати / показати зони
+shortcuts.action_cycle_layout = Перемкнути розкладку
+shortcuts.action_move_left = Перемістити вікно ліворуч
+shortcuts.action_move_right = Перемістити вікно праворуч
+shortcuts.action_move_up = Перемістити вікно вгору
+shortcuts.action_move_down = Перемістити вікно вниз
+shortcuts.error_no_modifier = Для гарячих клавіш потрібна щонайменше одна клавіша-модифікатор (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Ця комбінація зарезервована Windows.
+shortcuts.error_reserved_share_zone = Ця комбінація зарезервована для «Спільної зони» (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Уже використовується для «{action}».
+shortcuts.error_in_use_by_app = Уже використовується іншим застосунком.
+
+# About dialog
+about.title = Про програму
+about.app_name = VirtualZones для Windows
+about.version_line = Версія {version} · {date}
+about.tagline = Утримуйте розгорнуті на весь екран вікна в межах зони вашого монітора.
+about.credit = З любов'ю з Лос-Анджелеса, Денис Платонов
+about.visit_website_button = Перейти на сайт
+
+# Color picker dialog
+color.title = Колір застосунку
+color.presets_heading = Готові кольори
+color.hue_heading = Відтінок
+color.done_button = Готово
+
+# Update dialog
+update.title = Доступне оновлення
+update.heading_available = Доступна версія VirtualZones {version}
+update.install_and_restart = Установити й перезапустити
+update.download_and_install = Завантажити й установити
+update.later_button = Пізніше
+update.skip_button = Пропустити цю версію
+
+# Layout editor — Manage view
+editor.window_title = Змінити розкладки
+manage.title = Розкладки
+manage.empty_state = Поки немає власних розкладок — натисніть «Додати», щоб створити, або відновіть стандартні.
+manage.restore_defaults_button = Відновити стандартні
+manage.zone_count_one = 1 зона
+manage.zone_count_other = Зон: {n}
+
+# Layout editor — Edit view
+edit.title = Зміна розкладки
+edit.layout_name_label = Назва розкладки
+edit.templates_label = Шаблони
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Рядки
+edit.columns_label = Стовпці
+edit.canvas_hint_line1 = Натисніть на зону, щоб розділити її (Shift — горизонтально)
+edit.canvas_hint_line2 = Натисніть на спільну межу, щоб об'єднати
+edit.zone_column_header = Зона
+edit.width_column_header = Ширина
+edit.height_column_header = Висота
+edit.zone_row_label = Зона {n}
+edit.unit_px = пікс.
+edit.unit_percent = %
+edit.error_name_empty = Введіть назву для цієї розкладки.
+edit.error_name_invalid = Назви розкладок не можуть містити ", \, {, }, [ або ].
+
+# Tray menu
+tray.show = Показати
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Показати зони
+tray.hide_zones = Приховати зони
+tray.layout_with_hotkey = Розкладка	{hotkey}
+tray.share = Спільний доступ
+tray.exit = Вихід

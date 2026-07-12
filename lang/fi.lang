@@ -1,0 +1,136 @@
+# VirtualZones — Finnish translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Käynnistä
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Peruuta
+common.save = Tallenna
+common.close = Sulje
+common.add = Lisää
+common.clear = Tyhjennä
+common.edit = Muokkaa
+common.start = Käynnistä
+common.stop = Pysäytä
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Lisää
+main.status_active = Käytössä: koko näytön/suurennetut ikkunat kiinnittyvät vyöhykkeisiin; Shift+vetäminen kiinnittää.
+main.status_no_layouts = Asetteluja ei vielä ole — luo yksi napsauttamalla "Lisää".
+main.status_idle = Valmiustilassa
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Nykyinen asettelu
+main.screen_enabled_toggle = Käytössä
+main.no_layouts = Ei asetteluja
+main.edit_layouts_link = Muokkaa asetteluja…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Asetukset
+main.pref_show_zones = Näytä vyöhykkeet
+main.pref_auto_start = Ota käyttöön käynnistyksen yhteydessä
+main.pref_cover_taskbar = Peitä tehtäväpalkki
+main.pref_start_with_windows = Käynnistä Windowsin mukana
+main.pref_show_in_tray = Näytä ilmaisinalueella
+main.pref_start_minimized = Käynnistä pienennettynä
+main.pref_update_automatically = Päivitä automaattisesti
+main.shortcuts_button = Pikanäppäimet…
+main.app_color_button = Sovelluksen väri…
+
+# Main window — Card 3 (License)
+main.license_heading = Lisenssi
+main.license_button = Lisenssi…
+main.about_button = Tietoja
+main.license_status_licensed = Lisensoitu.
+main.license_status_trial_expired = Kokeilujakso on päättynyt — aktivoi tai osta napsauttamalla "Lisenssi".
+
+# License dialog
+license.heading = Lisenssi
+license.subtitle = Anna lisenssiavaimesi:
+license.note = Aktivointi vaatii internetyhteyden.
+license.activate_button = Aktivoi
+license.buy_button = Osta lisenssi
+license.status_verifying = Vahvistetaan lisenssiä Lemon Squeezyn kautta…
+license.status_activated = Lisenssi aktivoitu. Kiitos, että tuet VirtualZonesia!
+license.status_empty_key = Anna lisenssiavain.
+license.status_network_error = Lisenssipalvelimeen ei saatu yhteyttä ({reason}). Tarkista internetyhteytesi ja yritä uudelleen.
+license.trial_days_left = Kokeilu: {days} päivää jäljellä.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Pikanäppäimet
+shortcuts.change_button = Muuta
+shortcuts.press_keys = Paina näppäimiä…
+shortcuts.binding_unbound = Ei määritetty
+shortcuts.action_start_stop = Käynnistä / Pysäytä
+shortcuts.action_toggle_zones = Näytä / piilota vyöhykkeet
+shortcuts.action_cycle_layout = Vaihda asettelua
+shortcuts.action_move_left = Siirrä ikkunaa vasemmalle
+shortcuts.action_move_right = Siirrä ikkunaa oikealle
+shortcuts.action_move_up = Siirrä ikkunaa ylös
+shortcuts.action_move_down = Siirrä ikkunaa alas
+shortcuts.error_no_modifier = Pikanäppäimet vaativat vähintään yhden muunnosnäppäimen (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Tämä yhdistelmä on Windowsin varaama.
+shortcuts.error_reserved_share_zone = Tämä yhdistelmä on varattu toiminnolle "Jaettu vyöhyke" (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Käytössä jo toiminnolla "{action}".
+shortcuts.error_in_use_by_app = Toinen sovellus käyttää jo tätä.
+
+# About dialog
+about.title = Tietoja
+about.app_name = VirtualZones Windowsille
+about.version_line = Versio {version} · {date}
+about.tagline = Pidä koko näytön ja suurennetut ikkunat näyttösi vyöhykkeen sisällä.
+about.credit = Rakkaudella Los Angelesista, Denis Platonov
+about.visit_website_button = Käy verkkosivustolla
+
+# Color picker dialog
+color.title = Sovelluksen väri
+color.presets_heading = Esiasetukset
+color.hue_heading = Sävy
+color.done_button = Valmis
+
+# Update dialog
+update.title = Päivitys saatavilla
+update.heading_available = VirtualZones {version} on saatavilla
+update.install_and_restart = Asenna ja käynnistä uudelleen
+update.download_and_install = Lataa ja asenna
+update.later_button = Myöhemmin
+update.skip_button = Ohita tämä versio
+
+# Layout editor — Manage view
+editor.window_title = Muokkaa asetteluja
+manage.title = Asettelut
+manage.empty_state = Mukautettuja asetteluja ei vielä ole — luo yksi napsauttamalla "Lisää" tai palauta oletukset.
+manage.restore_defaults_button = Palauta oletukset
+manage.zone_count_one = 1 vyöhyke
+manage.zone_count_other = {n} vyöhykettä
+
+# Layout editor — Edit view
+edit.title = Muokkaa asettelua
+edit.layout_name_label = Asettelun nimi
+edit.templates_label = Mallit
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Rivit
+edit.columns_label = Sarakkeet
+edit.canvas_hint_line1 = Jaa vyöhyke napsauttamalla sitä (Shift = vaakasuunta)
+edit.canvas_hint_line2 = Yhdistä napsauttamalla jaettua reunaa
+edit.zone_column_header = Vyöhyke
+edit.width_column_header = Leveys
+edit.height_column_header = Korkeus
+edit.zone_row_label = Vyöhyke {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Anna nimi tälle asettelulle.
+edit.error_name_invalid = Asettelun nimet eivät voi sisältää merkkejä ", \, {, }, [ tai ].
+
+# Tray menu
+tray.show = Näytä
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Näytä vyöhykkeet
+tray.hide_zones = Piilota vyöhykkeet
+tray.layout_with_hotkey = Asettelu	{hotkey}
+tray.share = Jaa
+tray.exit = Lopeta

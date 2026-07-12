@@ -36,7 +36,6 @@ main.pref_start_with_windows = Запускать вместе с Windows
 main.pref_show_in_tray = Показывать в трее
 main.pref_start_minimized = Запускать свёрнутым
 main.pref_update_automatically = Обновлять автоматически
-main.pref_language = Язык
 main.shortcuts_button = Горячие клавиши…
 main.app_color_button = Цвет приложения…
 
@@ -116,13 +115,16 @@ edit.template_50_50 = 50/50
 edit.template_33_33_33 = 33/33/33
 edit.rows_label = Строки
 edit.columns_label = Столбцы
-edit.canvas_hint = Нажмите на зону, чтобы разделить её (Shift — по горизонтали) · нажмите на общую границу, чтобы объединить
+edit.canvas_hint_line1 = Нажмите на зону, чтобы разделить её (Shift — по горизонтали)
+edit.canvas_hint_line2 = Нажмите на общую границу, чтобы объединить
 edit.zone_column_header = Зона
 edit.width_column_header = Ширина
 edit.height_column_header = Высота
 edit.zone_row_label = Зона {n}
 edit.unit_px = пикс.
 edit.unit_percent = %
+edit.error_name_empty = Введите название для этой раскладки.
+edit.error_name_invalid = Названия раскладок не могут содержать ", \, {, }, [ или ].
 
 # Tray menu
 tray.show = Показать

@@ -1,0 +1,136 @@
+# VirtualZones — Thai translation. Not baked into the binary — downloaded and cached on demand
+# (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any key
+# missing here falls back to the English baked-in copy automatically.
+
+start.button = เริ่ม
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = ยกเลิก
+common.save = บันทึก
+common.close = ปิด
+common.add = เพิ่ม
+common.clear = ล้าง
+common.edit = แก้ไข
+common.start = เริ่ม
+common.stop = หยุด
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = เพิ่ม
+main.status_active = เปิดใช้งาน: หน้าต่างเต็มหน้าจอ/ขยายใหญ่จะยึดติดกับโซน; กด Shift ค้างแล้วลากเพื่อยึดติด
+main.status_no_layouts = ยังไม่มีเลย์เอาต์ — คลิก "เพิ่ม" เพื่อสร้างเลย์เอาต์
+main.status_idle = ว่าง
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = เลย์เอาต์ปัจจุบัน
+main.screen_enabled_toggle = เปิดใช้งาน
+main.no_layouts = ไม่มีเลย์เอาต์
+main.edit_layouts_link = แก้ไขเลย์เอาต์…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = การตั้งค่า
+main.pref_show_zones = แสดงโซน
+main.pref_auto_start = เปิดใช้งานเมื่อเริ่มต้น
+main.pref_cover_taskbar = บังแถบงาน
+main.pref_start_with_windows = เริ่มพร้อม Windows
+main.pref_show_in_tray = แสดงในถาดระบบ
+main.pref_start_minimized = เริ่มแบบย่อหน้าต่าง
+main.pref_update_automatically = อัปเดตอัตโนมัติ
+main.shortcuts_button = ปุ่มลัดแป้นพิมพ์…
+main.app_color_button = สีของแอป…
+
+# Main window — Card 3 (License)
+main.license_heading = ใบอนุญาต
+main.license_button = ใบอนุญาต…
+main.about_button = เกี่ยวกับ
+main.license_status_licensed = ได้รับอนุญาตแล้ว
+main.license_status_trial_expired = ระยะเวลาทดลองใช้หมดอายุแล้ว — คลิก "ใบอนุญาต" เพื่อเปิดใช้งานหรือซื้อ
+
+# License dialog
+license.heading = ใบอนุญาต
+license.subtitle = ป้อนคีย์ใบอนุญาตของคุณ:
+license.note = การเปิดใช้งานต้องเชื่อมต่ออินเทอร์เน็ต
+license.activate_button = เปิดใช้งาน
+license.buy_button = ซื้อใบอนุญาต
+license.status_verifying = กำลังตรวจสอบใบอนุญาตผ่าน Lemon Squeezy…
+license.status_activated = เปิดใช้งานใบอนุญาตแล้ว ขอบคุณที่สนับสนุน VirtualZones!
+license.status_empty_key = กรุณาป้อนคีย์ใบอนุญาต
+license.status_network_error = ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ใบอนุญาตได้ ({reason}) ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง
+license.trial_days_left = ทดลองใช้: เหลืออีก {days} วัน
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = ปุ่มลัดแป้นพิมพ์
+shortcuts.change_button = เปลี่ยน
+shortcuts.press_keys = กดปุ่ม…
+shortcuts.binding_unbound = ยังไม่ได้กำหนด
+shortcuts.action_start_stop = เริ่ม / หยุด
+shortcuts.action_toggle_zones = แสดง / ซ่อนโซน
+shortcuts.action_cycle_layout = สลับเลย์เอาต์
+shortcuts.action_move_left = ย้ายหน้าต่างไปทางซ้าย
+shortcuts.action_move_right = ย้ายหน้าต่างไปทางขวา
+shortcuts.action_move_up = ย้ายหน้าต่างขึ้น
+shortcuts.action_move_down = ย้ายหน้าต่างลง
+shortcuts.error_no_modifier = ปุ่มลัดต้องมีปุ่มตัวปรับแต่งอย่างน้อยหนึ่งปุ่ม (Ctrl/Alt/Shift/Win)
+shortcuts.error_reserved_windows = ชุดปุ่มนี้ถูกสงวนไว้โดย Windows
+shortcuts.error_reserved_share_zone = ชุดปุ่มนี้ถูกสงวนไว้สำหรับ "โซนที่แชร์" (Ctrl+Alt+1-9)
+shortcuts.error_duplicate = ใช้งานอยู่แล้วสำหรับ "{action}"
+shortcuts.error_in_use_by_app = ถูกใช้งานโดยแอปอื่นอยู่แล้ว
+
+# About dialog
+about.title = เกี่ยวกับ
+about.app_name = VirtualZones สำหรับ Windows
+about.version_line = เวอร์ชัน {version} · {date}
+about.tagline = รักษาหน้าต่างเต็มหน้าจอและหน้าต่างที่ขยายใหญ่ให้อยู่ในโซนของจอภาพของคุณ
+about.credit = ด้วยความรักจากลอสแอนเจลิส โดย Denis Platonov
+about.visit_website_button = เยี่ยมชมเว็บไซต์
+
+# Color picker dialog
+color.title = สีของแอป
+color.presets_heading = ค่าที่ตั้งไว้ล่วงหน้า
+color.hue_heading = เฉดสี
+color.done_button = เสร็จสิ้น
+
+# Update dialog
+update.title = มีการอัปเดต
+update.heading_available = VirtualZones {version} พร้อมใช้งานแล้ว
+update.install_and_restart = ติดตั้งและรีสตาร์ท
+update.download_and_install = ดาวน์โหลดและติดตั้ง
+update.later_button = ภายหลัง
+update.skip_button = ข้ามเวอร์ชันนี้
+
+# Layout editor — Manage view
+editor.window_title = แก้ไขเลย์เอาต์
+manage.title = เลย์เอาต์
+manage.empty_state = ยังไม่มีเลย์เอาต์ที่กำหนดเอง — คลิก "เพิ่ม" เพื่อสร้าง หรือคืนค่าเริ่มต้น
+manage.restore_defaults_button = คืนค่าเริ่มต้น
+manage.zone_count_one = 1 โซน
+manage.zone_count_other = {n} โซน
+
+# Layout editor — Edit view
+edit.title = แก้ไขเลย์เอาต์
+edit.layout_name_label = ชื่อเลย์เอาต์
+edit.templates_label = เทมเพลต
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = แถว
+edit.columns_label = คอลัมน์
+edit.canvas_hint_line1 = คลิกที่โซนเพื่อแบ่ง (Shift = แนวนอน)
+edit.canvas_hint_line2 = คลิกที่ขอบร่วมเพื่อรวม
+edit.zone_column_header = โซน
+edit.width_column_header = ความกว้าง
+edit.height_column_header = ความสูง
+edit.zone_row_label = โซน {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = กรุณาป้อนชื่อสำหรับเลย์เอาต์นี้
+edit.error_name_invalid = ชื่อเลย์เอาต์ต้องไม่มี ", \, {, }, [ หรือ ]
+
+# Tray menu
+tray.show = แสดง
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = แสดงโซน
+tray.hide_zones = ซ่อนโซน
+tray.layout_with_hotkey = เลย์เอาต์	{hotkey}
+tray.share = แชร์
+tray.exit = ออก

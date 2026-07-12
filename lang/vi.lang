@@ -1,0 +1,136 @@
+# VirtualZones — Vietnamese translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Bắt đầu
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Hủy
+common.save = Lưu
+common.close = Đóng
+common.add = Thêm
+common.clear = Xóa
+common.edit = Chỉnh sửa
+common.start = Bắt đầu
+common.stop = Dừng
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Thêm
+main.status_active = Đang hoạt động: cửa sổ toàn màn hình/phóng to sẽ khớp vào vùng; Shift+kéo để khớp.
+main.status_no_layouts = Chưa có bố cục nào — nhấp vào "Thêm" để tạo một bố cục.
+main.status_idle = Không hoạt động
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Bố cục hiện tại
+main.screen_enabled_toggle = Đã bật
+main.no_layouts = Không có bố cục
+main.edit_layouts_link = Chỉnh sửa bố cục…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Tùy chọn
+main.pref_show_zones = Hiển thị vùng
+main.pref_auto_start = Bật khi khởi động
+main.pref_cover_taskbar = Che thanh tác vụ
+main.pref_start_with_windows = Khởi động cùng Windows
+main.pref_show_in_tray = Hiển thị trong khay hệ thống
+main.pref_start_minimized = Khởi động ở chế độ thu nhỏ
+main.pref_update_automatically = Tự động cập nhật
+main.shortcuts_button = Phím tắt…
+main.app_color_button = Màu ứng dụng…
+
+# Main window — Card 3 (License)
+main.license_heading = Giấy phép
+main.license_button = Giấy phép…
+main.about_button = Giới thiệu
+main.license_status_licensed = Đã cấp phép.
+main.license_status_trial_expired = Thời gian dùng thử đã hết — nhấp vào "Giấy phép" để kích hoạt hoặc mua.
+
+# License dialog
+license.heading = Giấy phép
+license.subtitle = Nhập khóa giấy phép của bạn:
+license.note = Kích hoạt yêu cầu kết nối internet.
+license.activate_button = Kích hoạt
+license.buy_button = Mua giấy phép
+license.status_verifying = Đang xác minh giấy phép qua Lemon Squeezy…
+license.status_activated = Đã kích hoạt giấy phép. Cảm ơn bạn đã ủng hộ VirtualZones!
+license.status_empty_key = Vui lòng nhập khóa giấy phép.
+license.status_network_error = Không thể kết nối đến máy chủ giấy phép ({reason}). Kiểm tra kết nối internet của bạn và thử lại.
+license.trial_days_left = Dùng thử: còn {days} ngày.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Phím tắt
+shortcuts.change_button = Thay đổi
+shortcuts.press_keys = Nhấn phím…
+shortcuts.binding_unbound = Chưa gán
+shortcuts.action_start_stop = Bắt đầu / Dừng
+shortcuts.action_toggle_zones = Hiện / ẩn vùng
+shortcuts.action_cycle_layout = Chuyển bố cục
+shortcuts.action_move_left = Di chuyển cửa sổ sang trái
+shortcuts.action_move_right = Di chuyển cửa sổ sang phải
+shortcuts.action_move_up = Di chuyển cửa sổ lên trên
+shortcuts.action_move_down = Di chuyển cửa sổ xuống dưới
+shortcuts.error_no_modifier = Phím tắt cần ít nhất một phím bổ trợ (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Tổ hợp phím này đã được Windows dành riêng.
+shortcuts.error_reserved_share_zone = Tổ hợp phím này đã được dành riêng cho "Vùng chia sẻ" (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Đã được dùng cho "{action}".
+shortcuts.error_in_use_by_app = Đã được ứng dụng khác sử dụng.
+
+# About dialog
+about.title = Giới thiệu
+about.app_name = VirtualZones cho Windows
+about.version_line = Phiên bản {version} · {date}
+about.tagline = Giữ cửa sổ toàn màn hình và phóng to trong phạm vi một vùng trên màn hình của bạn.
+about.credit = Với tình yêu từ Los Angeles, bởi Denis Platonov
+about.visit_website_button = Truy cập trang web
+
+# Color picker dialog
+color.title = Màu ứng dụng
+color.presets_heading = Cài đặt sẵn
+color.hue_heading = Sắc độ
+color.done_button = Xong
+
+# Update dialog
+update.title = Có bản cập nhật
+update.heading_available = Đã có phiên bản VirtualZones {version}
+update.install_and_restart = Cài đặt và khởi động lại
+update.download_and_install = Tải xuống và cài đặt
+update.later_button = Để sau
+update.skip_button = Bỏ qua phiên bản này
+
+# Layout editor — Manage view
+editor.window_title = Chỉnh sửa bố cục
+manage.title = Bố cục
+manage.empty_state = Chưa có bố cục tùy chỉnh nào — nhấp vào "Thêm" để tạo, hoặc khôi phục mặc định.
+manage.restore_defaults_button = Khôi phục mặc định
+manage.zone_count_one = 1 vùng
+manage.zone_count_other = {n} vùng
+
+# Layout editor — Edit view
+edit.title = Chỉnh sửa bố cục
+edit.layout_name_label = Tên bố cục
+edit.templates_label = Mẫu
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Hàng
+edit.columns_label = Cột
+edit.canvas_hint_line1 = Nhấp vào một vùng để chia (Shift = ngang)
+edit.canvas_hint_line2 = Nhấp vào ranh giới chung để gộp
+edit.zone_column_header = Vùng
+edit.width_column_header = Chiều rộng
+edit.height_column_header = Chiều cao
+edit.zone_row_label = Vùng {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Vui lòng nhập tên cho bố cục này.
+edit.error_name_invalid = Tên bố cục không được chứa ", \, {, }, [ hoặc ].
+
+# Tray menu
+tray.show = Hiện
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Hiện vùng
+tray.hide_zones = Ẩn vùng
+tray.layout_with_hotkey = Bố cục	{hotkey}
+tray.share = Chia sẻ
+tray.exit = Thoát

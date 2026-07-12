@@ -1,0 +1,136 @@
+# VirtualZones — Indonesian translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Mulai
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Batal
+common.save = Simpan
+common.close = Tutup
+common.add = Tambah
+common.clear = Bersihkan
+common.edit = Edit
+common.start = Mulai
+common.stop = Berhenti
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Tambah
+main.status_active = Aktif: jendela layar penuh/dimaksimalkan akan menempel ke zona; Shift+seret untuk menempel.
+main.status_no_layouts = Belum ada tata letak — klik "Tambah" untuk membuatnya.
+main.status_idle = Menganggur
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Tata letak saat ini
+main.screen_enabled_toggle = Diaktifkan
+main.no_layouts = Tidak ada tata letak
+main.edit_layouts_link = Edit tata letak…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Preferensi
+main.pref_show_zones = Tampilkan zona
+main.pref_auto_start = Aktifkan saat memulai
+main.pref_cover_taskbar = Tutupi bilah tugas
+main.pref_start_with_windows = Mulai bersama Windows
+main.pref_show_in_tray = Tampilkan di baki sistem
+main.pref_start_minimized = Mulai dalam keadaan diminimalkan
+main.pref_update_automatically = Perbarui secara otomatis
+main.shortcuts_button = Pintasan keyboard…
+main.app_color_button = Warna aplikasi…
+
+# Main window — Card 3 (License)
+main.license_heading = Lisensi
+main.license_button = Lisensi…
+main.about_button = Tentang
+main.license_status_licensed = Berlisensi.
+main.license_status_trial_expired = Masa uji coba telah berakhir — klik "Lisensi" untuk mengaktifkan atau membeli.
+
+# License dialog
+license.heading = Lisensi
+license.subtitle = Masukkan kunci lisensi Anda:
+license.note = Aktivasi memerlukan koneksi internet.
+license.activate_button = Aktifkan
+license.buy_button = Beli lisensi
+license.status_verifying = Memverifikasi lisensi melalui Lemon Squeezy…
+license.status_activated = Lisensi diaktifkan. Terima kasih telah mendukung VirtualZones!
+license.status_empty_key = Masukkan kunci lisensi.
+license.status_network_error = Tidak dapat terhubung ke server lisensi ({reason}). Periksa koneksi internet Anda dan coba lagi.
+license.trial_days_left = Uji coba: tersisa {days} hari.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Pintasan keyboard
+shortcuts.change_button = Ubah
+shortcuts.press_keys = Tekan tombol…
+shortcuts.binding_unbound = Belum ditetapkan
+shortcuts.action_start_stop = Mulai / Berhenti
+shortcuts.action_toggle_zones = Tampilkan / sembunyikan zona
+shortcuts.action_cycle_layout = Ganti tata letak
+shortcuts.action_move_left = Pindahkan jendela ke kiri
+shortcuts.action_move_right = Pindahkan jendela ke kanan
+shortcuts.action_move_up = Pindahkan jendela ke atas
+shortcuts.action_move_down = Pindahkan jendela ke bawah
+shortcuts.error_no_modifier = Pintasan memerlukan setidaknya satu tombol pengubah (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Kombinasi ini dicadangkan oleh Windows.
+shortcuts.error_reserved_share_zone = Kombinasi ini dicadangkan untuk "Zona Bersama" (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Sudah digunakan untuk "{action}".
+shortcuts.error_in_use_by_app = Sudah digunakan oleh aplikasi lain.
+
+# About dialog
+about.title = Tentang
+about.app_name = VirtualZones untuk Windows
+about.version_line = Versi {version} · {date}
+about.tagline = Jaga jendela layar penuh dan yang dimaksimalkan tetap berada dalam satu zona monitor Anda.
+about.credit = Dengan cinta dari Los Angeles, oleh Denis Platonov
+about.visit_website_button = Kunjungi situs web
+
+# Color picker dialog
+color.title = Warna aplikasi
+color.presets_heading = Prasetel
+color.hue_heading = Corak warna
+color.done_button = Selesai
+
+# Update dialog
+update.title = Pembaruan tersedia
+update.heading_available = VirtualZones {version} tersedia
+update.install_and_restart = Instal dan mulai ulang
+update.download_and_install = Unduh dan instal
+update.later_button = Nanti
+update.skip_button = Lewati versi ini
+
+# Layout editor — Manage view
+editor.window_title = Edit tata letak
+manage.title = Tata letak
+manage.empty_state = Belum ada tata letak khusus — klik "Tambah" untuk membuatnya, atau pulihkan default.
+manage.restore_defaults_button = Pulihkan default
+manage.zone_count_one = 1 zona
+manage.zone_count_other = {n} zona
+
+# Layout editor — Edit view
+edit.title = Edit tata letak
+edit.layout_name_label = Nama tata letak
+edit.templates_label = Templat
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Baris
+edit.columns_label = Kolom
+edit.canvas_hint_line1 = Klik zona untuk membaginya (Shift = horizontal)
+edit.canvas_hint_line2 = Klik batas bersama untuk menggabungkan
+edit.zone_column_header = Zona
+edit.width_column_header = Lebar
+edit.height_column_header = Tinggi
+edit.zone_row_label = Zona {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Masukkan nama untuk tata letak ini.
+edit.error_name_invalid = Nama tata letak tidak boleh mengandung ", \, {, }, [ atau ].
+
+# Tray menu
+tray.show = Tampilkan
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Tampilkan zona
+tray.hide_zones = Sembunyikan zona
+tray.layout_with_hotkey = Tata letak	{hotkey}
+tray.share = Bagikan
+tray.exit = Keluar

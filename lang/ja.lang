@@ -1,0 +1,136 @@
+# VirtualZones — Japanese translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = 開始
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = キャンセル
+common.save = 保存
+common.close = 閉じる
+common.add = 追加
+common.clear = クリア
+common.edit = 編集
+common.start = 開始
+common.stop = 停止
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = 追加
+main.status_active = 有効: 全画面/最大化されたウィンドウはゾーンにスナップします。Shift+ドラッグでスナップ。
+main.status_no_layouts = レイアウトがまだありません — 「追加」をクリックして作成してください。
+main.status_idle = 待機中
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = 現在のレイアウト
+main.screen_enabled_toggle = 有効
+main.no_layouts = レイアウトなし
+main.edit_layouts_link = レイアウトを編集…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = 設定
+main.pref_show_zones = ゾーンを表示
+main.pref_auto_start = 起動時に有効化
+main.pref_cover_taskbar = タスクバーを覆う
+main.pref_start_with_windows = Windows起動時に開始
+main.pref_show_in_tray = トレイに表示
+main.pref_start_minimized = 最小化して開始
+main.pref_update_automatically = 自動的に更新
+main.shortcuts_button = キーボードショートカット…
+main.app_color_button = アプリの色…
+
+# Main window — Card 3 (License)
+main.license_heading = ライセンス
+main.license_button = ライセンス…
+main.about_button = バージョン情報
+main.license_status_licensed = ライセンス認証済み。
+main.license_status_trial_expired = 試用期間が終了しました — 「ライセンス」をクリックして有効化または購入してください。
+
+# License dialog
+license.heading = ライセンス
+license.subtitle = ライセンスキーを入力してください:
+license.note = 有効化にはインターネット接続が必要です。
+license.activate_button = 有効化
+license.buy_button = ライセンスを購入
+license.status_verifying = Lemon Squeezyでライセンスを確認しています…
+license.status_activated = ライセンスが有効化されました。VirtualZonesをサポートいただきありがとうございます!
+license.status_empty_key = ライセンスキーを入力してください。
+license.status_network_error = ライセンスサーバーに接続できませんでした ({reason})。インターネット接続を確認して再試行してください。
+license.trial_days_left = 試用期間: 残り{days}日。
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = キーボードショートカット
+shortcuts.change_button = 変更
+shortcuts.press_keys = キーを押してください…
+shortcuts.binding_unbound = 未割り当て
+shortcuts.action_start_stop = 開始 / 停止
+shortcuts.action_toggle_zones = ゾーンの表示/非表示
+shortcuts.action_cycle_layout = レイアウトを切り替え
+shortcuts.action_move_left = ウィンドウを左に移動
+shortcuts.action_move_right = ウィンドウを右に移動
+shortcuts.action_move_up = ウィンドウを上に移動
+shortcuts.action_move_down = ウィンドウを下に移動
+shortcuts.error_no_modifier = ショートカットには少なくとも1つの修飾キー (Ctrl/Alt/Shift/Win) が必要です。
+shortcuts.error_reserved_windows = この組み合わせはWindowsによって予約されています。
+shortcuts.error_reserved_share_zone = この組み合わせは「共有ゾーン」用に予約されています (Ctrl+Alt+1-9)。
+shortcuts.error_duplicate = すでに「{action}」で使用されています。
+shortcuts.error_in_use_by_app = すでに他のアプリで使用されています。
+
+# About dialog
+about.title = バージョン情報
+about.app_name = VirtualZones for Windows
+about.version_line = バージョン {version} · {date}
+about.tagline = 全画面表示および最大化されたウィンドウをモニターのゾーン内に保ちます。
+about.credit = ロサンゼルスより愛を込めて、Denis Platonov
+about.visit_website_button = ウェブサイトを見る
+
+# Color picker dialog
+color.title = アプリの色
+color.presets_heading = プリセット
+color.hue_heading = 色相
+color.done_button = 完了
+
+# Update dialog
+update.title = アップデートが利用可能
+update.heading_available = VirtualZones {version} が利用可能です
+update.install_and_restart = インストールして再起動
+update.download_and_install = ダウンロードしてインストール
+update.later_button = 後で
+update.skip_button = このバージョンをスキップ
+
+# Layout editor — Manage view
+editor.window_title = レイアウトを編集
+manage.title = レイアウト
+manage.empty_state = カスタムレイアウトはまだありません — 「追加」をクリックして作成するか、デフォルトを復元してください。
+manage.restore_defaults_button = デフォルトを復元
+manage.zone_count_one = 1ゾーン
+manage.zone_count_other = {n}ゾーン
+
+# Layout editor — Edit view
+edit.title = レイアウトを編集
+edit.layout_name_label = レイアウト名
+edit.templates_label = テンプレート
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = 行
+edit.columns_label = 列
+edit.canvas_hint_line1 = ゾーンをクリックして分割 (Shift = 水平)
+edit.canvas_hint_line2 = 共有境界をクリックして結合
+edit.zone_column_header = ゾーン
+edit.width_column_header = 幅
+edit.height_column_header = 高さ
+edit.zone_row_label = ゾーン {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = このレイアウトの名前を入力してください。
+edit.error_name_invalid = レイアウト名に ", \, {, }, [, ] を含めることはできません。
+
+# Tray menu
+tray.show = 表示
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = ゾーンを表示
+tray.hide_zones = ゾーンを非表示
+tray.layout_with_hotkey = レイアウト	{hotkey}
+tray.share = 共有
+tray.exit = 終了

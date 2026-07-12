@@ -1,0 +1,136 @@
+# VirtualZones — German translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Start
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Abbrechen
+common.save = Speichern
+common.close = Schließen
+common.add = Hinzufügen
+common.clear = Löschen
+common.edit = Bearbeiten
+common.start = Start
+common.stop = Stopp
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Hinzufügen
+main.status_active = Aktiv: Vollbild-/maximierte Fenster rasten in Zonen ein; Umschalt+Ziehen zum Einrasten.
+main.status_no_layouts = Noch keine Layouts — klicken Sie auf „Hinzufügen“, um eines zu erstellen.
+main.status_idle = Bereit
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Aktuelles Layout
+main.screen_enabled_toggle = Aktiviert
+main.no_layouts = Keine Layouts
+main.edit_layouts_link = Layouts bearbeiten…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Einstellungen
+main.pref_show_zones = Zonen anzeigen
+main.pref_auto_start = Beim Start aktivieren
+main.pref_cover_taskbar = Taskleiste überdecken
+main.pref_start_with_windows = Mit Windows starten
+main.pref_show_in_tray = Im Infobereich anzeigen
+main.pref_start_minimized = Minimiert starten
+main.pref_update_automatically = Automatisch aktualisieren
+main.shortcuts_button = Tastenkombinationen…
+main.app_color_button = App-Farbe…
+
+# Main window — Card 3 (License)
+main.license_heading = Lizenz
+main.license_button = Lizenz…
+main.about_button = Über
+main.license_status_licensed = Lizenziert.
+main.license_status_trial_expired = Testzeitraum abgelaufen — klicken Sie auf „Lizenz“, um zu aktivieren oder zu kaufen.
+
+# License dialog
+license.heading = Lizenz
+license.subtitle = Lizenzschlüssel eingeben:
+license.note = Für die Aktivierung ist eine Internetverbindung erforderlich.
+license.activate_button = Aktivieren
+license.buy_button = Lizenz kaufen
+license.status_verifying = Lizenz wird über Lemon Squeezy überprüft…
+license.status_activated = Lizenz aktiviert. Danke, dass Sie VirtualZones unterstützen!
+license.status_empty_key = Bitte geben Sie einen Lizenzschlüssel ein.
+license.status_network_error = Der Lizenzserver konnte nicht erreicht werden ({reason}). Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.
+license.trial_days_left = Testzeitraum: noch {days} Tag(e).
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Tastenkombinationen
+shortcuts.change_button = Ändern
+shortcuts.press_keys = Tasten drücken…
+shortcuts.binding_unbound = Nicht zugewiesen
+shortcuts.action_start_stop = Start / Stopp
+shortcuts.action_toggle_zones = Zonen ein-/ausblenden
+shortcuts.action_cycle_layout = Layout wechseln
+shortcuts.action_move_left = Fenster nach links verschieben
+shortcuts.action_move_right = Fenster nach rechts verschieben
+shortcuts.action_move_up = Fenster nach oben verschieben
+shortcuts.action_move_down = Fenster nach unten verschieben
+shortcuts.error_no_modifier = Tastenkombinationen benötigen mindestens eine Modifikatortaste (Strg/Alt/Umschalt/Win).
+shortcuts.error_reserved_windows = Diese Kombination ist von Windows reserviert.
+shortcuts.error_reserved_share_zone = Diese Kombination ist für „Zone teilen“ reserviert (Strg+Alt+1-9).
+shortcuts.error_duplicate = Wird bereits für „{action}“ verwendet.
+shortcuts.error_in_use_by_app = Wird bereits von einer anderen App verwendet.
+
+# About dialog
+about.title = Über
+about.app_name = VirtualZones für Windows
+about.version_line = Version {version} · {date}
+about.tagline = Halten Sie Vollbild- und maximierte Fenster innerhalb einer Bildschirmzone.
+about.credit = Mit Liebe aus Los Angeles, von Denis Platonov
+about.visit_website_button = Website besuchen
+
+# Color picker dialog
+color.title = App-Farbe
+color.presets_heading = Vorgaben
+color.hue_heading = Farbton
+color.done_button = Fertig
+
+# Update dialog
+update.title = Update verfügbar
+update.heading_available = VirtualZones {version} ist verfügbar
+update.install_and_restart = Installieren und neu starten
+update.download_and_install = Herunterladen und installieren
+update.later_button = Später
+update.skip_button = Diese Version überspringen
+
+# Layout editor — Manage view
+editor.window_title = Layouts bearbeiten
+manage.title = Layouts
+manage.empty_state = Noch keine eigenen Layouts — klicken Sie auf „Hinzufügen“, um eines zu erstellen, oder stellen Sie die Standardlayouts wieder her.
+manage.restore_defaults_button = Standardlayouts wiederherstellen
+manage.zone_count_one = 1 Zone
+manage.zone_count_other = {n} Zonen
+
+# Layout editor — Edit view
+edit.title = Layout bearbeiten
+edit.layout_name_label = Layoutname
+edit.templates_label = Vorlagen
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Zeilen
+edit.columns_label = Spalten
+edit.canvas_hint_line1 = Klicken Sie auf eine Zone, um sie zu teilen (Umschalt = horizontal)
+edit.canvas_hint_line2 = Klicken Sie auf eine gemeinsame Grenze, um zusammenzuführen
+edit.zone_column_header = Zone
+edit.width_column_header = Breite
+edit.height_column_header = Höhe
+edit.zone_row_label = Zone {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Bitte geben Sie einen Namen für dieses Layout ein.
+edit.error_name_invalid = Layoutnamen dürfen ", \, {, }, [ oder ] nicht enthalten.
+
+# Tray menu
+tray.show = Anzeigen
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Zonen anzeigen
+tray.hide_zones = Zonen ausblenden
+tray.layout_with_hotkey = Layout	{hotkey}
+tray.share = Teilen
+tray.exit = Beenden

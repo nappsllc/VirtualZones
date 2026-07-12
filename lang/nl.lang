@@ -1,0 +1,136 @@
+# VirtualZones — Dutch translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = Start
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Annuleren
+common.save = Opslaan
+common.close = Sluiten
+common.add = Toevoegen
+common.clear = Wissen
+common.edit = Bewerken
+common.start = Start
+common.stop = Stop
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Toevoegen
+main.status_active = Actief: vensters op volledig scherm/gemaximaliseerd passen zich aan zones aan; Shift+slepen om vast te klikken.
+main.status_no_layouts = Nog geen indelingen — klik op "Toevoegen" om er een te maken.
+main.status_idle = Inactief
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Huidige indeling
+main.screen_enabled_toggle = Ingeschakeld
+main.no_layouts = Geen indelingen
+main.edit_layouts_link = Indelingen bewerken…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Voorkeuren
+main.pref_show_zones = Zones weergeven
+main.pref_auto_start = Inschakelen bij opstarten
+main.pref_cover_taskbar = Taakbalk bedekken
+main.pref_start_with_windows = Starten met Windows
+main.pref_show_in_tray = Weergeven in systeemvak
+main.pref_start_minimized = Geminimaliseerd starten
+main.pref_update_automatically = Automatisch bijwerken
+main.shortcuts_button = Sneltoetsen…
+main.app_color_button = App-kleur…
+
+# Main window — Card 3 (License)
+main.license_heading = Licentie
+main.license_button = Licentie…
+main.about_button = Over
+main.license_status_licensed = Gelicentieerd.
+main.license_status_trial_expired = Proefperiode verlopen — klik op "Licentie" om te activeren of te kopen.
+
+# License dialog
+license.heading = Licentie
+license.subtitle = Voer uw licentiesleutel in:
+license.note = Voor activering is een internetverbinding vereist.
+license.activate_button = Activeren
+license.buy_button = Licentie kopen
+license.status_verifying = Licentie wordt geverifieerd via Lemon Squeezy…
+license.status_activated = Licentie geactiveerd. Bedankt voor uw steun aan VirtualZones!
+license.status_empty_key = Voer een licentiesleutel in.
+license.status_network_error = Kan geen verbinding maken met de licentieserver ({reason}). Controleer uw internetverbinding en probeer het opnieuw.
+license.trial_days_left = Proefperiode: nog {days} dag(en).
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Sneltoetsen
+shortcuts.change_button = Wijzigen
+shortcuts.press_keys = Druk op toetsen…
+shortcuts.binding_unbound = Niet toegewezen
+shortcuts.action_start_stop = Start / Stop
+shortcuts.action_toggle_zones = Zones tonen / verbergen
+shortcuts.action_cycle_layout = Indeling wisselen
+shortcuts.action_move_left = Venster naar links verplaatsen
+shortcuts.action_move_right = Venster naar rechts verplaatsen
+shortcuts.action_move_up = Venster omhoog verplaatsen
+shortcuts.action_move_down = Venster omlaag verplaatsen
+shortcuts.error_no_modifier = Sneltoetsen hebben minstens één functietoets nodig (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = Deze combinatie is gereserveerd door Windows.
+shortcuts.error_reserved_share_zone = Deze combinatie is gereserveerd voor "Gedeelde zone" (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Al in gebruik voor "{action}".
+shortcuts.error_in_use_by_app = Al in gebruik door een andere app.
+
+# About dialog
+about.title = Over
+about.app_name = VirtualZones voor Windows
+about.version_line = Versie {version} · {date}
+about.tagline = Houd vensters op volledig scherm en gemaximaliseerde vensters binnen een zone van uw monitor.
+about.credit = Met liefde uit Los Angeles, door Denis Platonov
+about.visit_website_button = Website bezoeken
+
+# Color picker dialog
+color.title = App-kleur
+color.presets_heading = Voorinstellingen
+color.hue_heading = Tint
+color.done_button = Klaar
+
+# Update dialog
+update.title = Update beschikbaar
+update.heading_available = VirtualZones {version} is beschikbaar
+update.install_and_restart = Installeren en opnieuw opstarten
+update.download_and_install = Downloaden en installeren
+update.later_button = Later
+update.skip_button = Deze versie overslaan
+
+# Layout editor — Manage view
+editor.window_title = Indelingen bewerken
+manage.title = Indelingen
+manage.empty_state = Nog geen aangepaste indelingen — klik op "Toevoegen" om er een te maken, of herstel de standaardinstellingen.
+manage.restore_defaults_button = Standaardinstellingen herstellen
+manage.zone_count_one = 1 zone
+manage.zone_count_other = {n} zones
+
+# Layout editor — Edit view
+edit.title = Indeling bewerken
+edit.layout_name_label = Naam van de indeling
+edit.templates_label = Sjablonen
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Rijen
+edit.columns_label = Kolommen
+edit.canvas_hint_line1 = Klik op een zone om deze te splitsen (Shift = horizontaal)
+edit.canvas_hint_line2 = Klik op een gedeelde rand om samen te voegen
+edit.zone_column_header = Zone
+edit.width_column_header = Breedte
+edit.height_column_header = Hoogte
+edit.zone_row_label = Zone {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Voer een naam in voor deze indeling.
+edit.error_name_invalid = Indelingsnamen mogen geen ", \, {, }, [ of ] bevatten.
+
+# Tray menu
+tray.show = Weergeven
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Zones weergeven
+tray.hide_zones = Zones verbergen
+tray.layout_with_hotkey = Indeling	{hotkey}
+tray.share = Delen
+tray.exit = Afsluiten

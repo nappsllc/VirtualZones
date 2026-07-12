@@ -1,0 +1,136 @@
+# VirtualZones — Korean translation. Not baked into the binary — downloaded and cached on
+# demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
+# key missing here falls back to the English baked-in copy automatically.
+
+start.button = 시작
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = 취소
+common.save = 저장
+common.close = 닫기
+common.add = 추가
+common.clear = 지우기
+common.edit = 편집
+common.start = 시작
+common.stop = 정지
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = 추가
+main.status_active = 활성화됨: 전체 화면/최대화된 창이 영역에 맞춰집니다. Shift+드래그로 맞추기.
+main.status_no_layouts = 아직 레이아웃이 없습니다 — "추가"를 클릭해 만들어 보세요.
+main.status_idle = 대기 중
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = 현재 레이아웃
+main.screen_enabled_toggle = 사용함
+main.no_layouts = 레이아웃 없음
+main.edit_layouts_link = 레이아웃 편집…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = 환경설정
+main.pref_show_zones = 영역 표시
+main.pref_auto_start = 시작 시 활성화
+main.pref_cover_taskbar = 작업 표시줄 가리기
+main.pref_start_with_windows = Windows와 함께 시작
+main.pref_show_in_tray = 트레이에 표시
+main.pref_start_minimized = 최소화된 상태로 시작
+main.pref_update_automatically = 자동 업데이트
+main.shortcuts_button = 키보드 단축키…
+main.app_color_button = 앱 색상…
+
+# Main window — Card 3 (License)
+main.license_heading = 라이선스
+main.license_button = 라이선스…
+main.about_button = 정보
+main.license_status_licensed = 라이선스가 등록되었습니다.
+main.license_status_trial_expired = 체험판이 만료되었습니다 — "라이선스"를 클릭해 활성화하거나 구매하세요.
+
+# License dialog
+license.heading = 라이선스
+license.subtitle = 라이선스 키를 입력하세요:
+license.note = 활성화하려면 인터넷 연결이 필요합니다.
+license.activate_button = 활성화
+license.buy_button = 라이선스 구매
+license.status_verifying = Lemon Squeezy에서 라이선스를 확인하는 중…
+license.status_activated = 라이선스가 활성화되었습니다. VirtualZones를 지원해 주셔서 감사합니다!
+license.status_empty_key = 라이선스 키를 입력하세요.
+license.status_network_error = 라이선스 서버에 연결할 수 없습니다 ({reason}). 인터넷 연결을 확인한 후 다시 시도하세요.
+license.trial_days_left = 체험판: {days}일 남음.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = 키보드 단축키
+shortcuts.change_button = 변경
+shortcuts.press_keys = 키를 누르세요…
+shortcuts.binding_unbound = 지정 안 됨
+shortcuts.action_start_stop = 시작 / 정지
+shortcuts.action_toggle_zones = 영역 표시/숨기기
+shortcuts.action_cycle_layout = 레이아웃 전환
+shortcuts.action_move_left = 창을 왼쪽으로 이동
+shortcuts.action_move_right = 창을 오른쪽으로 이동
+shortcuts.action_move_up = 창을 위로 이동
+shortcuts.action_move_down = 창을 아래로 이동
+shortcuts.error_no_modifier = 단축키에는 최소 하나의 보조 키(Ctrl/Alt/Shift/Win)가 필요합니다.
+shortcuts.error_reserved_windows = 이 조합은 Windows에서 예약되어 있습니다.
+shortcuts.error_reserved_share_zone = 이 조합은 "공유 영역"용으로 예약되어 있습니다 (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = 이미 "{action}"에 사용 중입니다.
+shortcuts.error_in_use_by_app = 이미 다른 앱에서 사용 중입니다.
+
+# About dialog
+about.title = 정보
+about.app_name = Windows용 VirtualZones
+about.version_line = 버전 {version} · {date}
+about.tagline = 전체 화면 및 최대화된 창을 모니터의 영역 안에 유지하세요.
+about.credit = 로스앤젤레스에서 사랑을 담아, Denis Platonov
+about.visit_website_button = 웹사이트 방문
+
+# Color picker dialog
+color.title = 앱 색상
+color.presets_heading = 프리셋
+color.hue_heading = 색조
+color.done_button = 완료
+
+# Update dialog
+update.title = 업데이트 사용 가능
+update.heading_available = VirtualZones {version} 버전을 사용할 수 있습니다
+update.install_and_restart = 설치 후 재시작
+update.download_and_install = 다운로드 후 설치
+update.later_button = 나중에
+update.skip_button = 이 버전 건너뛰기
+
+# Layout editor — Manage view
+editor.window_title = 레이아웃 편집
+manage.title = 레이아웃
+manage.empty_state = 아직 사용자 지정 레이아웃이 없습니다 — "추가"를 클릭해 만들거나 기본값을 복원하세요.
+manage.restore_defaults_button = 기본값 복원
+manage.zone_count_one = 영역 1개
+manage.zone_count_other = 영역 {n}개
+
+# Layout editor — Edit view
+edit.title = 레이아웃 편집
+edit.layout_name_label = 레이아웃 이름
+edit.templates_label = 템플릿
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = 행
+edit.columns_label = 열
+edit.canvas_hint_line1 = 영역을 클릭해 나누기 (Shift = 수평)
+edit.canvas_hint_line2 = 공유 경계를 클릭해 병합
+edit.zone_column_header = 영역
+edit.width_column_header = 너비
+edit.height_column_header = 높이
+edit.zone_row_label = 영역 {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = 이 레이아웃의 이름을 입력하세요.
+edit.error_name_invalid = 레이아웃 이름에는 ", \, {, }, [, ]을 포함할 수 없습니다.
+
+# Tray menu
+tray.show = 표시
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = 영역 표시
+tray.hide_zones = 영역 숨기기
+tray.layout_with_hotkey = 레이아웃	{hotkey}
+tray.share = 공유
+tray.exit = 종료
