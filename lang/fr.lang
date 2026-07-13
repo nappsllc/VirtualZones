@@ -1,4 +1,4 @@
-# VirtualZones — French translation. Not baked into the binary — downloaded and cached on
+# VirtualZones - French translation. Not baked into the binary - downloaded and cached on
 # demand (see src/lang_fetch.rs). Keep this file's key set in sync with src/lang/en.lang; any
 # key missing here falls back to the English baked-in copy automatically.
 
@@ -15,19 +15,19 @@ common.start = Démarrer
 common.stop = Arrêter
 app.name = VirtualZones
 
-# Main window — Card 0 (Start/Stop switch)
+# Main window - Card 0 (Start/Stop switch)
 main.add_button = Ajouter
 main.status_active = Actif : les fenêtres en plein écran ou maximisées s'alignent sur les zones ; Maj + glisser pour aligner.
-main.status_no_layouts = Aucune disposition pour l'instant — cliquez sur « Ajouter » pour en créer une.
+main.status_no_layouts = Aucune disposition pour l'instant - cliquez sur « Ajouter » pour en créer une.
 main.status_idle = Inactif
 
-# Main window — Card 1 (Screen tabs + Current Layout)
+# Main window - Card 1 (Screen tabs + Current Layout)
 main.current_layout_heading = Disposition actuelle
 main.screen_enabled_toggle = Activé
 main.no_layouts = Aucune disposition
 main.edit_layouts_link = Modifier les dispositions…
 
-# Main window — Card 2 (Preferences)
+# Main window - Card 2 (Preferences)
 main.preferences_heading = Préférences
 main.pref_show_zones = Afficher les zones
 main.pref_auto_start = Activer au démarrage
@@ -39,12 +39,12 @@ main.pref_update_automatically = Mettre à jour automatiquement
 main.shortcuts_button = Raccourcis clavier…
 main.app_color_button = Couleur de l'application…
 
-# Main window — Card 3 (License)
+# Main window - Card 3 (License)
 main.license_heading = Licence
 main.license_button = Licence…
 main.about_button = À propos
 main.license_status_licensed = Sous licence.
-main.license_status_trial_expired = Période d'essai expirée — cliquez sur « Licence » pour activer ou acheter.
+main.license_status_trial_expired = Période d'essai expirée - cliquez sur « Licence » pour activer ou acheter.
 
 # License dialog
 license.heading = Licence
@@ -95,15 +95,15 @@ update.heading_available = VirtualZones {version} est disponible
 update.later_button = Plus tard
 update.skip_button = Ignorer cette version
 
-# Layout editor — Manage view
+# Layout editor - Manage view
 editor.window_title = Modifier les dispositions
 manage.title = Dispositions
-manage.empty_state = Aucune disposition personnalisée pour l'instant — cliquez sur « Ajouter » pour en créer une, ou restaurez les valeurs par défaut.
+manage.empty_state = Aucune disposition personnalisée pour l'instant - cliquez sur « Ajouter » pour en créer une, ou restaurez les valeurs par défaut.
 manage.restore_defaults_button = Restaurer les valeurs par défaut
 manage.zone_count_one = 1 zone
 manage.zone_count_other = {n} zones
 
-# Layout editor — Edit view
+# Layout editor - Edit view
 edit.title = Modifier la disposition
 edit.layout_name_label = Nom de la disposition
 edit.templates_label = Modèles

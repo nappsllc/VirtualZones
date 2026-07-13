@@ -1,5 +1,5 @@
-# VirtualZones — Traditional Chinese translation (Taiwan/Hong Kong). Not baked into the binary
-# — downloaded and cached on demand (see src/lang_fetch.rs). Keep this file's key set in sync
+# VirtualZones - Traditional Chinese translation (Taiwan/Hong Kong). Not baked into the binary
+# - downloaded and cached on demand (see src/lang_fetch.rs). Keep this file's key set in sync
 # with src/lang/en.lang; any key missing here falls back to the English baked-in copy
 # automatically.
 
@@ -16,19 +16,19 @@ common.start = 開始
 common.stop = 停止
 app.name = VirtualZones
 
-# Main window — Card 0 (Start/Stop switch)
+# Main window - Card 0 (Start/Stop switch)
 main.add_button = 新增
 main.status_active = 已啟用：全螢幕/最大化的視窗會貼齊區域；按住 Shift 拖曳可貼齊。
-main.status_no_layouts = 尚未建立版面配置 — 按一下「新增」建立一個。
+main.status_no_layouts = 尚未建立版面配置 - 按一下「新增」建立一個。
 main.status_idle = 閒置
 
-# Main window — Card 1 (Screen tabs + Current Layout)
+# Main window - Card 1 (Screen tabs + Current Layout)
 main.current_layout_heading = 目前的版面配置
 main.screen_enabled_toggle = 已啟用
 main.no_layouts = 無版面配置
 main.edit_layouts_link = 編輯版面配置…
 
-# Main window — Card 2 (Preferences)
+# Main window - Card 2 (Preferences)
 main.preferences_heading = 偏好設定
 main.pref_show_zones = 顯示區域
 main.pref_auto_start = 啟動時自動啟用
@@ -40,12 +40,12 @@ main.pref_update_automatically = 自動更新
 main.shortcuts_button = 鍵盤快速鍵…
 main.app_color_button = 應用程式顏色…
 
-# Main window — Card 3 (License)
+# Main window - Card 3 (License)
 main.license_heading = 授權
 main.license_button = 授權…
 main.about_button = 關於
 main.license_status_licensed = 已授權。
-main.license_status_trial_expired = 試用期已結束 — 按一下「授權」以啟用或購買。
+main.license_status_trial_expired = 試用期已結束 - 按一下「授權」以啟用或購買。
 
 # License dialog
 license.heading = 授權
@@ -96,15 +96,15 @@ update.heading_available = VirtualZones {version} 現已推出
 update.later_button = 稍後
 update.skip_button = 略過此版本
 
-# Layout editor — Manage view
+# Layout editor - Manage view
 editor.window_title = 編輯版面配置
 manage.title = 版面配置
-manage.empty_state = 尚未建立自訂版面配置 — 按一下「新增」建立一個，或還原預設值。
+manage.empty_state = 尚未建立自訂版面配置 - 按一下「新增」建立一個，或還原預設值。
 manage.restore_defaults_button = 還原預設值
 manage.zone_count_one = 1 個區域
 manage.zone_count_other = {n} 個區域
 
-# Layout editor — Edit view
+# Layout editor - Edit view
 edit.title = 編輯版面配置
 edit.layout_name_label = 版面配置名稱
 edit.templates_label = 範本

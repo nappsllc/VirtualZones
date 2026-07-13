@@ -1,4 +1,4 @@
-# VirtualZones — Simplified Chinese translation. Not baked into the binary — downloaded and
+# VirtualZones - Simplified Chinese translation. Not baked into the binary - downloaded and
 # cached on demand (see src/lang_fetch.rs). Keep this file's key set in sync with
 # src/lang/en.lang; any key missing here falls back to the English baked-in copy automatically.
 
@@ -15,19 +15,19 @@ common.start = 开始
 common.stop = 停止
 app.name = VirtualZones
 
-# Main window — Card 0 (Start/Stop switch)
+# Main window - Card 0 (Start/Stop switch)
 main.add_button = 添加
 main.status_active = 已启用：全屏/最大化的窗口会吸附到区域；按住 Shift 拖动可吸附。
-main.status_no_layouts = 还没有布局 — 点击"添加"创建一个。
+main.status_no_layouts = 还没有布局 - 点击"添加"创建一个。
 main.status_idle = 空闲
 
-# Main window — Card 1 (Screen tabs + Current Layout)
+# Main window - Card 1 (Screen tabs + Current Layout)
 main.current_layout_heading = 当前布局
 main.screen_enabled_toggle = 已启用
 main.no_layouts = 无布局
 main.edit_layouts_link = 编辑布局…
 
-# Main window — Card 2 (Preferences)
+# Main window - Card 2 (Preferences)
 main.preferences_heading = 首选项
 main.pref_show_zones = 显示区域
 main.pref_auto_start = 启动时自动启用
@@ -39,12 +39,12 @@ main.pref_update_automatically = 自动更新
 main.shortcuts_button = 键盘快捷键…
 main.app_color_button = 应用颜色…
 
-# Main window — Card 3 (License)
+# Main window - Card 3 (License)
 main.license_heading = 许可证
 main.license_button = 许可证…
 main.about_button = 关于
 main.license_status_licensed = 已获授权。
-main.license_status_trial_expired = 试用期已结束 — 点击"许可证"以激活或购买。
+main.license_status_trial_expired = 试用期已结束 - 点击"许可证"以激活或购买。
 
 # License dialog
 license.heading = 许可证
@@ -95,15 +95,15 @@ update.heading_available = VirtualZones {version} 现已可用
 update.later_button = 稍后
 update.skip_button = 跳过此版本
 
-# Layout editor — Manage view
+# Layout editor - Manage view
 editor.window_title = 编辑布局
 manage.title = 布局
-manage.empty_state = 还没有自定义布局 — 点击"添加"创建一个，或恢复默认设置。
+manage.empty_state = 还没有自定义布局 - 点击"添加"创建一个，或恢复默认设置。
 manage.restore_defaults_button = 恢复默认设置
 manage.zone_count_one = 1 个区域
 manage.zone_count_other = {n} 个区域
 
-# Layout editor — Edit view
+# Layout editor - Edit view
 edit.title = 编辑布局
 edit.layout_name_label = 布局名称
 edit.templates_label = 模板

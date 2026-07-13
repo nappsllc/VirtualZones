@@ -1,4 +1,4 @@
-# VirtualZones — European Portuguese translation. Not baked into the binary — downloaded and
+# VirtualZones - European Portuguese translation. Not baked into the binary - downloaded and
 # cached on demand (see src/lang_fetch.rs). Keep this file's key set in sync with
 # src/lang/en.lang; any key missing here falls back to the English baked-in copy automatically.
 
@@ -15,19 +15,19 @@ common.start = Iniciar
 common.stop = Parar
 app.name = VirtualZones
 
-# Main window — Card 0 (Start/Stop switch)
+# Main window - Card 0 (Start/Stop switch)
 main.add_button = Adicionar
 main.status_active = Ativo: as janelas em ecrã inteiro/maximizadas encaixam nas zonas; Shift+arrastar para encaixar.
-main.status_no_layouts = Ainda não existem esquemas — clique em "Adicionar" para criar um.
+main.status_no_layouts = Ainda não existem esquemas - clique em "Adicionar" para criar um.
 main.status_idle = Inativo
 
-# Main window — Card 1 (Screen tabs + Current Layout)
+# Main window - Card 1 (Screen tabs + Current Layout)
 main.current_layout_heading = Esquema atual
 main.screen_enabled_toggle = Ativado
 main.no_layouts = Sem esquemas
 main.edit_layouts_link = Editar esquemas…
 
-# Main window — Card 2 (Preferences)
+# Main window - Card 2 (Preferences)
 main.preferences_heading = Preferências
 main.pref_show_zones = Mostrar zonas
 main.pref_auto_start = Ativar ao iniciar
@@ -39,12 +39,12 @@ main.pref_update_automatically = Atualizar automaticamente
 main.shortcuts_button = Atalhos de teclado…
 main.app_color_button = Cor da aplicação…
 
-# Main window — Card 3 (License)
+# Main window - Card 3 (License)
 main.license_heading = Licença
 main.license_button = Licença…
 main.about_button = Acerca de
 main.license_status_licensed = Licenciado.
-main.license_status_trial_expired = Período de teste expirado — clique em "Licença" para ativar ou comprar.
+main.license_status_trial_expired = Período de teste expirado - clique em "Licença" para ativar ou comprar.
 
 # License dialog
 license.heading = Licença
@@ -95,15 +95,15 @@ update.heading_available = O VirtualZones {version} está disponível
 update.later_button = Mais tarde
 update.skip_button = Ignorar esta versão
 
-# Layout editor — Manage view
+# Layout editor - Manage view
 editor.window_title = Editar esquemas
 manage.title = Esquemas
-manage.empty_state = Ainda não existem esquemas personalizados — clique em "Adicionar" para criar um, ou restaure as predefinições.
+manage.empty_state = Ainda não existem esquemas personalizados - clique em "Adicionar" para criar um, ou restaure as predefinições.
 manage.restore_defaults_button = Restaurar predefinições
 manage.zone_count_one = 1 zona
 manage.zone_count_other = {n} zonas
 
-# Layout editor — Edit view
+# Layout editor - Edit view
 edit.title = Editar esquema
 edit.layout_name_label = Nome do esquema
 edit.templates_label = Modelos
