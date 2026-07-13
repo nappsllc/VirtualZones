@@ -1,0 +1,148 @@
+# VirtualZones — English (baked into the binary as the always-available fallback).
+# Format: key = value. Lines starting with # and blank lines are ignored. See src/i18n.rs.
+#
+# This is the master key list — every other language file (downloaded, never baked in) should
+# define the same keys. A key missing from a translation falls back to this file automatically.
+
+start.button = Start
+
+# Common / shared (identical wording reused across multiple windows/dialogs)
+common.cancel = Cancel
+common.save = Save
+common.close = Close
+common.add = Add
+common.clear = Clear
+common.edit = Edit
+common.start = Start
+common.stop = Stop
+app.name = VirtualZones
+
+# Main window — Card 0 (Start/Stop switch)
+main.add_button = Add
+main.status_active = Active: fullscreen/maximize snaps to zones; Shift-drag to snap.
+main.status_no_layouts = No layouts yet — click Add to create one.
+main.status_idle = Idle
+
+# Main window — Card 1 (Screen tabs + Current Layout)
+main.current_layout_heading = Current Layout
+main.screen_enabled_toggle = Enabled
+main.no_layouts = No layouts
+main.edit_layouts_link = Edit Layouts…
+
+# Main window — Card 2 (Preferences)
+main.preferences_heading = Preferences
+main.pref_show_zones = Show zones
+main.pref_auto_start = Start confining on launch
+main.pref_cover_taskbar = Cover taskbar
+main.pref_start_with_windows = Start with Windows
+main.pref_show_in_tray = Show in tray
+main.pref_start_minimized = Start minimized
+main.pref_update_automatically = Update automatically
+main.shortcuts_button = Keyboard Shortcuts…
+main.app_color_button = App color…
+
+# Main window — Card 3 (License)
+main.license_heading = License
+main.license_button = License…
+main.about_button = About
+main.license_status_licensed = Licensed.
+main.license_status_trial_expired = Trial expired — click License to activate or buy.
+
+# License dialog
+license.heading = License
+license.subtitle = Enter your license key:
+license.note = Activation requires an internet connection.
+license.activate_button = Activate
+license.buy_button = Buy License
+license.status_verifying = Verifying license with Lemon Squeezy…
+license.status_activated = License activated. Thank you for supporting VirtualZones!
+license.status_empty_key = Please enter a license key.
+license.status_network_error = Couldn't reach the license server ({reason}). Check your internet connection and try again.
+license.trial_days_left = Trial: {days} day(s) left.
+
+# Keyboard Shortcuts dialog
+shortcuts.heading = Keyboard Shortcuts
+shortcuts.change_button = Change
+shortcuts.press_keys = Press keys…
+shortcuts.binding_unbound = Unbound
+shortcuts.action_start_stop = Start / Stop
+shortcuts.action_toggle_zones = Hide / Show zones
+shortcuts.action_cycle_layout = Cycle layout
+shortcuts.action_move_left = Move window left
+shortcuts.action_move_right = Move window right
+shortcuts.action_move_up = Move window up
+shortcuts.action_move_down = Move window down
+shortcuts.error_no_modifier = Hotkeys need at least one modifier key (Ctrl/Alt/Shift/Win).
+shortcuts.error_reserved_windows = That combo is reserved by Windows.
+shortcuts.error_reserved_share_zone = That combo is reserved for Share Zone (Ctrl+Alt+1-9).
+shortcuts.error_duplicate = Already used by {action}.
+shortcuts.error_in_use_by_app = Already in use by another app.
+
+# About dialog
+about.title = About
+about.app_name = VirtualZones for Windows
+about.version_line = Version {version} · {date}
+about.credit = From Los Angeles with love by Denis Platonov
+about.visit_website_button = Visit website
+
+# Color picker dialog
+color.title = App color
+color.presets_heading = Presets
+color.hue_heading = Hue
+color.done_button = Done
+
+# Update dialog
+update.title = Update Available
+update.heading_available = VirtualZones {version} is available
+update.later_button = Later
+update.skip_button = Skip this version
+
+# Layout editor — Manage view
+editor.window_title = Edit Layouts
+manage.title = Layouts
+manage.empty_state = No custom layouts yet — click Add to create one, or Restore Defaults.
+manage.restore_defaults_button = Restore Defaults
+manage.zone_count_one = 1 zone
+manage.zone_count_other = {n} zones
+
+# Layout editor — Edit view
+edit.title = Edit Layout
+edit.layout_name_label = Layout name
+edit.templates_label = Templates
+edit.template_25_50_25 = 25/50/25
+edit.template_50_50 = 50/50
+edit.template_33_33_33 = 33/33/33
+edit.rows_label = Rows
+edit.columns_label = Columns
+edit.canvas_hint_line1 = Click a zone to split it (Shift = horizontal)
+edit.canvas_hint_line2 = Click a shared border to merge
+edit.zone_column_header = Zone
+edit.width_column_header = Width
+edit.height_column_header = Height
+edit.zone_row_label = Zone {n}
+edit.unit_px = px
+edit.unit_percent = %
+edit.error_name_empty = Please enter a name for this layout.
+edit.error_name_invalid = Layout names can't contain ", \, {, }, [, or ].
+
+# Tray menu
+tray.show = Show
+tray.action_with_hotkey = {action}	{hotkey}
+tray.show_zones = Show zones
+tray.hide_zones = Hide zones
+tray.layout_with_hotkey = Layout	{hotkey}
+tray.share = Share
+tray.exit = Exit
+
+about.features_heading = What you can do
+about.feature_1 = Define custom zones for your screen in seconds
+about.feature_2 = Send any window to a zone with a keyboard shortcut
+about.feature_3 = Share only the zones you need in Teams or Zoom
+about.feature_4 = Present fullscreen in one zone, notes in another
+about.feature_5 = Turn web apps into a clean fullscreen dashboard
+about.feature_6 = Watch YouTube or a video fullscreen in a zone
+about.closing = The opportunities are endless.
+about.story = As a widescreen owner, reaching peak productivity always felt like a trade-off. Install a pile of bloated tools, or pay far too much for one. VirtualZones ends that: one tiny app that lets you work like a pro.
+about.contact_button = Contact me
+about.feature_7 = No admin rights needed, just launch and go
+update.install_button = Install
