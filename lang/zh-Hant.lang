@@ -81,7 +81,6 @@ shortcuts.error_in_use_by_app = 已被其他應用程式使用。
 about.title = 關於
 about.app_name = 適用於 Windows 的 VirtualZones
 about.version_line = 版本 {version} · {date}
-about.tagline = 讓全螢幕與最大化視窗保持在顯示器的區域內。
 about.credit = 來自洛杉磯的問候，Denis Platonov 製作
 about.visit_website_button = 造訪網站
 
@@ -94,8 +93,6 @@ color.done_button = 完成
 # Update dialog
 update.title = 有可用的更新
 update.heading_available = VirtualZones {version} 現已推出
-update.install_and_restart = 安裝並重新啟動
-update.download_and_install = 下載並安裝
 update.later_button = 稍後
 update.skip_button = 略過此版本
 
@@ -135,3 +132,16 @@ tray.hide_zones = 隱藏區域
 tray.layout_with_hotkey = 版面配置	{hotkey}
 tray.share = 共用
 tray.exit = 結束
+
+about.features_heading = 你能做什麼
+about.feature_1 = 幾秒鐘為螢幕定義自訂分區
+about.feature_2 = 用快捷鍵將任意視窗送入分區
+about.feature_3 = 在 Teams 或 Zoom 中只分享所需分區
+about.feature_4 = 一個分區全螢幕簡報，另一個放筆記
+about.feature_5 = 把網頁應用變成簡潔的全螢幕儀表板
+about.feature_6 = 在分區內全螢幕觀看 YouTube 或影片
+about.closing = 可能性無窮無盡。
+about.story = 身為寬螢幕使用者，想達到極致生產力總得有所取捨：要嘛裝上一堆臃腫的工具，要嘛為一款付出過高的費用。VirtualZones 終結了這一切：一款小巧的應用程式，讓你像專家一樣工作。
+about.contact_button = 與我聯絡
+about.feature_7 = 無需系統管理員權限，啟動即用
+update.install_button = Install

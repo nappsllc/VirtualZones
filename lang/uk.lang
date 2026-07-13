@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Уже використовується інши
 about.title = Про програму
 about.app_name = VirtualZones для Windows
 about.version_line = Версія {version} · {date}
-about.tagline = Утримуйте розгорнуті на весь екран вікна в межах зони вашого монітора.
 about.credit = З любов'ю з Лос-Анджелеса, Денис Платонов
 about.visit_website_button = Перейти на сайт
 
@@ -93,8 +92,6 @@ color.done_button = Готово
 # Update dialog
 update.title = Доступне оновлення
 update.heading_available = Доступна версія VirtualZones {version}
-update.install_and_restart = Установити й перезапустити
-update.download_and_install = Завантажити й установити
 update.later_button = Пізніше
 update.skip_button = Пропустити цю версію
 
@@ -134,3 +131,16 @@ tray.hide_zones = Приховати зони
 tray.layout_with_hotkey = Розкладка	{hotkey}
 tray.share = Спільний доступ
 tray.exit = Вихід
+
+about.features_heading = Що ви можете зробити
+about.feature_1 = Створюйте власні зони на екрані за секунди
+about.feature_2 = Надсилайте будь-яке вікно в зону гарячою клавішею
+about.feature_3 = Показуйте в Teams чи Zoom лише потрібні зони
+about.feature_4 = Презентація на весь екран в одній зоні, нотатки в іншій
+about.feature_5 = Перетворіть веб-застосунки на чисту повноекранну панель
+about.feature_6 = Дивіться YouTube чи відео на весь екран у зоні
+about.closing = Можливості безмежні.
+about.story = Заради високої продуктивності на широкому екрані завжди доводилося йти на компроміс: ставити купу громіздких програм або переплачувати за одну. VirtualZones це змінює — крихітний застосунок для роботи як профі.
+about.contact_button = Зв'язатися зі мною
+about.feature_7 = Права адміністратора не потрібні — просто запустіть
+update.install_button = Install

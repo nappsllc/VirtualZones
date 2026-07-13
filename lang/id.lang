@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Sudah digunakan oleh aplikasi lain.
 about.title = Tentang
 about.app_name = VirtualZones untuk Windows
 about.version_line = Versi {version} · {date}
-about.tagline = Jaga jendela layar penuh dan yang dimaksimalkan tetap berada dalam satu zona monitor Anda.
 about.credit = Dengan cinta dari Los Angeles, oleh Denis Platonov
 about.visit_website_button = Kunjungi situs web
 
@@ -93,8 +92,6 @@ color.done_button = Selesai
 # Update dialog
 update.title = Pembaruan tersedia
 update.heading_available = VirtualZones {version} tersedia
-update.install_and_restart = Instal dan mulai ulang
-update.download_and_install = Unduh dan instal
 update.later_button = Nanti
 update.skip_button = Lewati versi ini
 
@@ -134,3 +131,16 @@ tray.hide_zones = Sembunyikan zona
 tray.layout_with_hotkey = Tata letak	{hotkey}
 tray.share = Bagikan
 tray.exit = Keluar
+
+about.features_heading = Yang bisa Anda lakukan
+about.feature_1 = Tentukan zona khusus untuk layar Anda dalam hitungan detik
+about.feature_2 = Kirim jendela apa pun ke zona dengan pintasan keyboard
+about.feature_3 = Bagikan hanya zona yang Anda perlukan di Teams atau Zoom
+about.feature_4 = Presentasikan layar penuh di satu zona, catatan di zona lain
+about.feature_5 = Ubah aplikasi web jadi dasbor layar penuh yang rapi
+about.feature_6 = Tonton YouTube atau video layar penuh dalam satu zona
+about.closing = Kemungkinannya tak terbatas.
+about.story = Bagi pemilik layar lebar, produktivitas puncak selalu jadi pengorbanan: memasang banyak alat berat atau membayar terlalu mahal untuk satu. VirtualZones mengakhirinya — satu aplikasi mungil untuk bekerja seperti profesional.
+about.contact_button = Hubungi saya
+about.feature_7 = Tanpa hak admin, tinggal jalankan
+update.install_button = Install

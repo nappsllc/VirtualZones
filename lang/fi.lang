@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Toinen sovellus käyttää jo tätä.
 about.title = Tietoja
 about.app_name = VirtualZones Windowsille
 about.version_line = Versio {version} · {date}
-about.tagline = Pidä koko näytön ja suurennetut ikkunat näyttösi vyöhykkeen sisällä.
 about.credit = Rakkaudella Los Angelesista, Denis Platonov
 about.visit_website_button = Käy verkkosivustolla
 
@@ -93,8 +92,6 @@ color.done_button = Valmis
 # Update dialog
 update.title = Päivitys saatavilla
 update.heading_available = VirtualZones {version} on saatavilla
-update.install_and_restart = Asenna ja käynnistä uudelleen
-update.download_and_install = Lataa ja asenna
 update.later_button = Myöhemmin
 update.skip_button = Ohita tämä versio
 
@@ -134,3 +131,16 @@ tray.hide_zones = Piilota vyöhykkeet
 tray.layout_with_hotkey = Asettelu	{hotkey}
 tray.share = Jaa
 tray.exit = Lopeta
+
+about.features_heading = Mitä voit tehdä
+about.feature_1 = Määritä näytölle omat vyöhykkeet sekunneissa
+about.feature_2 = Lähetä mikä tahansa ikkuna vyöhykkeelle pikanäppäimellä
+about.feature_3 = Jaa Teamsissa tai Zoomissa vain tarvitsemasi vyöhykkeet
+about.feature_4 = Esitä koko näytöllä yhdellä vyöhykkeellä, muistiinpanot toisella
+about.feature_5 = Muuta verkkosovellukset siistiksi koko näytön näkymäksi
+about.feature_6 = Katso YouTubea tai videota koko näytöllä vyöhykkeellä
+about.closing = Mahdollisuudet ovat rajattomat.
+about.story = Laajakuvanäytön omistajalle huipputuottavuus on aina ollut kompromissi: asentaa kasa raskaita työkaluja tai maksaa yhdestä liikaa. VirtualZones lopettaa sen – pieni sovellus, jolla työskentelet kuin ammattilainen.
+about.contact_button = Ota yhteyttä
+about.feature_7 = Ei järjestelmänvalvojan oikeuksia, käynnistä vain
+update.install_button = Install

@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Đã được ứng dụng khác sử dụng.
 about.title = Giới thiệu
 about.app_name = VirtualZones cho Windows
 about.version_line = Phiên bản {version} · {date}
-about.tagline = Giữ cửa sổ toàn màn hình và phóng to trong phạm vi một vùng trên màn hình của bạn.
 about.credit = Với tình yêu từ Los Angeles, bởi Denis Platonov
 about.visit_website_button = Truy cập trang web
 
@@ -93,8 +92,6 @@ color.done_button = Xong
 # Update dialog
 update.title = Có bản cập nhật
 update.heading_available = Đã có phiên bản VirtualZones {version}
-update.install_and_restart = Cài đặt và khởi động lại
-update.download_and_install = Tải xuống và cài đặt
 update.later_button = Để sau
 update.skip_button = Bỏ qua phiên bản này
 
@@ -134,3 +131,16 @@ tray.hide_zones = Ẩn vùng
 tray.layout_with_hotkey = Bố cục	{hotkey}
 tray.share = Chia sẻ
 tray.exit = Thoát
+
+about.features_heading = Những gì bạn có thể làm
+about.feature_1 = Tạo vùng tùy chỉnh cho màn hình trong vài giây
+about.feature_2 = Gửi mọi cửa sổ vào một vùng bằng phím tắt
+about.feature_3 = Chỉ chia sẻ những vùng cần thiết trong Teams hoặc Zoom
+about.feature_4 = Trình chiếu toàn màn hình ở vùng này, ghi chú ở vùng khác
+about.feature_5 = Biến ứng dụng web thành bảng điều khiển toàn màn hình gọn gàng
+about.feature_6 = Xem YouTube hoặc video toàn màn hình trong một vùng
+about.closing = Khả năng là vô tận.
+about.story = Là người dùng màn hình rộng, đạt năng suất tối đa luôn là một sự đánh đổi: cài cả đống công cụ cồng kềnh, hoặc trả quá nhiều cho một cái. VirtualZones chấm dứt điều đó: một ứng dụng nhỏ gọn giúp bạn làm việc như một chuyên gia.
+about.contact_button = Liên hệ với tôi
+about.feature_7 = Không cần quyền quản trị, chỉ cần mở là chạy
+update.install_button = Install

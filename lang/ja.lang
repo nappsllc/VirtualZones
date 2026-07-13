@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = すでに他のアプリで使用されていま
 about.title = バージョン情報
 about.app_name = VirtualZones for Windows
 about.version_line = バージョン {version} · {date}
-about.tagline = 全画面表示および最大化されたウィンドウをモニターのゾーン内に保ちます。
 about.credit = ロサンゼルスより愛を込めて、Denis Platonov
 about.visit_website_button = ウェブサイトを見る
 
@@ -93,8 +92,6 @@ color.done_button = 完了
 # Update dialog
 update.title = アップデートが利用可能
 update.heading_available = VirtualZones {version} が利用可能です
-update.install_and_restart = インストールして再起動
-update.download_and_install = ダウンロードしてインストール
 update.later_button = 後で
 update.skip_button = このバージョンをスキップ
 
@@ -134,3 +131,16 @@ tray.hide_zones = ゾーンを非表示
 tray.layout_with_hotkey = レイアウト	{hotkey}
 tray.share = 共有
 tray.exit = 終了
+
+about.features_heading = できること
+about.feature_1 = 画面のカスタムゾーンを数秒で設定
+about.feature_2 = ショートカットで任意のウィンドウをゾーンへ
+about.feature_3 = Teams や Zoom で必要なゾーンだけを共有
+about.feature_4 = 一方のゾーンで全画面表示、もう一方でメモ
+about.feature_5 = Web アプリをすっきりした全画面ダッシュボードに
+about.feature_6 = YouTube や動画をゾーン内で全画面再生
+about.closing = 可能性は無限大です。
+about.story = ワイド画面を使っていると、最高の生産性を得るにはいつも妥協が必要でした。重いツールを山ほど入れるか、一つに高すぎる料金を払うか。VirtualZones はそれを終わらせます。プロのように働ける、ごく小さなアプリです。
+about.contact_button = お問い合わせ
+about.feature_7 = 管理者権限は不要、起動するだけ
+update.install_button = Install

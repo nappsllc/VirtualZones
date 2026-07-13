@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Bruges allerede af en anden app.
 about.title = Om
 about.app_name = VirtualZones til Windows
 about.version_line = Version {version} · {date}
-about.tagline = Hold fuldskærms- og maksimerede vinduer inden for en zone på din skærm.
 about.credit = Med kærlighed fra Los Angeles, af Denis Platonov
 about.visit_website_button = Besøg webstedet
 
@@ -93,8 +92,6 @@ color.done_button = Udført
 # Update dialog
 update.title = Opdatering tilgængelig
 update.heading_available = VirtualZones {version} er tilgængelig
-update.install_and_restart = Installer og genstart
-update.download_and_install = Download og installer
 update.later_button = Senere
 update.skip_button = Spring denne version over
 
@@ -134,3 +131,16 @@ tray.hide_zones = Skjul zoner
 tray.layout_with_hotkey = Layout	{hotkey}
 tray.share = Del
 tray.exit = Afslut
+
+about.features_heading = Hvad du kan gøre
+about.feature_1 = Definér egne zoner til skærmen på få sekunder
+about.feature_2 = Send et vilkårligt vindue til en zone med en genvej
+about.feature_3 = Del kun de zoner, du har brug for, i Teams eller Zoom
+about.feature_4 = Præsentér i fuld skærm i én zone og noter i en anden
+about.feature_5 = Gør web-apps til et rent dashboard i fuld skærm
+about.feature_6 = Se YouTube eller en video i fuld skærm i en zone
+about.closing = Mulighederne er uendelige.
+about.story = Som ejer af en bredskærm har fuld produktivitet altid været et kompromis: installer en bunke tunge værktøjer, eller betal alt for meget for ét. VirtualZones gør en ende på det: en lillebitte app, der lader dig arbejde som en professionel.
+about.contact_button = Kontakt mig
+about.feature_7 = Ingen administratorrettigheder nødvendige, bare start
+update.install_button = Install

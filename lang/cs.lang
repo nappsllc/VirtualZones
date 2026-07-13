@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Již se používá jinou aplikací.
 about.title = O aplikaci
 about.app_name = VirtualZones pro Windows
 about.version_line = Verze {version} · {date}
-about.tagline = Udržujte okna na celou obrazovku a maximalizovaná okna uvnitř zóny vašeho monitoru.
 about.credit = S láskou z Los Angeles, od Denise Platonova
 about.visit_website_button = Navštívit web
 
@@ -93,8 +92,6 @@ color.done_button = Hotovo
 # Update dialog
 update.title = Aktualizace k dispozici
 update.heading_available = VirtualZones {version} je k dispozici
-update.install_and_restart = Nainstalovat a restartovat
-update.download_and_install = Stáhnout a nainstalovat
 update.later_button = Později
 update.skip_button = Přeskočit tuto verzi
 
@@ -134,3 +131,16 @@ tray.hide_zones = Skrýt zóny
 tray.layout_with_hotkey = Rozvržení	{hotkey}
 tray.share = Sdílet
 tray.exit = Ukončit
+
+about.features_heading = Co můžete dělat
+about.feature_1 = Vytvořte si vlastní zóny na obrazovce během chvilky
+about.feature_2 = Pošlete libovolné okno do zóny klávesovou zkratkou
+about.feature_3 = Ve službě Teams nebo Zoom sdílejte jen potřebné zóny
+about.feature_4 = Prezentujte na celou obrazovku v jedné zóně, poznámky ve druhé
+about.feature_5 = Proměňte webové aplikace v přehledný celoobrazovkový panel
+about.feature_6 = Sledujte YouTube nebo video na celou obrazovku v zóně
+about.closing = Možnosti jsou nekonečné.
+about.story = Pro majitele širokoúhlé obrazovky byla nejvyšší produktivita vždy kompromisem: nainstalovat hromadu nabobtnalých nástrojů, nebo za jeden zaplatit příliš. VirtualZones s tím končí: jedna drobná aplikace, se kterou pracujete jako profík.
+about.contact_button = Kontaktujte mě
+about.feature_7 = Bez práv správce, stačí spustit
+update.install_button = Install

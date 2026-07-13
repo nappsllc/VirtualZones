@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Już używane przez inną aplikację.
 about.title = O programie
 about.app_name = VirtualZones dla Windows
 about.version_line = Wersja {version} · {date}
-about.tagline = Utrzymuj okna pełnoekranowe i zmaksymalizowane w obrębie strefy monitora.
 about.credit = Z miłością z Los Angeles, Denis Platonov
 about.visit_website_button = Odwiedź stronę
 
@@ -93,8 +92,6 @@ color.done_button = Gotowe
 # Update dialog
 update.title = Dostępna aktualizacja
 update.heading_available = Dostępna jest wersja VirtualZones {version}
-update.install_and_restart = Zainstaluj i uruchom ponownie
-update.download_and_install = Pobierz i zainstaluj
 update.later_button = Później
 update.skip_button = Pomiń tę wersję
 
@@ -134,3 +131,16 @@ tray.hide_zones = Ukryj strefy
 tray.layout_with_hotkey = Układ	{hotkey}
 tray.share = Udostępnij
 tray.exit = Zamknij
+
+about.features_heading = Co możesz zrobić
+about.feature_1 = Twórz własne strefy na ekranie w kilka sekund
+about.feature_2 = Wysyłaj dowolne okno do strefy skrótem klawiszowym
+about.feature_3 = Udostępniaj w Teams lub Zoom tylko potrzebne strefy
+about.feature_4 = Prezentuj na pełnym ekranie w jednej strefie, notatki w drugiej
+about.feature_5 = Zamień aplikacje webowe w czysty pełnoekranowy pulpit
+about.feature_6 = Oglądaj YouTube lub wideo na pełnym ekranie w strefie
+about.closing = Możliwości są nieograniczone.
+about.story = Dla właściciela szerokiego ekranu pełna produktywność zawsze była kompromisem: zainstalować stos ociężałych narzędzi albo przepłacić za jedno. VirtualZones to kończy — maleńka aplikacja, dzięki której pracujesz jak profesjonalista.
+about.contact_button = Skontaktuj się ze mną
+about.feature_7 = Bez uprawnień administratora — po prostu uruchom
+update.install_button = Install

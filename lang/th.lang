@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = ถูกใช้งานโดยแอปอ
 about.title = เกี่ยวกับ
 about.app_name = VirtualZones สำหรับ Windows
 about.version_line = เวอร์ชัน {version} · {date}
-about.tagline = รักษาหน้าต่างเต็มหน้าจอและหน้าต่างที่ขยายใหญ่ให้อยู่ในโซนของจอภาพของคุณ
 about.credit = ด้วยความรักจากลอสแอนเจลิส โดย Denis Platonov
 about.visit_website_button = เยี่ยมชมเว็บไซต์
 
@@ -93,8 +92,6 @@ color.done_button = เสร็จสิ้น
 # Update dialog
 update.title = มีการอัปเดต
 update.heading_available = VirtualZones {version} พร้อมใช้งานแล้ว
-update.install_and_restart = ติดตั้งและรีสตาร์ท
-update.download_and_install = ดาวน์โหลดและติดตั้ง
 update.later_button = ภายหลัง
 update.skip_button = ข้ามเวอร์ชันนี้
 
@@ -134,3 +131,16 @@ tray.hide_zones = ซ่อนโซน
 tray.layout_with_hotkey = เลย์เอาต์	{hotkey}
 tray.share = แชร์
 tray.exit = ออก
+
+about.features_heading = สิ่งที่คุณทำได้
+about.feature_1 = กำหนดโซนของหน้าจอเองได้ในไม่กี่วินาที
+about.feature_2 = ส่งหน้าต่างใดก็ได้ไปยังโซนด้วยปุ่มลัด
+about.feature_3 = แชร์เฉพาะโซนที่ต้องการใน Teams หรือ Zoom
+about.feature_4 = นำเสนอเต็มจอในโซนหนึ่ง และจดโน้ตในอีกโซน
+about.feature_5 = เปลี่ยนเว็บแอปให้เป็นแดชบอร์ดเต็มจอที่สะอาดตา
+about.feature_6 = ดู YouTube หรือวิดีโอแบบเต็มจอในโซน
+about.closing = โอกาสมีไม่สิ้นสุด
+about.story = ในฐานะผู้ใช้จอไวด์สกรีน การไปให้ถึงประสิทธิภาพสูงสุดมักต้องแลกมาเสมอ ไม่ติดตั้งเครื่องมืออุ้ยอ้ายกองโต ก็จ่ายแพงเกินไปกับตัวเดียว VirtualZones ยุติเรื่องนั้น แอปเล็ก ๆ ตัวเดียวที่ให้คุณทำงานได้อย่างมืออาชีพ
+about.contact_button = ติดต่อฉัน
+about.feature_7 = ไม่ต้องมีสิทธิ์ผู้ดูแลระบบ แค่เปิดใช้งาน
+update.install_button = Install

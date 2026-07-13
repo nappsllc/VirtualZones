@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = Già in uso da un'altra app.
 about.title = Informazioni
 about.app_name = VirtualZones per Windows
 about.version_line = Versione {version} · {date}
-about.tagline = Mantieni le finestre a schermo intero e massimizzate all'interno di una zona del tuo monitor.
 about.credit = Con affetto da Los Angeles, di Denis Platonov
 about.visit_website_button = Visita il sito web
 
@@ -93,8 +92,6 @@ color.done_button = Fatto
 # Update dialog
 update.title = Aggiornamento disponibile
 update.heading_available = VirtualZones {version} è disponibile
-update.install_and_restart = Installa e riavvia
-update.download_and_install = Scarica e installa
 update.later_button = Più tardi
 update.skip_button = Salta questa versione
 
@@ -134,3 +131,16 @@ tray.hide_zones = Nascondi zone
 tray.layout_with_hotkey = Layout	{hotkey}
 tray.share = Condividi
 tray.exit = Esci
+
+about.features_heading = Cosa puoi fare
+about.feature_1 = Definisci zone personalizzate sullo schermo in pochi secondi
+about.feature_2 = Invia qualsiasi finestra a una zona con una scorciatoia
+about.feature_3 = Condividi solo le zone che ti servono in Teams o Zoom
+about.feature_4 = Presenta a schermo intero in una zona, le note in un'altra
+about.feature_5 = Trasforma le web app in una dashboard pulita a schermo intero
+about.feature_6 = Guarda YouTube o un video a schermo intero in una zona
+about.closing = Le possibilità sono infinite.
+about.story = Per chi ha uno schermo widescreen, la massima produttività è sempre stata un compromesso: installare tanti strumenti pesanti o pagarne uno troppo caro. VirtualZones vi mette fine: una piccola app per lavorare da professionista.
+about.contact_button = Contattami
+about.feature_7 = Nessun diritto di amministratore, avvia e via
+update.install_button = Install

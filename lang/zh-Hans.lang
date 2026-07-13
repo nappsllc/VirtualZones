@@ -80,7 +80,6 @@ shortcuts.error_in_use_by_app = 已被其他应用程序使用。
 about.title = 关于
 about.app_name = VirtualZones for Windows
 about.version_line = 版本 {version} · {date}
-about.tagline = 让全屏和最大化的窗口保持在显示器的区域内。
 about.credit = 来自洛杉矶的问候，Denis Platonov 制作
 about.visit_website_button = 访问网站
 
@@ -93,8 +92,6 @@ color.done_button = 完成
 # Update dialog
 update.title = 有可用更新
 update.heading_available = VirtualZones {version} 现已可用
-update.install_and_restart = 安装并重启
-update.download_and_install = 下载并安装
 update.later_button = 稍后
 update.skip_button = 跳过此版本
 
@@ -134,3 +131,16 @@ tray.hide_zones = 隐藏区域
 tray.layout_with_hotkey = 布局	{hotkey}
 tray.share = 共享
 tray.exit = 退出
+
+about.features_heading = 你能做什么
+about.feature_1 = 几秒钟为屏幕定义自定义分区
+about.feature_2 = 用快捷键把任意窗口送入分区
+about.feature_3 = 在 Teams 或 Zoom 中只共享所需分区
+about.feature_4 = 一个分区全屏演示，另一个放笔记
+about.feature_5 = 把网页应用变成简洁的全屏仪表板
+about.feature_6 = 在分区内全屏观看 YouTube 或视频
+about.closing = 可能性无穷无尽。
+about.story = 作为宽屏用户，想要达到极致效率总得有所取舍：要么装上一堆臃肿的工具，要么为一款付出过高的价钱。VirtualZones 终结了这一切：一个小巧的应用，让你像专家一样工作。
+about.contact_button = 联系我
+about.feature_7 = 无需管理员权限，启动即用
+update.install_button = Install
