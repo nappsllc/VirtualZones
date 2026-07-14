@@ -131,7 +131,7 @@ tray.action_with_hotkey = {action}	{hotkey}
 tray.show_zones = Показать зоны
 tray.hide_zones = Скрыть зоны
 tray.layout_with_hotkey = Раскладка	{hotkey}
-tray.share = Общий доступ
+tray.share = Поделиться
 tray.share_display_zone = {name}: Зона {z}
 tray.exit = Выход
 

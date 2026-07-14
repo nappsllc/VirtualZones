@@ -1,5 +1,5 @@
 {
-  "ru": { "name": "Русский", "version": 6, "path": "lang/ru.lang" },
+  "ru": { "name": "Русский", "version": 7, "path": "lang/ru.lang" },
   "de": { "name": "Deutsch", "version": 6, "path": "lang/de.lang" },
   "es": { "name": "Español", "version": 6, "path": "lang/es.lang" },
   "fr": { "name": "Français", "version": 6, "path": "lang/fr.lang" },
