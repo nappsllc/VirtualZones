@@ -70,6 +70,7 @@ shortcuts.action_move_left = 창을 왼쪽으로 이동
 shortcuts.action_move_right = 창을 오른쪽으로 이동
 shortcuts.action_move_up = 창을 위로 이동
 shortcuts.action_move_down = 창을 아래로 이동
+shortcuts.action_share_zone = 영역 {n} 공유
 shortcuts.error_no_modifier = 단축키에는 최소 하나의 보조 키(Ctrl/Alt/Shift/Win)가 필요합니다.
 shortcuts.error_reserved_windows = 이 조합은 Windows에서 예약되어 있습니다.
 shortcuts.error_reserved_share_zone = 이 조합은 "공유 영역"용으로 예약되어 있습니다 (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = 영역 표시
 tray.hide_zones = 영역 숨기기
 tray.layout_with_hotkey = 레이아웃	{hotkey}
 tray.share = 공유
+tray.share_display_zone = {name}: 영역 {z}
 tray.exit = 종료
 
 about.features_heading = 할 수 있는 일

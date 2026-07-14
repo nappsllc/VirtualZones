@@ -70,6 +70,7 @@ shortcuts.action_move_left = Перемістити вікно ліворуч
 shortcuts.action_move_right = Перемістити вікно праворуч
 shortcuts.action_move_up = Перемістити вікно вгору
 shortcuts.action_move_down = Перемістити вікно вниз
+shortcuts.action_share_zone = Поділитися зоною {n}
 shortcuts.error_no_modifier = Для гарячих клавіш потрібна щонайменше одна клавіша-модифікатор (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Ця комбінація зарезервована Windows.
 shortcuts.error_reserved_share_zone = Ця комбінація зарезервована для «Спільної зони» (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Показати зони
 tray.hide_zones = Приховати зони
 tray.layout_with_hotkey = Розкладка	{hotkey}
 tray.share = Спільний доступ
+tray.share_display_zone = {name}: Зона {z}
 tray.exit = Вихід
 
 about.features_heading = Що ви можете зробити

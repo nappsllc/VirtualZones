@@ -70,6 +70,7 @@ shortcuts.action_move_left = Przenieś okno w lewo
 shortcuts.action_move_right = Przenieś okno w prawo
 shortcuts.action_move_up = Przenieś okno w górę
 shortcuts.action_move_down = Przenieś okno w dół
+shortcuts.action_share_zone = Udostępnij strefę {n}
 shortcuts.error_no_modifier = Skróty wymagają co najmniej jednego klawisza modyfikującego (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Ta kombinacja jest zarezerwowana przez Windows.
 shortcuts.error_reserved_share_zone = Ta kombinacja jest zarezerwowana dla „Udostępnionej strefy” (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Pokaż strefy
 tray.hide_zones = Ukryj strefy
 tray.layout_with_hotkey = Układ	{hotkey}
 tray.share = Udostępnij
+tray.share_display_zone = {name}: Strefa {z}
 tray.exit = Zamknij
 
 about.features_heading = Co możesz zrobić

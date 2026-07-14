@@ -70,6 +70,7 @@ shortcuts.action_move_left = Flyt vindue til venstre
 shortcuts.action_move_right = Flyt vindue til højre
 shortcuts.action_move_up = Flyt vindue op
 shortcuts.action_move_down = Flyt vindue ned
+shortcuts.action_share_zone = Del zone {n}
 shortcuts.error_no_modifier = Genveje kræver mindst én modifikatortast (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Denne kombination er reserveret af Windows.
 shortcuts.error_reserved_share_zone = Denne kombination er reserveret til "Delt zone" (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Vis zoner
 tray.hide_zones = Skjul zoner
 tray.layout_with_hotkey = Layout	{hotkey}
 tray.share = Del
+tray.share_display_zone = {name}: Zone {z}
 tray.exit = Afslut
 
 about.features_heading = Hvad du kan gøre

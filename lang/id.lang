@@ -70,6 +70,7 @@ shortcuts.action_move_left = Pindahkan jendela ke kiri
 shortcuts.action_move_right = Pindahkan jendela ke kanan
 shortcuts.action_move_up = Pindahkan jendela ke atas
 shortcuts.action_move_down = Pindahkan jendela ke bawah
+shortcuts.action_share_zone = Bagikan zona {n}
 shortcuts.error_no_modifier = Pintasan memerlukan setidaknya satu tombol pengubah (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Kombinasi ini dicadangkan oleh Windows.
 shortcuts.error_reserved_share_zone = Kombinasi ini dicadangkan untuk "Zona Bersama" (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Tampilkan zona
 tray.hide_zones = Sembunyikan zona
 tray.layout_with_hotkey = Tata letak	{hotkey}
 tray.share = Bagikan
+tray.share_display_zone = {name}: Zona {z}
 tray.exit = Keluar
 
 about.features_heading = Yang bisa Anda lakukan

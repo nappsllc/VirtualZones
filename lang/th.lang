@@ -70,6 +70,7 @@ shortcuts.action_move_left = ย้ายหน้าต่างไปทาง
 shortcuts.action_move_right = ย้ายหน้าต่างไปทางขวา
 shortcuts.action_move_up = ย้ายหน้าต่างขึ้น
 shortcuts.action_move_down = ย้ายหน้าต่างลง
+shortcuts.action_share_zone = แชร์โซน {n}
 shortcuts.error_no_modifier = ปุ่มลัดต้องมีปุ่มตัวปรับแต่งอย่างน้อยหนึ่งปุ่ม (Ctrl/Alt/Shift/Win)
 shortcuts.error_reserved_windows = ชุดปุ่มนี้ถูกสงวนไว้โดย Windows
 shortcuts.error_reserved_share_zone = ชุดปุ่มนี้ถูกสงวนไว้สำหรับ "โซนที่แชร์" (Ctrl+Alt+1-9)
@@ -131,6 +132,7 @@ tray.show_zones = แสดงโซน
 tray.hide_zones = ซ่อนโซน
 tray.layout_with_hotkey = เลย์เอาต์	{hotkey}
 tray.share = แชร์
+tray.share_display_zone = {name}: โซน {z}
 tray.exit = ออก
 
 about.features_heading = สิ่งที่คุณทำได้

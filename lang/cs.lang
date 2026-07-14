@@ -70,6 +70,7 @@ shortcuts.action_move_left = Přesunout okno doleva
 shortcuts.action_move_right = Přesunout okno doprava
 shortcuts.action_move_up = Přesunout okno nahoru
 shortcuts.action_move_down = Přesunout okno dolů
+shortcuts.action_share_zone = Sdílet zónu {n}
 shortcuts.error_no_modifier = Zkratky vyžadují alespoň jednu modifikační klávesu (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Tato kombinace je vyhrazena systémem Windows.
 shortcuts.error_reserved_share_zone = Tato kombinace je vyhrazena pro „Sdílenou zónu“ (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Zobrazit zóny
 tray.hide_zones = Skrýt zóny
 tray.layout_with_hotkey = Rozvržení	{hotkey}
 tray.share = Sdílet
+tray.share_display_zone = {name}: Zóna {z}
 tray.exit = Ukončit
 
 about.features_heading = Co můžete dělat

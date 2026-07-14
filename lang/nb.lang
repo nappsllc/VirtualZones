@@ -70,6 +70,7 @@ shortcuts.action_move_left = Flytt vinduet til venstre
 shortcuts.action_move_right = Flytt vinduet til høyre
 shortcuts.action_move_up = Flytt vinduet opp
 shortcuts.action_move_down = Flytt vinduet ned
+shortcuts.action_share_zone = Del sone {n}
 shortcuts.error_no_modifier = Snarveier krever minst én modifikasjonstast (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Denne kombinasjonen er reservert av Windows.
 shortcuts.error_reserved_share_zone = Denne kombinasjonen er reservert for "Delt sone" (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Vis soner
 tray.hide_zones = Skjul soner
 tray.layout_with_hotkey = Oppsett	{hotkey}
 tray.share = Del
+tray.share_display_zone = {name}: Sone {z}
 tray.exit = Avslutt
 
 about.features_heading = Hva du kan gjøre

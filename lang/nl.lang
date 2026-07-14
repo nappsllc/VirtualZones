@@ -70,6 +70,7 @@ shortcuts.action_move_left = Venster naar links verplaatsen
 shortcuts.action_move_right = Venster naar rechts verplaatsen
 shortcuts.action_move_up = Venster omhoog verplaatsen
 shortcuts.action_move_down = Venster omlaag verplaatsen
+shortcuts.action_share_zone = Zone {n} delen
 shortcuts.error_no_modifier = Sneltoetsen hebben minstens één functietoets nodig (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Deze combinatie is gereserveerd door Windows.
 shortcuts.error_reserved_share_zone = Deze combinatie is gereserveerd voor "Gedeelde zone" (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Zones weergeven
 tray.hide_zones = Zones verbergen
 tray.layout_with_hotkey = Indeling	{hotkey}
 tray.share = Delen
+tray.share_display_zone = {name}: Zone {z}
 tray.exit = Afsluiten
 
 about.features_heading = Wat je kunt doen

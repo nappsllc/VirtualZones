@@ -70,6 +70,7 @@ shortcuts.action_move_left = 窗口左移
 shortcuts.action_move_right = 窗口右移
 shortcuts.action_move_up = 窗口上移
 shortcuts.action_move_down = 窗口下移
+shortcuts.action_share_zone = 共享区域 {n}
 shortcuts.error_no_modifier = 快捷键至少需要一个修饰键（Ctrl/Alt/Shift/Win）。
 shortcuts.error_reserved_windows = 该组合键已被 Windows 保留。
 shortcuts.error_reserved_share_zone = 该组合键已保留给"共享区域"（Ctrl+Alt+1-9）。
@@ -131,6 +132,7 @@ tray.show_zones = 显示区域
 tray.hide_zones = 隐藏区域
 tray.layout_with_hotkey = 布局	{hotkey}
 tray.share = 共享
+tray.share_display_zone = {name}: 区域 {z}
 tray.exit = 退出
 
 about.features_heading = 你能做什么

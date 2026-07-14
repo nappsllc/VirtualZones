@@ -70,6 +70,7 @@ shortcuts.action_move_left = Pencereyi sola taşı
 shortcuts.action_move_right = Pencereyi sağa taşı
 shortcuts.action_move_up = Pencereyi yukarı taşı
 shortcuts.action_move_down = Pencereyi aşağı taşı
+shortcuts.action_share_zone = Bölge {n} paylaş
 shortcuts.error_no_modifier = Kısayollar en az bir değiştirici tuş gerektirir (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Bu kombinasyon Windows tarafından ayrılmıştır.
 shortcuts.error_reserved_share_zone = Bu kombinasyon "Paylaşılan Bölge" için ayrılmıştır (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Bölgeleri göster
 tray.hide_zones = Bölgeleri gizle
 tray.layout_with_hotkey = Düzen	{hotkey}
 tray.share = Paylaş
+tray.share_display_zone = {name}: Bölge {z}
 tray.exit = Çıkış
 
 about.features_heading = Neler yapabilirsiniz

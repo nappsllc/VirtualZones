@@ -70,6 +70,7 @@ shortcuts.action_move_left = Flytta fönster åt vänster
 shortcuts.action_move_right = Flytta fönster åt höger
 shortcuts.action_move_up = Flytta fönster uppåt
 shortcuts.action_move_down = Flytta fönster nedåt
+shortcuts.action_share_zone = Dela zon {n}
 shortcuts.error_no_modifier = Kortkommandon kräver minst en modifierartangent (Ctrl/Alt/Skift/Win).
 shortcuts.error_reserved_windows = Den kombinationen är reserverad av Windows.
 shortcuts.error_reserved_share_zone = Den kombinationen är reserverad för "Delad zon" (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Visa zoner
 tray.hide_zones = Dölj zoner
 tray.layout_with_hotkey = Layout	{hotkey}
 tray.share = Dela
+tray.share_display_zone = {name}: Zon {z}
 tray.exit = Avsluta
 
 about.features_heading = Vad du kan göra

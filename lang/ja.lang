@@ -70,6 +70,7 @@ shortcuts.action_move_left = ウィンドウを左に移動
 shortcuts.action_move_right = ウィンドウを右に移動
 shortcuts.action_move_up = ウィンドウを上に移動
 shortcuts.action_move_down = ウィンドウを下に移動
+shortcuts.action_share_zone = ゾーン{n}を共有
 shortcuts.error_no_modifier = ショートカットには少なくとも1つの修飾キー (Ctrl/Alt/Shift/Win) が必要です。
 shortcuts.error_reserved_windows = この組み合わせはWindowsによって予約されています。
 shortcuts.error_reserved_share_zone = この組み合わせは「共有ゾーン」用に予約されています (Ctrl+Alt+1-9)。
@@ -131,6 +132,7 @@ tray.show_zones = ゾーンを表示
 tray.hide_zones = ゾーンを非表示
 tray.layout_with_hotkey = レイアウト	{hotkey}
 tray.share = 共有
+tray.share_display_zone = {name}: ゾーン {z}
 tray.exit = 終了
 
 about.features_heading = できること

@@ -70,6 +70,7 @@ shortcuts.action_move_left = Déplacer la fenêtre à gauche
 shortcuts.action_move_right = Déplacer la fenêtre à droite
 shortcuts.action_move_up = Déplacer la fenêtre vers le haut
 shortcuts.action_move_down = Déplacer la fenêtre vers le bas
+shortcuts.action_share_zone = Partager la zone {n}
 shortcuts.error_no_modifier = Les raccourcis nécessitent au moins une touche de modification (Ctrl/Alt/Maj/Win).
 shortcuts.error_reserved_windows = Cette combinaison est réservée par Windows.
 shortcuts.error_reserved_share_zone = Cette combinaison est réservée pour « Zone partagée » (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Afficher les zones
 tray.hide_zones = Masquer les zones
 tray.layout_with_hotkey = Disposition	{hotkey}
 tray.share = Partager
+tray.share_display_zone = {name}: Zone {z}
 tray.exit = Quitter
 
 about.features_heading = Ce que vous pouvez faire

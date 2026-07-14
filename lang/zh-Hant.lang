@@ -71,6 +71,7 @@ shortcuts.action_move_left = 將視窗向左移動
 shortcuts.action_move_right = 將視窗向右移動
 shortcuts.action_move_up = 將視窗向上移動
 shortcuts.action_move_down = 將視窗向下移動
+shortcuts.action_share_zone = 共用區域 {n}
 shortcuts.error_no_modifier = 快速鍵至少需要一個修飾鍵（Ctrl/Alt/Shift/Win）。
 shortcuts.error_reserved_windows = 此組合鍵已由 Windows 保留。
 shortcuts.error_reserved_share_zone = 此組合鍵已保留給「共用區域」（Ctrl+Alt+1-9）。
@@ -132,6 +133,7 @@ tray.show_zones = 顯示區域
 tray.hide_zones = 隱藏區域
 tray.layout_with_hotkey = 版面配置	{hotkey}
 tray.share = 共用
+tray.share_display_zone = {name}: 區域 {z}
 tray.exit = 結束
 
 about.features_heading = 你能做什麼

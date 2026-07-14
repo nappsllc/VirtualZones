@@ -72,6 +72,7 @@ shortcuts.action_move_left = Move window left
 shortcuts.action_move_right = Move window right
 shortcuts.action_move_up = Move window up
 shortcuts.action_move_down = Move window down
+shortcuts.action_share_zone = Share zone {n}
 shortcuts.error_no_modifier = Hotkeys need at least one modifier key (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = That combo is reserved by Windows.
 shortcuts.error_reserved_share_zone = That combo is reserved for Share Zone (Ctrl+Alt+1-9).
@@ -133,6 +134,7 @@ tray.show_zones = Show zones
 tray.hide_zones = Hide zones
 tray.layout_with_hotkey = Layout	{hotkey}
 tray.share = Share
+tray.share_display_zone = {name}: Zone {z}
 tray.exit = Exit
 
 about.features_heading = What you can do

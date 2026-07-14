@@ -70,6 +70,7 @@ shortcuts.action_move_left = Mover ventana a la izquierda
 shortcuts.action_move_right = Mover ventana a la derecha
 shortcuts.action_move_up = Mover ventana hacia arriba
 shortcuts.action_move_down = Mover ventana hacia abajo
+shortcuts.action_share_zone = Compartir zona {n}
 shortcuts.error_no_modifier = Los atajos necesitan al menos una tecla modificadora (Ctrl/Alt/Mayús/Win).
 shortcuts.error_reserved_windows = Esa combinación está reservada por Windows.
 shortcuts.error_reserved_share_zone = Esa combinación está reservada para «Zona compartida» (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Mostrar zonas
 tray.hide_zones = Ocultar zonas
 tray.layout_with_hotkey = Diseño	{hotkey}
 tray.share = Compartir
+tray.share_display_zone = {name}: Zona {z}
 tray.exit = Salir
 
 about.features_heading = Lo que puedes hacer

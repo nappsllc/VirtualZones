@@ -70,6 +70,7 @@ shortcuts.action_move_left = Siirrä ikkunaa vasemmalle
 shortcuts.action_move_right = Siirrä ikkunaa oikealle
 shortcuts.action_move_up = Siirrä ikkunaa ylös
 shortcuts.action_move_down = Siirrä ikkunaa alas
+shortcuts.action_share_zone = Jaa vyöhyke {n}
 shortcuts.error_no_modifier = Pikanäppäimet vaativat vähintään yhden muunnosnäppäimen (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Tämä yhdistelmä on Windowsin varaama.
 shortcuts.error_reserved_share_zone = Tämä yhdistelmä on varattu toiminnolle "Jaettu vyöhyke" (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Näytä vyöhykkeet
 tray.hide_zones = Piilota vyöhykkeet
 tray.layout_with_hotkey = Asettelu	{hotkey}
 tray.share = Jaa
+tray.share_display_zone = {name}: Vyöhyke {z}
 tray.exit = Lopeta
 
 about.features_heading = Mitä voit tehdä

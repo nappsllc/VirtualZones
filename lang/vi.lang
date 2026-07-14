@@ -70,6 +70,7 @@ shortcuts.action_move_left = Di chuyển cửa sổ sang trái
 shortcuts.action_move_right = Di chuyển cửa sổ sang phải
 shortcuts.action_move_up = Di chuyển cửa sổ lên trên
 shortcuts.action_move_down = Di chuyển cửa sổ xuống dưới
+shortcuts.action_share_zone = Chia sẻ vùng {n}
 shortcuts.error_no_modifier = Phím tắt cần ít nhất một phím bổ trợ (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = Tổ hợp phím này đã được Windows dành riêng.
 shortcuts.error_reserved_share_zone = Tổ hợp phím này đã được dành riêng cho "Vùng chia sẻ" (Ctrl+Alt+1-9).
@@ -131,6 +132,7 @@ tray.show_zones = Hiện vùng
 tray.hide_zones = Ẩn vùng
 tray.layout_with_hotkey = Bố cục	{hotkey}
 tray.share = Chia sẻ
+tray.share_display_zone = {name}: Vùng {z}
 tray.exit = Thoát
 
 about.features_heading = Những gì bạn có thể làm
