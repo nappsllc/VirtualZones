@@ -110,6 +110,7 @@ edit.templates_label = टेम्पलेट
 edit.template_25_50_25 = 25/50/25
 edit.template_50_50 = 50/50
 edit.template_33_33_33 = 33/33/33
+edit.template_100 = 100%
 edit.rows_label = पंक्तियाँ
 edit.columns_label = स्तंभ
 edit.canvas_hint_line1 = किसी ज़ोन को विभाजित करने के लिए उस पर क्लिक करें (Shift = क्षैतिज)

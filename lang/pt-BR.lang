@@ -110,6 +110,7 @@ edit.templates_label = Modelos
 edit.template_25_50_25 = 25/50/25
 edit.template_50_50 = 50/50
 edit.template_33_33_33 = 33/33/33
+edit.template_100 = 100%
 edit.rows_label = Linhas
 edit.columns_label = Colunas
 edit.canvas_hint_line1 = Clique em uma zona para dividi-la (Shift = horizontal)

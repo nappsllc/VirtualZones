@@ -110,6 +110,7 @@ edit.templates_label = Шаблоны
 edit.template_25_50_25 = 25/50/25
 edit.template_50_50 = 50/50
 edit.template_33_33_33 = 33/33/33
+edit.template_100 = 100%
 edit.rows_label = Строки
 edit.columns_label = Столбцы
 edit.canvas_hint_line1 = Нажмите на зону, чтобы разделить её (Shift - по горизонтали)

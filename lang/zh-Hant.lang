@@ -111,6 +111,7 @@ edit.templates_label = 範本
 edit.template_25_50_25 = 25/50/25
 edit.template_50_50 = 50/50
 edit.template_33_33_33 = 33/33/33
+edit.template_100 = 100%
 edit.rows_label = 列
 edit.columns_label = 欄
 edit.canvas_hint_line1 = 按一下區域可將其分割（Shift = 水平）
