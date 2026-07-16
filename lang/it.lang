@@ -52,10 +52,15 @@ license.subtitle = Inserisci la tua chiave di licenza:
 license.note = L'attivazione richiede una connessione a internet.
 license.activate_button = Attiva
 license.buy_button = Acquista licenza
+license.deactivate_button = Disattiva
 license.status_verifying = Verifica della licenza tramite Lemon Squeezy…
 license.status_activated = Licenza attivata. Grazie per il supporto a VirtualZones!
 license.status_empty_key = Inserisci una chiave di licenza.
 license.status_network_error = Impossibile contattare il server delle licenze ({reason}). Controlla la connessione a internet e riprova.
+license.status_wrong_product = Questa chiave di licenza non è di VirtualZones.
+license.status_deactivating = Disattivazione di questo dispositivo…
+license.status_deactivated = Questo dispositivo è stato disattivato. Ora puoi attivare la tua licenza su un altro computer.
+license.status_deactivate_failed = Impossibile disattivare questo dispositivo ({reason}). Controlla la connessione a internet e riprova.
 license.trial_days_left = Prova: {days} giorno/i rimanenti.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Già in uso da un'altra app.
 about.title = Informazioni
 about.app_name = VirtualZones per Windows
 about.version_line = Versione {version} · {date}
+about.version_line_no_date = Versione {version}
 about.credit = Con affetto da Los Angeles, di Denis Platonov
+about.used_count = Usato {count} volte dal {date}
+about.used_count_no_date = Usato {count} volte
 about.visit_website_button = Visita il sito web
 
 # Color picker dialog

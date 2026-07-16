@@ -54,10 +54,15 @@ license.subtitle = Enter your license key:
 license.note = Activation requires an internet connection.
 license.activate_button = Activate
 license.buy_button = Buy License
+license.deactivate_button = Deactivate
 license.status_verifying = Verifying license with Lemon Squeezy…
 license.status_activated = License activated. Thank you for supporting VirtualZones!
 license.status_empty_key = Please enter a license key.
 license.status_network_error = Couldn't reach the license server ({reason}). Check your internet connection and try again.
+license.status_wrong_product = This license key isn't for VirtualZones.
+license.status_deactivating = Deactivating this device…
+license.status_deactivated = This device has been deactivated. You can now activate your license on another computer.
+license.status_deactivate_failed = Couldn't deactivate this device ({reason}). Check your internet connection and try again.
 license.trial_days_left = Trial: {days} day(s) left.
 
 # Keyboard Shortcuts dialog
@@ -72,7 +77,7 @@ shortcuts.action_move_left = Move window left
 shortcuts.action_move_right = Move window right
 shortcuts.action_move_up = Move window up
 shortcuts.action_move_down = Move window down
-shortcuts.action_share_zone = Share zone {n}
+shortcuts.action_share_zone = Share Zone {n}
 shortcuts.error_no_modifier = Hotkeys need at least one modifier key (Ctrl/Alt/Shift/Win).
 shortcuts.error_reserved_windows = That combo is reserved by Windows.
 shortcuts.error_reserved_share_zone = That combo is reserved for Share Zone (Ctrl+Alt+1-9).
@@ -83,7 +88,10 @@ shortcuts.error_in_use_by_app = Already in use by another app.
 about.title = About
 about.app_name = VirtualZones for Windows
 about.version_line = Version {version} · {date}
+about.version_line_no_date = Version {version}
 about.credit = From Los Angeles with love by Denis Platonov
+about.used_count = Used {count} times since {date}
+about.used_count_no_date = Used {count} times
 about.visit_website_button = Visit website
 
 # Color picker dialog

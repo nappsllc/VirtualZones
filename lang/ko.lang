@@ -52,10 +52,15 @@ license.subtitle = 라이선스 키를 입력하세요:
 license.note = 활성화하려면 인터넷 연결이 필요합니다.
 license.activate_button = 활성화
 license.buy_button = 라이선스 구매
+license.deactivate_button = 비활성화
 license.status_verifying = Lemon Squeezy에서 라이선스를 확인하는 중…
 license.status_activated = 라이선스가 활성화되었습니다. VirtualZones를 지원해 주셔서 감사합니다!
 license.status_empty_key = 라이선스 키를 입력하세요.
 license.status_network_error = 라이선스 서버에 연결할 수 없습니다 ({reason}). 인터넷 연결을 확인한 후 다시 시도하세요.
+license.status_wrong_product = 이 라이선스 키는 VirtualZones용이 아닙니다.
+license.status_deactivating = 이 기기를 비활성화하는 중…
+license.status_deactivated = 이 기기가 비활성화되었습니다. 이제 다른 컴퓨터에서 라이선스를 활성화할 수 있습니다.
+license.status_deactivate_failed = 이 기기를 비활성화할 수 없습니다 ({reason}). 인터넷 연결을 확인한 후 다시 시도하세요.
 license.trial_days_left = 체험판: {days}일 남음.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = 이미 다른 앱에서 사용 중입니다.
 about.title = 정보
 about.app_name = Windows용 VirtualZones
 about.version_line = 버전 {version} · {date}
+about.version_line_no_date = 버전 {version}
 about.credit = 로스앤젤레스에서 사랑을 담아, Denis Platonov
+about.used_count = {date}부터 {count}회 사용
+about.used_count_no_date = {count}회 사용
 about.visit_website_button = 웹사이트 방문
 
 # Color picker dialog

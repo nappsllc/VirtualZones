@@ -52,10 +52,15 @@ license.subtitle = Zadejte licenční klíč:
 license.note = Aktivace vyžaduje připojení k internetu.
 license.activate_button = Aktivovat
 license.buy_button = Koupit licenci
+license.deactivate_button = Deaktivovat
 license.status_verifying = Ověřování licence přes Lemon Squeezy…
 license.status_activated = Licence byla aktivována. Děkujeme za podporu VirtualZones!
 license.status_empty_key = Zadejte licenční klíč.
 license.status_network_error = Nepodařilo se spojit s licenčním serverem ({reason}). Zkontrolujte připojení k internetu a zkuste to znovu.
+license.status_wrong_product = Tento licenční klíč není určen pro VirtualZones.
+license.status_deactivating = Deaktivace tohoto zařízení…
+license.status_deactivated = Toto zařízení bylo deaktivováno. Nyní můžete licenci aktivovat na jiném počítači.
+license.status_deactivate_failed = Nepodařilo se deaktivovat toto zařízení ({reason}). Zkontrolujte připojení k internetu a zkuste to znovu.
 license.trial_days_left = Zkušební období: zbývá {days} dní.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Již se používá jinou aplikací.
 about.title = O aplikaci
 about.app_name = VirtualZones pro Windows
 about.version_line = Verze {version} · {date}
+about.version_line_no_date = Verze {version}
 about.credit = S láskou z Los Angeles, od Denise Platonova
+about.used_count = Použito {count}× od {date}
+about.used_count_no_date = Použito {count}×
 about.visit_website_button = Navštívit web
 
 # Color picker dialog

@@ -53,10 +53,15 @@ license.subtitle = 輸入您的授權金鑰：
 license.note = 啟用需要網際網路連線。
 license.activate_button = 啟用
 license.buy_button = 購買授權
+license.deactivate_button = 停用
 license.status_verifying = 正在透過 Lemon Squeezy 驗證授權…
 license.status_activated = 授權已啟用。感謝您支持 VirtualZones！
 license.status_empty_key = 請輸入授權金鑰。
 license.status_network_error = 無法連線至授權伺服器（{reason}）。請檢查您的網際網路連線並重試。
+license.status_wrong_product = 此授權金鑰不適用於 VirtualZones。
+license.status_deactivating = 正在停用此裝置…
+license.status_deactivated = 此裝置已停用。您現在可以在其他電腦上啟用您的授權。
+license.status_deactivate_failed = 無法停用此裝置（{reason}）。請檢查您的網際網路連線並重試。
 license.trial_days_left = 試用：剩餘 {days} 天。
 
 # Keyboard Shortcuts dialog
@@ -82,7 +87,10 @@ shortcuts.error_in_use_by_app = 已被其他應用程式使用。
 about.title = 關於
 about.app_name = 適用於 Windows 的 VirtualZones
 about.version_line = 版本 {version} · {date}
+about.version_line_no_date = 版本 {version}
 about.credit = 來自洛杉磯的問候，Denis Platonov 製作
+about.used_count = 自 {date} 起已使用 {count} 次
+about.used_count_no_date = 已使用 {count} 次
 about.visit_website_button = 造訪網站
 
 # Color picker dialog

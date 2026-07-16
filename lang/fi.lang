@@ -52,10 +52,15 @@ license.subtitle = Anna lisenssiavaimesi:
 license.note = Aktivointi vaatii internetyhteyden.
 license.activate_button = Aktivoi
 license.buy_button = Osta lisenssi
+license.deactivate_button = Poista aktivointi
 license.status_verifying = Vahvistetaan lisenssiä Lemon Squeezyn kautta…
 license.status_activated = Lisenssi aktivoitu. Kiitos, että tuet VirtualZonesia!
 license.status_empty_key = Anna lisenssiavain.
 license.status_network_error = Lisenssipalvelimeen ei saatu yhteyttä ({reason}). Tarkista internetyhteytesi ja yritä uudelleen.
+license.status_wrong_product = Tämä lisenssiavain ei ole VirtualZonesia varten.
+license.status_deactivating = Poistetaan tämän laitteen aktivointia…
+license.status_deactivated = Tämän laitteen aktivointi on poistettu. Voit nyt aktivoida lisenssisi toisella tietokoneella.
+license.status_deactivate_failed = Tämän laitteen aktivoinnin poistaminen epäonnistui ({reason}). Tarkista internetyhteytesi ja yritä uudelleen.
 license.trial_days_left = Kokeilu: {days} päivää jäljellä.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Toinen sovellus käyttää jo tätä.
 about.title = Tietoja
 about.app_name = VirtualZones Windowsille
 about.version_line = Versio {version} · {date}
+about.version_line_no_date = Versio {version}
 about.credit = Rakkaudella Los Angelesista, Denis Platonov
+about.used_count = Käytetty {count} kertaa {date} alkaen
+about.used_count_no_date = Käytetty {count} kertaa
 about.visit_website_button = Käy verkkosivustolla
 
 # Color picker dialog

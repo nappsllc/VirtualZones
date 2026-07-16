@@ -52,10 +52,15 @@ license.subtitle = Nhập khóa giấy phép của bạn:
 license.note = Kích hoạt yêu cầu kết nối internet.
 license.activate_button = Kích hoạt
 license.buy_button = Mua giấy phép
+license.deactivate_button = Hủy kích hoạt
 license.status_verifying = Đang xác minh giấy phép qua Lemon Squeezy…
 license.status_activated = Đã kích hoạt giấy phép. Cảm ơn bạn đã ủng hộ VirtualZones!
 license.status_empty_key = Vui lòng nhập khóa giấy phép.
 license.status_network_error = Không thể kết nối đến máy chủ giấy phép ({reason}). Kiểm tra kết nối internet của bạn và thử lại.
+license.status_wrong_product = Khóa giấy phép này không dành cho VirtualZones.
+license.status_deactivating = Đang hủy kích hoạt thiết bị này…
+license.status_deactivated = Thiết bị này đã được hủy kích hoạt. Bây giờ bạn có thể kích hoạt giấy phép trên một máy tính khác.
+license.status_deactivate_failed = Không thể hủy kích hoạt thiết bị này ({reason}). Kiểm tra kết nối internet của bạn và thử lại.
 license.trial_days_left = Dùng thử: còn {days} ngày.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Đã được ứng dụng khác sử dụng.
 about.title = Giới thiệu
 about.app_name = VirtualZones cho Windows
 about.version_line = Phiên bản {version} · {date}
+about.version_line_no_date = Phiên bản {version}
 about.credit = Với tình yêu từ Los Angeles, bởi Denis Platonov
+about.used_count = Đã dùng {count} lần kể từ {date}
+about.used_count_no_date = Đã dùng {count} lần
 about.visit_website_button = Truy cập trang web
 
 # Color picker dialog

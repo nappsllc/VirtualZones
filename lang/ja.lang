@@ -52,10 +52,15 @@ license.subtitle = ライセンスキーを入力してください:
 license.note = 有効化にはインターネット接続が必要です。
 license.activate_button = 有効化
 license.buy_button = ライセンスを購入
+license.deactivate_button = 無効化
 license.status_verifying = Lemon Squeezyでライセンスを確認しています…
 license.status_activated = ライセンスが有効化されました。VirtualZonesをサポートいただきありがとうございます!
 license.status_empty_key = ライセンスキーを入力してください。
 license.status_network_error = ライセンスサーバーに接続できませんでした ({reason})。インターネット接続を確認して再試行してください。
+license.status_wrong_product = このライセンスキーは VirtualZones のものではありません。
+license.status_deactivating = このデバイスを無効化しています…
+license.status_deactivated = このデバイスを無効化しました。別のコンピューターでライセンスを有効化できます。
+license.status_deactivate_failed = このデバイスを無効化できませんでした ({reason})。インターネット接続を確認して再試行してください。
 license.trial_days_left = 試用期間: 残り{days}日。
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = すでに他のアプリで使用されていま
 about.title = バージョン情報
 about.app_name = VirtualZones for Windows
 about.version_line = バージョン {version} · {date}
+about.version_line_no_date = バージョン {version}
 about.credit = ロサンゼルスより愛を込めて、Denis Platonov
+about.used_count = {date} から {count} 回使用
+about.used_count_no_date = {count} 回使用
 about.visit_website_button = ウェブサイトを見る
 
 # Color picker dialog

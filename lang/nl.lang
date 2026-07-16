@@ -52,10 +52,15 @@ license.subtitle = Voer uw licentiesleutel in:
 license.note = Voor activering is een internetverbinding vereist.
 license.activate_button = Activeren
 license.buy_button = Licentie kopen
+license.deactivate_button = Deactiveren
 license.status_verifying = Licentie wordt geverifieerd via Lemon Squeezy…
 license.status_activated = Licentie geactiveerd. Bedankt voor uw steun aan VirtualZones!
 license.status_empty_key = Voer een licentiesleutel in.
 license.status_network_error = Kan geen verbinding maken met de licentieserver ({reason}). Controleer uw internetverbinding en probeer het opnieuw.
+license.status_wrong_product = Deze licentiesleutel is niet voor VirtualZones.
+license.status_deactivating = Dit apparaat wordt gedeactiveerd…
+license.status_deactivated = Dit apparaat is gedeactiveerd. U kunt uw licentie nu op een andere computer activeren.
+license.status_deactivate_failed = Kan dit apparaat niet deactiveren ({reason}). Controleer uw internetverbinding en probeer het opnieuw.
 license.trial_days_left = Proefperiode: nog {days} dag(en).
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Al in gebruik door een andere app.
 about.title = Over
 about.app_name = VirtualZones voor Windows
 about.version_line = Versie {version} · {date}
+about.version_line_no_date = Versie {version}
 about.credit = Met liefde uit Los Angeles, door Denis Platonov
+about.used_count = {count} keer gebruikt sinds {date}
+about.used_count_no_date = {count} keer gebruikt
 about.visit_website_button = Website bezoeken
 
 # Color picker dialog

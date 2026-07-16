@@ -52,10 +52,15 @@ license.subtitle = Введіть ліцензійний ключ:
 license.note = Для активації потрібне підключення до інтернету.
 license.activate_button = Активувати
 license.buy_button = Купити ліцензію
+license.deactivate_button = Деактивувати
 license.status_verifying = Перевірка ліцензії через Lemon Squeezy…
 license.status_activated = Ліцензію активовано. Дякуємо за підтримку VirtualZones!
 license.status_empty_key = Введіть ліцензійний ключ.
 license.status_network_error = Не вдалося зв'язатися із сервером ліцензій ({reason}). Перевірте підключення до інтернету та спробуйте ще раз.
+license.status_wrong_product = Цей ліцензійний ключ не призначений для VirtualZones.
+license.status_deactivating = Деактивація цього пристрою…
+license.status_deactivated = Цей пристрій деактивовано. Тепер ви можете активувати ліцензію на іншому комп'ютері.
+license.status_deactivate_failed = Не вдалося деактивувати цей пристрій ({reason}). Перевірте підключення до інтернету та спробуйте ще раз.
 license.trial_days_left = Пробний період: залишилося {days} дн.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Уже використовується інши
 about.title = Про програму
 about.app_name = VirtualZones для Windows
 about.version_line = Версія {version} · {date}
+about.version_line_no_date = Версія {version}
 about.credit = З любов'ю з Лос-Анджелеса, Денис Платонов
+about.used_count = Використано {count} разів з {date}
+about.used_count_no_date = Використано {count} разів
 about.visit_website_button = Перейти на сайт
 
 # Color picker dialog

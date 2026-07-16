@@ -52,10 +52,15 @@ license.subtitle = Introduce tu clave de licencia:
 license.note = La activación requiere conexión a internet.
 license.activate_button = Activar
 license.buy_button = Comprar licencia
+license.deactivate_button = Desactivar
 license.status_verifying = Verificando la licencia con Lemon Squeezy…
 license.status_activated = Licencia activada. ¡Gracias por apoyar a VirtualZones!
 license.status_empty_key = Introduce una clave de licencia.
 license.status_network_error = No se pudo conectar con el servidor de licencias ({reason}). Comprueba tu conexión a internet e inténtalo de nuevo.
+license.status_wrong_product = Esta clave de licencia no es de VirtualZones.
+license.status_deactivating = Desactivando este dispositivo…
+license.status_deactivated = Este dispositivo se ha desactivado. Ahora puedes activar tu licencia en otro ordenador.
+license.status_deactivate_failed = No se pudo desactivar este dispositivo ({reason}). Comprueba tu conexión a internet e inténtalo de nuevo.
 license.trial_days_left = Prueba: quedan {days} día(s).
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Ya la usa otra aplicación.
 about.title = Acerca de
 about.app_name = VirtualZones para Windows
 about.version_line = Versión {version} · {date}
+about.version_line_no_date = Versión {version}
 about.credit = Con cariño desde Los Ángeles, por Denis Platonov
+about.used_count = Usado {count} veces desde {date}
+about.used_count_no_date = Usado {count} veces
 about.visit_website_button = Visitar sitio web
 
 # Color picker dialog

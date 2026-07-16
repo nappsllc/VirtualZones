@@ -52,10 +52,15 @@ license.subtitle = Masukkan kunci lisensi Anda:
 license.note = Aktivasi memerlukan koneksi internet.
 license.activate_button = Aktifkan
 license.buy_button = Beli lisensi
+license.deactivate_button = Nonaktifkan
 license.status_verifying = Memverifikasi lisensi melalui Lemon Squeezy…
 license.status_activated = Lisensi diaktifkan. Terima kasih telah mendukung VirtualZones!
 license.status_empty_key = Masukkan kunci lisensi.
 license.status_network_error = Tidak dapat terhubung ke server lisensi ({reason}). Periksa koneksi internet Anda dan coba lagi.
+license.status_wrong_product = Kunci lisensi ini bukan untuk VirtualZones.
+license.status_deactivating = Menonaktifkan perangkat ini…
+license.status_deactivated = Perangkat ini telah dinonaktifkan. Anda kini dapat mengaktifkan lisensi Anda di komputer lain.
+license.status_deactivate_failed = Tidak dapat menonaktifkan perangkat ini ({reason}). Periksa koneksi internet Anda dan coba lagi.
 license.trial_days_left = Uji coba: tersisa {days} hari.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Sudah digunakan oleh aplikasi lain.
 about.title = Tentang
 about.app_name = VirtualZones untuk Windows
 about.version_line = Versi {version} · {date}
+about.version_line_no_date = Versi {version}
 about.credit = Dengan cinta dari Los Angeles, oleh Denis Platonov
+about.used_count = Digunakan {count} kali sejak {date}
+about.used_count_no_date = Digunakan {count} kali
 about.visit_website_button = Kunjungi situs web
 
 # Color picker dialog

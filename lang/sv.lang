@@ -52,10 +52,15 @@ license.subtitle = Ange din licensnyckel:
 license.note = Aktivering kräver internetanslutning.
 license.activate_button = Aktivera
 license.buy_button = Köp licens
+license.deactivate_button = Avaktivera
 license.status_verifying = Verifierar licens via Lemon Squeezy…
 license.status_activated = Licensen har aktiverats. Tack för att du stödjer VirtualZones!
 license.status_empty_key = Ange en licensnyckel.
 license.status_network_error = Kunde inte nå licensservern ({reason}). Kontrollera din internetanslutning och försök igen.
+license.status_wrong_product = Den här licensnyckeln är inte för VirtualZones.
+license.status_deactivating = Avaktiverar den här enheten…
+license.status_deactivated = Den här enheten har avaktiverats. Du kan nu aktivera din licens på en annan dator.
+license.status_deactivate_failed = Kunde inte avaktivera den här enheten ({reason}). Kontrollera din internetanslutning och försök igen.
 license.trial_days_left = Provperiod: {days} dag(ar) kvar.
 
 # Keyboard Shortcuts dialog
@@ -81,7 +86,10 @@ shortcuts.error_in_use_by_app = Används redan av en annan app.
 about.title = Om
 about.app_name = VirtualZones för Windows
 about.version_line = Version {version} · {date}
+about.version_line_no_date = Version {version}
 about.credit = Med kärlek från Los Angeles, av Denis Platonov
+about.used_count = Använd {count} gånger sedan {date}
+about.used_count_no_date = Använd {count} gånger
 about.visit_website_button = Besök webbplatsen
 
 # Color picker dialog
