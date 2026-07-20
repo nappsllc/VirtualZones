@@ -44,7 +44,7 @@ main.license_heading = 라이선스
 main.license_button = 라이선스…
 main.about_button = 정보
 main.license_status_licensed = 라이선스가 등록되었습니다.
-main.license_status_trial_expired = 체험판이 만료되었습니다 - "라이선스"를 클릭해 활성화하거나 구매하세요.
+main.license_status_trial_expired = 체험판이 만료되었습니다 - "라이선스"를 클릭해 활성화하세요.
 
 # License dialog
 license.heading = 라이선스

@@ -44,7 +44,7 @@ main.license_heading = ใบอนุญาต
 main.license_button = ใบอนุญาต…
 main.about_button = เกี่ยวกับ
 main.license_status_licensed = ได้รับอนุญาตแล้ว
-main.license_status_trial_expired = ระยะเวลาทดลองใช้หมดอายุแล้ว - คลิก "ใบอนุญาต" เพื่อเปิดใช้งานหรือซื้อ
+main.license_status_trial_expired = ระยะเวลาทดลองใช้หมดอายุแล้ว - คลิก "ใบอนุญาต" เพื่อเปิดใช้งาน
 
 # License dialog
 license.heading = ใบอนุญาต

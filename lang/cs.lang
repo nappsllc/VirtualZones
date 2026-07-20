@@ -44,7 +44,7 @@ main.license_heading = Licence
 main.license_button = Licence…
 main.about_button = O aplikaci
 main.license_status_licensed = Licencováno.
-main.license_status_trial_expired = Zkušební období vypršelo - kliknutím na „Licence“ aktivujte nebo zakupte.
+main.license_status_trial_expired = Zkušební období vypršelo - kliknutím na „Licence" aktivujte.
 
 # License dialog
 license.heading = Licence

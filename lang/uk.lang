@@ -44,7 +44,7 @@ main.license_heading = Ліцензія
 main.license_button = Ліцензія…
 main.about_button = Про програму
 main.license_status_licensed = Ліцензія активна.
-main.license_status_trial_expired = Пробний період завершився - натисніть «Ліцензія», щоб активувати або купити.
+main.license_status_trial_expired = Пробний період завершився - натисніть «Ліцензія», щоб активувати.
 
 # License dialog
 license.heading = Ліцензія

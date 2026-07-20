@@ -44,7 +44,7 @@ main.license_heading = Licencja
 main.license_button = Licencja…
 main.about_button = O programie
 main.license_status_licensed = Licencja aktywna.
-main.license_status_trial_expired = Okres próbny wygasł - kliknij „Licencja”, aby aktywować lub kupić.
+main.license_status_trial_expired = Okres próbny wygasł - kliknij „Licencja", aby aktywować.
 
 # License dialog
 license.heading = Licencja

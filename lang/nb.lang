@@ -44,7 +44,7 @@ main.license_heading = Lisens
 main.license_button = Lisens…
 main.about_button = Om
 main.license_status_licensed = Lisensiert.
-main.license_status_trial_expired = Prøveperioden er utløpt - klikk på "Lisens" for å aktivere eller kjøpe.
+main.license_status_trial_expired = Prøveperioden er utløpt - klikk på "Lisens" for å aktivere.
 
 # License dialog
 license.heading = Lisens

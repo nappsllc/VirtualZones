@@ -44,7 +44,7 @@ main.license_heading = Lizenz
 main.license_button = Lizenz…
 main.about_button = Über
 main.license_status_licensed = Lizenziert.
-main.license_status_trial_expired = Testzeitraum abgelaufen - klicken Sie auf „Lizenz“, um zu aktivieren oder zu kaufen.
+main.license_status_trial_expired = Testzeitraum abgelaufen - klicken Sie auf „Lizenz", um zu aktivieren.
 
 # License dialog
 license.heading = Lizenz

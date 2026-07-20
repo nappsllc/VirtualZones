@@ -45,7 +45,7 @@ main.license_heading = 授權
 main.license_button = 授權…
 main.about_button = 關於
 main.license_status_licensed = 已授權。
-main.license_status_trial_expired = 試用期已結束 - 按一下「授權」以啟用或購買。
+main.license_status_trial_expired = 試用期已結束 - 按一下「授權」以啟用。
 
 # License dialog
 license.heading = 授權

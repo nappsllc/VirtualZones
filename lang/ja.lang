@@ -44,7 +44,7 @@ main.license_heading = ライセンス
 main.license_button = ライセンス…
 main.about_button = バージョン情報
 main.license_status_licensed = ライセンス認証済み。
-main.license_status_trial_expired = 試用期間が終了しました - 「ライセンス」をクリックして有効化または購入してください。
+main.license_status_trial_expired = 試用期間が終了しました - 「ライセンス」をクリックして有効化してください。
 
 # License dialog
 license.heading = ライセンス

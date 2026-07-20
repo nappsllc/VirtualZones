@@ -44,7 +44,7 @@ main.license_heading = Άδεια χρήσης
 main.license_button = Άδεια χρήσης…
 main.about_button = Σχετικά
 main.license_status_licensed = Με άδεια χρήσης.
-main.license_status_trial_expired = Η δοκιμαστική περίοδος έληξε - κάντε κλικ στο «Άδεια χρήσης» για ενεργοποίηση ή αγορά.
+main.license_status_trial_expired = Η δοκιμαστική περίοδος έληξε - κάντε κλικ στο «Άδεια χρήσης» για ενεργοποίηση.
 
 # License dialog
 license.heading = Άδεια χρήσης

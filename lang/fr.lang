@@ -44,7 +44,7 @@ main.license_heading = Licence
 main.license_button = Licence…
 main.about_button = À propos
 main.license_status_licensed = Sous licence.
-main.license_status_trial_expired = Période d'essai expirée - cliquez sur « Licence » pour activer ou acheter.
+main.license_status_trial_expired = Période d'essai expirée - cliquez sur « Licence » pour activer.
 
 # License dialog
 license.heading = Licence
