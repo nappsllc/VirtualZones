@@ -44,6 +44,7 @@ main.license_heading = Lisenssi
 main.license_button = Lisenssi…
 main.about_button = Tietoja
 main.license_status_licensed = Lisensoitu.
+main.license_status_licensed_to = Lisensoitu käyttäjälle {name}
 main.license_status_trial_expired = Kokeilujakso on päättynyt - aktivoi napsauttamalla "Lisenssi".
 
 # License dialog

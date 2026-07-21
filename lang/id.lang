@@ -44,6 +44,7 @@ main.license_heading = Lisensi
 main.license_button = Lisensi…
 main.about_button = Tentang
 main.license_status_licensed = Berlisensi.
+main.license_status_licensed_to = Dilisensikan untuk {name}
 main.license_status_trial_expired = Masa uji coba telah berakhir - klik "Lisensi" untuk mengaktifkan.
 
 # License dialog

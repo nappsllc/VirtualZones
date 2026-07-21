@@ -44,6 +44,7 @@ main.license_heading = Licens
 main.license_button = Licens…
 main.about_button = Om
 main.license_status_licensed = Licensierad.
+main.license_status_licensed_to = Licensierad till {name}
 main.license_status_trial_expired = Provperioden har löpt ut - klicka på "Licens" för att aktivera.
 
 # License dialog

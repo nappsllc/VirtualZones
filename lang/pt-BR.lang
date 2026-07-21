@@ -44,6 +44,7 @@ main.license_heading = Licença
 main.license_button = Licença…
 main.about_button = Sobre
 main.license_status_licensed = Licenciado.
+main.license_status_licensed_to = Licenciado para {name}
 main.license_status_trial_expired = Período de teste expirado - clique em "Licença" para ativar.
 
 # License dialog

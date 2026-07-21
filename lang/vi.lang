@@ -44,6 +44,7 @@ main.license_heading = Giấy phép
 main.license_button = Giấy phép…
 main.about_button = Giới thiệu
 main.license_status_licensed = Đã cấp phép.
+main.license_status_licensed_to = Được cấp phép cho {name}
 main.license_status_trial_expired = Thời gian dùng thử đã hết - nhấp vào "Giấy phép" để kích hoạt.
 
 # License dialog

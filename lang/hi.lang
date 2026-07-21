@@ -44,6 +44,7 @@ main.license_heading = लाइसेंस
 main.license_button = लाइसेंस…
 main.about_button = जानकारी
 main.license_status_licensed = लाइसेंस प्राप्त।
+main.license_status_licensed_to = {name} के लिए लाइसेंस प्राप्त
 main.license_status_trial_expired = परीक्षण अवधि समाप्त हो गई है - सक्रिय करने के लिए "लाइसेंस" पर क्लिक करें।
 
 # License dialog

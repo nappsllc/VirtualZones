@@ -44,6 +44,7 @@ main.license_heading = Licentie
 main.license_button = Licentie…
 main.about_button = Over
 main.license_status_licensed = Gelicentieerd.
+main.license_status_licensed_to = Gelicentieerd aan {name}
 main.license_status_trial_expired = Proefperiode verlopen - klik op "Licentie" om te activeren.
 
 # License dialog

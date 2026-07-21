@@ -44,6 +44,7 @@ main.license_heading = Лицензия
 main.license_button = Лицензия…
 main.about_button = О программе
 main.license_status_licensed = Лицензия активна.
+main.license_status_licensed_to = Лицензия для {name}
 main.license_status_trial_expired = Пробный период истёк - нажмите «Лицензия», чтобы активировать.
 
 # License dialog

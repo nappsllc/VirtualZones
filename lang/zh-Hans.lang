@@ -44,6 +44,7 @@ main.license_heading = 许可证
 main.license_button = 许可证…
 main.about_button = 关于
 main.license_status_licensed = 已获授权。
+main.license_status_licensed_to = 授权给 {name}
 main.license_status_trial_expired = 试用期已结束 - 点击"许可证"以激活。
 
 # License dialog
