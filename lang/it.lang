@@ -45,6 +45,7 @@ main.license_button = Licenza…
 main.about_button = Informazioni
 main.license_status_licensed = Con licenza.
 main.license_status_licensed_to = Concesso in licenza a {name}
+main.update_link = Aggiorna a {version}
 main.license_status_trial_expired = Periodo di prova scaduto - fai clic su "Licenza" per attivare.
 
 # License dialog

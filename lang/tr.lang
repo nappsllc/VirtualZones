@@ -45,6 +45,7 @@ main.license_button = Lisans…
 main.about_button = Hakkında
 main.license_status_licensed = Lisanslı.
 main.license_status_licensed_to = {name} adına lisanslı
+main.update_link = {version} sürümüne güncelle
 main.license_status_trial_expired = Deneme süresi doldu - etkinleştirmek için "Lisans"a tıklayın.
 
 # License dialog

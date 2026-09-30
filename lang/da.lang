@@ -45,6 +45,7 @@ main.license_button = Licens…
 main.about_button = Om
 main.license_status_licensed = Licenseret.
 main.license_status_licensed_to = Licenseret til {name}
+main.update_link = Opdater til {version}
 main.license_status_trial_expired = Prøveperioden er udløbet - klik på "Licens" for at aktivere.
 
 # License dialog

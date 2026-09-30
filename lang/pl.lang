@@ -45,6 +45,7 @@ main.license_button = Licencja…
 main.about_button = O programie
 main.license_status_licensed = Licencja aktywna.
 main.license_status_licensed_to = Licencja dla {name}
+main.update_link = Zaktualizuj do {version}
 main.license_status_trial_expired = Okres próbny wygasł - kliknij „Licencja", aby aktywować.
 
 # License dialog

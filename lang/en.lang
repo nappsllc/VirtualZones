@@ -47,6 +47,7 @@ main.license_button = License…
 main.about_button = About
 main.license_status_licensed = Licensed.
 main.license_status_licensed_to = Licensed to {name}
+main.update_link = Update to {version}
 main.license_status_trial_expired = Trial expired - click License to activate
 
 # License dialog
