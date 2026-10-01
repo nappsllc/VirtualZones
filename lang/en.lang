@@ -65,6 +65,21 @@ license.status_wrong_product = This license key isn't for VirtualZones.
 license.status_deactivating = Deactivating this device…
 license.status_deactivated = This device has been deactivated. You can now activate your license on another computer.
 license.status_deactivate_failed = Couldn't deactivate this device ({reason}). Check your internet connection and try again.
+license.move_title = Move license
+license.move_confirm = This license is already active on {device} (since {date}). Move it to this computer? The other computer will stop being licensed.
+license.move_confirm_no_date = This license is already active on {device}. Move it to this computer? The other computer will stop being licensed.
+license.move_other_computer = another computer
+license.status_moving = Moving your license to this computer…
+license.status_move_limit = This license was already moved recently. You can move it again on {date}, or contact {email}.
+license.status_move_limit_no_date = This license was already moved recently. You can move it again later, or contact {email}.
+license.status_move_unavailable = {reason} Contact {email} if you no longer have the other computer.
+license.support_mail_subject = VirtualZones license help
+license.support_mail_greeting = Hi,
+license.support_mail_placeholder = [Type your message here]
+license.support_mail_shown = What VirtualZones showed:
+license.support_mail_key = License key:
+license.support_mail_computer = Computer:
+license.support_mail_version = VirtualZones version:
 license.trial_days_left = Trial: {days} day(s) left.
 
 # Keyboard Shortcuts dialog

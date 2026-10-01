@@ -63,6 +63,21 @@ license.status_wrong_product = Ten klucz licencyjny nie jest przeznaczony dla Vi
 license.status_deactivating = Dezaktywacja tego urządzenia…
 license.status_deactivated = To urządzenie zostało dezaktywowane. Możesz teraz aktywować licencję na innym komputerze.
 license.status_deactivate_failed = Nie udało się dezaktywować tego urządzenia ({reason}). Sprawdź połączenie z internetem i spróbuj ponownie.
+license.move_title = Przenieś licencję
+license.move_confirm = Ta licencja jest już aktywna na {device} (od {date}). Przenieść ją na ten komputer? Drugi komputer utraci licencję.
+license.move_confirm_no_date = Ta licencja jest już aktywna na {device}. Przenieść ją na ten komputer? Drugi komputer utraci licencję.
+license.move_other_computer = innym komputerze
+license.status_moving = Przenoszenie licencji na ten komputer…
+license.status_move_limit = Ta licencja została niedawno przeniesiona. Możesz ją ponownie przenieść {date} lub napisać na {email}.
+license.status_move_limit_no_date = Ta licencja została niedawno przeniesiona. Możesz ją ponownie przenieść później lub napisać na {email}.
+license.status_move_unavailable = {reason} Napisz na {email}, jeśli nie masz już drugiego komputera.
+license.support_mail_subject = Pomoc z licencją VirtualZones
+license.support_mail_greeting = Dzień dobry,
+license.support_mail_placeholder = [Wpisz tutaj swoją wiadomość]
+license.support_mail_shown = Co pokazał VirtualZones:
+license.support_mail_key = Klucz licencyjny:
+license.support_mail_computer = Komputer:
+license.support_mail_version = Wersja VirtualZones:
 license.trial_days_left = Okres próbny: pozostało {days} dni.
 
 # Keyboard Shortcuts dialog

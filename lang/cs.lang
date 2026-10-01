@@ -63,6 +63,21 @@ license.status_wrong_product = Tento licenční klíč není určen pro VirtualZ
 license.status_deactivating = Deaktivace tohoto zařízení…
 license.status_deactivated = Toto zařízení bylo deaktivováno. Nyní můžete licenci aktivovat na jiném počítači.
 license.status_deactivate_failed = Nepodařilo se deaktivovat toto zařízení ({reason}). Zkontrolujte připojení k internetu a zkuste to znovu.
+license.move_title = Přesunout licenci
+license.move_confirm = Tato licence je již aktivní na {device} (od {date}). Přesunout ji na tento počítač? Druhý počítač přijde o licenci.
+license.move_confirm_no_date = Tato licence je již aktivní na {device}. Přesunout ji na tento počítač? Druhý počítač přijde o licenci.
+license.move_other_computer = jiném počítači
+license.status_moving = Přesouvání licence na tento počítač…
+license.status_move_limit = Tato licence již byla nedávno přesunuta. Znovu ji můžete přesunout {date}, nebo napište na {email}.
+license.status_move_limit_no_date = Tato licence již byla nedávno přesunuta. Znovu ji můžete přesunout později, nebo napište na {email}.
+license.status_move_unavailable = {reason} Pokud již nemáte druhý počítač, napište na {email}.
+license.support_mail_subject = Pomoc s licencí VirtualZones
+license.support_mail_greeting = Dobrý den,
+license.support_mail_placeholder = [Sem napište svou zprávu]
+license.support_mail_shown = Co zobrazil VirtualZones:
+license.support_mail_key = Licenční klíč:
+license.support_mail_computer = Počítač:
+license.support_mail_version = Verze VirtualZones:
 license.trial_days_left = Zkušební období: zbývá {days} dní.
 
 # Keyboard Shortcuts dialog

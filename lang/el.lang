@@ -63,6 +63,21 @@ license.status_wrong_product = Αυτό το κλειδί άδειας χρήσ�
 license.status_deactivating = Απενεργοποίηση αυτής της συσκευής…
 license.status_deactivated = Αυτή η συσκευή απενεργοποιήθηκε. Μπορείτε τώρα να ενεργοποιήσετε την άδεια χρήσης σας σε άλλον υπολογιστή.
 license.status_deactivate_failed = Δεν ήταν δυνατή η απενεργοποίηση αυτής της συσκευής ({reason}). Ελέγξτε τη σύνδεσή σας στο internet και δοκιμάστε ξανά.
+license.move_title = Μεταφορά άδειας χρήσης
+license.move_confirm = Αυτή η άδεια χρήσης είναι ήδη ενεργή σε {device} (από {date}). Μεταφορά σε αυτόν τον υπολογιστή; Ο άλλος υπολογιστής θα χάσει την άδεια χρήσης.
+license.move_confirm_no_date = Αυτή η άδεια χρήσης είναι ήδη ενεργή σε {device}. Μεταφορά σε αυτόν τον υπολογιστή; Ο άλλος υπολογιστής θα χάσει την άδεια χρήσης.
+license.move_other_computer = άλλον υπολογιστή
+license.status_moving = Μεταφορά της άδειας χρήσης σας σε αυτόν τον υπολογιστή…
+license.status_move_limit = Αυτή η άδεια χρήσης μεταφέρθηκε πρόσφατα. Μπορείτε να τη μεταφέρετε ξανά στις {date} ή να επικοινωνήσετε στο {email}.
+license.status_move_limit_no_date = Αυτή η άδεια χρήσης μεταφέρθηκε πρόσφατα. Μπορείτε να τη μεταφέρετε ξανά αργότερα ή να επικοινωνήσετε στο {email}.
+license.status_move_unavailable = {reason} Επικοινωνήστε στο {email} αν δεν έχετε πλέον τον άλλον υπολογιστή.
+license.support_mail_subject = Βοήθεια με την άδεια χρήσης του VirtualZones
+license.support_mail_greeting = Γεια σας,
+license.support_mail_placeholder = [Πληκτρολογήστε το μήνυμά σας εδώ]
+license.support_mail_shown = Τι εμφάνισε το VirtualZones:
+license.support_mail_key = Κλειδί άδειας χρήσης:
+license.support_mail_computer = Υπολογιστής:
+license.support_mail_version = Έκδοση VirtualZones:
 license.trial_days_left = Δοκιμή: απομένουν {days} ημέρες.
 
 # Keyboard Shortcuts dialog

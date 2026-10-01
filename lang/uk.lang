@@ -63,6 +63,21 @@ license.status_wrong_product = Цей ліцензійний ключ не пр�
 license.status_deactivating = Деактивація цього пристрою…
 license.status_deactivated = Цей пристрій деактивовано. Тепер ви можете активувати ліцензію на іншому комп'ютері.
 license.status_deactivate_failed = Не вдалося деактивувати цей пристрій ({reason}). Перевірте підключення до інтернету та спробуйте ще раз.
+license.move_title = Перенесення ліцензії
+license.move_confirm = Ця ліцензія вже активна на {device} (з {date}). Перенести її на цей комп'ютер? На іншому комп'ютері ліцензія перестане діяти.
+license.move_confirm_no_date = Ця ліцензія вже активна на {device}. Перенести її на цей комп'ютер? На іншому комп'ютері ліцензія перестане діяти.
+license.move_other_computer = іншому комп'ютері
+license.status_moving = Перенесення ліцензії на цей комп'ютер…
+license.status_move_limit = Цю ліцензію нещодавно вже переносили. Знову перенести її можна буде {date}, або напишіть на {email}.
+license.status_move_limit_no_date = Цю ліцензію нещодавно вже переносили. Знову перенести її можна буде пізніше, або напишіть на {email}.
+license.status_move_unavailable = {reason} Якщо у вас більше немає іншого комп'ютера, напишіть на {email}.
+license.support_mail_subject = Допомога з ліцензією VirtualZones
+license.support_mail_greeting = Вітаю!
+license.support_mail_placeholder = [Введіть тут своє повідомлення]
+license.support_mail_shown = Що показав VirtualZones:
+license.support_mail_key = Ліцензійний ключ:
+license.support_mail_computer = Комп'ютер:
+license.support_mail_version = Версія VirtualZones:
 license.trial_days_left = Пробний період: залишилося {days} дн.
 
 # Keyboard Shortcuts dialog

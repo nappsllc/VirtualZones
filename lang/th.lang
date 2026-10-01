@@ -63,6 +63,21 @@ license.status_wrong_product = คีย์ลิขสิทธิ์นี้�
 license.status_deactivating = กำลังปิดใช้งานอุปกรณ์นี้…
 license.status_deactivated = ปิดใช้งานอุปกรณ์นี้แล้ว คุณสามารถเปิดใช้งานใบอนุญาตของคุณบนคอมพิวเตอร์เครื่องอื่นได้แล้ว
 license.status_deactivate_failed = ไม่สามารถปิดใช้งานอุปกรณ์นี้ได้ ({reason}) ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง
+license.move_title = ย้ายใบอนุญาต
+license.move_confirm = ใบอนุญาตนี้เปิดใช้งานอยู่แล้วบน {device} (ตั้งแต่ {date}) ย้ายมายังคอมพิวเตอร์เครื่องนี้หรือไม่? คอมพิวเตอร์อีกเครื่องจะไม่มีใบอนุญาตอีกต่อไป
+license.move_confirm_no_date = ใบอนุญาตนี้เปิดใช้งานอยู่แล้วบน {device} ย้ายมายังคอมพิวเตอร์เครื่องนี้หรือไม่? คอมพิวเตอร์อีกเครื่องจะไม่มีใบอนุญาตอีกต่อไป
+license.move_other_computer = คอมพิวเตอร์เครื่องอื่น
+license.status_moving = กำลังย้ายใบอนุญาตของคุณมายังคอมพิวเตอร์เครื่องนี้…
+license.status_move_limit = ใบอนุญาตนี้เพิ่งถูกย้ายไปเมื่อไม่นานมานี้ คุณสามารถย้ายอีกครั้งได้ในวันที่ {date} หรือติดต่อ {email}
+license.status_move_limit_no_date = ใบอนุญาตนี้เพิ่งถูกย้ายไปเมื่อไม่นานมานี้ คุณสามารถย้ายอีกครั้งได้ในภายหลัง หรือติดต่อ {email}
+license.status_move_unavailable = {reason} ติดต่อ {email} หากคุณไม่มีคอมพิวเตอร์เครื่องนั้นแล้ว
+license.support_mail_subject = ขอความช่วยเหลือเกี่ยวกับใบอนุญาต VirtualZones
+license.support_mail_greeting = สวัสดี
+license.support_mail_placeholder = [พิมพ์ข้อความของคุณที่นี่]
+license.support_mail_shown = สิ่งที่ VirtualZones แสดง:
+license.support_mail_key = คีย์ใบอนุญาต:
+license.support_mail_computer = คอมพิวเตอร์:
+license.support_mail_version = เวอร์ชัน VirtualZones:
 license.trial_days_left = ทดลองใช้: เหลืออีก {days} วัน
 
 # Keyboard Shortcuts dialog

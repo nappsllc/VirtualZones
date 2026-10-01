@@ -63,6 +63,21 @@ license.status_wrong_product = Bu lisans anahtarı VirtualZones için değil.
 license.status_deactivating = Bu cihaz devre dışı bırakılıyor…
 license.status_deactivated = Bu cihaz devre dışı bırakıldı. Lisansınızı artık başka bir bilgisayarda etkinleştirebilirsiniz.
 license.status_deactivate_failed = Bu cihaz devre dışı bırakılamadı ({reason}). İnternet bağlantınızı kontrol edip tekrar deneyin.
+license.move_title = Lisansı taşı
+license.move_confirm = Bu lisans zaten {device} üzerinde etkin ({date} tarihinden beri). Bu bilgisayara taşınsın mı? Diğer bilgisayarın lisansı kaldırılacak.
+license.move_confirm_no_date = Bu lisans zaten {device} üzerinde etkin. Bu bilgisayara taşınsın mı? Diğer bilgisayarın lisansı kaldırılacak.
+license.move_other_computer = başka bir bilgisayar
+license.status_moving = Lisansınız bu bilgisayara taşınıyor…
+license.status_move_limit = Bu lisans yakın zamanda zaten taşındı. {date} tarihinde yeniden taşıyabilir veya {email} adresine yazabilirsiniz.
+license.status_move_limit_no_date = Bu lisans yakın zamanda zaten taşındı. Daha sonra yeniden taşıyabilir veya {email} adresine yazabilirsiniz.
+license.status_move_unavailable = {reason} Diğer bilgisayar artık sizde değilse {email} adresine yazın.
+license.support_mail_subject = VirtualZones lisans yardımı
+license.support_mail_greeting = Merhaba,
+license.support_mail_placeholder = [Mesajınızı buraya yazın]
+license.support_mail_shown = VirtualZones'un gösterdiği:
+license.support_mail_key = Lisans anahtarı:
+license.support_mail_computer = Bilgisayar:
+license.support_mail_version = VirtualZones sürümü:
 license.trial_days_left = Deneme: {days} gün kaldı.
 
 # Keyboard Shortcuts dialog

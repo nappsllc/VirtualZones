@@ -63,6 +63,21 @@ license.status_wrong_product = Kunci lisensi ini bukan untuk VirtualZones.
 license.status_deactivating = Menonaktifkan perangkat ini…
 license.status_deactivated = Perangkat ini telah dinonaktifkan. Anda kini dapat mengaktifkan lisensi Anda di komputer lain.
 license.status_deactivate_failed = Tidak dapat menonaktifkan perangkat ini ({reason}). Periksa koneksi internet Anda dan coba lagi.
+license.move_title = Pindahkan lisensi
+license.move_confirm = Lisensi ini sudah aktif di {device} (sejak {date}). Pindahkan ke komputer ini? Komputer yang lain tidak akan berlisensi lagi.
+license.move_confirm_no_date = Lisensi ini sudah aktif di {device}. Pindahkan ke komputer ini? Komputer yang lain tidak akan berlisensi lagi.
+license.move_other_computer = komputer lain
+license.status_moving = Memindahkan lisensi Anda ke komputer ini…
+license.status_move_limit = Lisensi ini baru saja dipindahkan. Anda dapat memindahkannya lagi pada {date}, atau hubungi {email}.
+license.status_move_limit_no_date = Lisensi ini baru saja dipindahkan. Anda dapat memindahkannya lagi nanti, atau hubungi {email}.
+license.status_move_unavailable = {reason} Hubungi {email} jika Anda tidak lagi memiliki komputer yang lain itu.
+license.support_mail_subject = Bantuan lisensi VirtualZones
+license.support_mail_greeting = Halo,
+license.support_mail_placeholder = [Ketik pesan Anda di sini]
+license.support_mail_shown = Yang ditampilkan VirtualZones:
+license.support_mail_key = Kunci lisensi:
+license.support_mail_computer = Komputer:
+license.support_mail_version = Versi VirtualZones:
 license.trial_days_left = Uji coba: tersisa {days} hari.
 
 # Keyboard Shortcuts dialog

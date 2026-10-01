@@ -63,6 +63,21 @@ license.status_wrong_product = Tämä lisenssiavain ei ole VirtualZonesia varten
 license.status_deactivating = Poistetaan tämän laitteen aktivointia…
 license.status_deactivated = Tämän laitteen aktivointi on poistettu. Voit nyt aktivoida lisenssisi toisella tietokoneella.
 license.status_deactivate_failed = Tämän laitteen aktivoinnin poistaminen epäonnistui ({reason}). Tarkista internetyhteytesi ja yritä uudelleen.
+license.move_title = Siirrä lisenssi
+license.move_confirm = Tämä lisenssi on jo aktiivinen laitteessa: {device} ({date} alkaen). Siirretäänkö se tähän tietokoneeseen? Toisen tietokoneen lisenssi lakkaa toimimasta.
+license.move_confirm_no_date = Tämä lisenssi on jo aktiivinen laitteessa: {device}. Siirretäänkö se tähän tietokoneeseen? Toisen tietokoneen lisenssi lakkaa toimimasta.
+license.move_other_computer = toinen tietokone
+license.status_moving = Siirretään lisenssiä tähän tietokoneeseen…
+license.status_move_limit = Tämä lisenssi on siirretty äskettäin. Voit siirtää sen uudelleen {date} alkaen tai ottaa yhteyttä osoitteeseen {email}.
+license.status_move_limit_no_date = Tämä lisenssi on siirretty äskettäin. Voit siirtää sen uudelleen myöhemmin tai ottaa yhteyttä osoitteeseen {email}.
+license.status_move_unavailable = {reason} Ota yhteyttä osoitteeseen {email}, jos sinulla ei enää ole toista tietokonetta.
+license.support_mail_subject = Apua VirtualZones-lisenssiin
+license.support_mail_greeting = Hei,
+license.support_mail_placeholder = [Kirjoita viestisi tähän]
+license.support_mail_shown = Mitä VirtualZones näytti:
+license.support_mail_key = Lisenssiavain:
+license.support_mail_computer = Tietokone:
+license.support_mail_version = VirtualZones-versio:
 license.trial_days_left = Kokeilu: {days} päivää jäljellä.
 
 # Keyboard Shortcuts dialog

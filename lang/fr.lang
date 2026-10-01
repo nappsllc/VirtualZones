@@ -63,6 +63,21 @@ license.status_wrong_product = Cette clé de licence n'est pas destinée à Virt
 license.status_deactivating = Désactivation de cet appareil…
 license.status_deactivated = Cet appareil a été désactivé. Vous pouvez maintenant activer votre licence sur un autre ordinateur.
 license.status_deactivate_failed = Impossible de désactiver cet appareil ({reason}). Vérifiez votre connexion internet et réessayez.
+license.move_title = Transférer la licence
+license.move_confirm = Cette licence est déjà active sur {device} (depuis le {date}). La transférer sur cet ordinateur ? L'autre ordinateur ne sera plus sous licence.
+license.move_confirm_no_date = Cette licence est déjà active sur {device}. La transférer sur cet ordinateur ? L'autre ordinateur ne sera plus sous licence.
+license.move_other_computer = un autre ordinateur
+license.status_moving = Transfert de votre licence sur cet ordinateur…
+license.status_move_limit = Cette licence a déjà été transférée récemment. Vous pourrez la transférer à nouveau le {date} ou contacter {email}.
+license.status_move_limit_no_date = Cette licence a déjà été transférée récemment. Vous pourrez la transférer à nouveau plus tard ou contacter {email}.
+license.status_move_unavailable = {reason} Contactez {email} si vous n'avez plus l'autre ordinateur.
+license.support_mail_subject = Aide pour la licence VirtualZones
+license.support_mail_greeting = Bonjour,
+license.support_mail_placeholder = [Saisissez votre message ici]
+license.support_mail_shown = Ce que VirtualZones a affiché :
+license.support_mail_key = Clé de licence :
+license.support_mail_computer = Ordinateur :
+license.support_mail_version = Version de VirtualZones :
 license.trial_days_left = Essai : {days} jour(s) restant(s).
 
 # Keyboard Shortcuts dialog

@@ -63,6 +63,21 @@ license.status_wrong_product = Dieser Lizenzschlüssel gehört nicht zu VirtualZ
 license.status_deactivating = Dieses Gerät wird deaktiviert…
 license.status_deactivated = Dieses Gerät wurde deaktiviert. Sie können Ihre Lizenz jetzt auf einem anderen Computer aktivieren.
 license.status_deactivate_failed = Dieses Gerät konnte nicht deaktiviert werden ({reason}). Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.
+license.move_title = Lizenz übertragen
+license.move_confirm = Diese Lizenz ist bereits auf {device} aktiv (seit {date}). Auf diesen Computer übertragen? Der andere Computer verliert dann die Lizenz.
+license.move_confirm_no_date = Diese Lizenz ist bereits auf {device} aktiv. Auf diesen Computer übertragen? Der andere Computer verliert dann die Lizenz.
+license.move_other_computer = einem anderen Computer
+license.status_moving = Lizenz wird auf diesen Computer übertragen…
+license.status_move_limit = Diese Lizenz wurde kürzlich bereits übertragen. Sie können sie am {date} erneut übertragen oder {email} kontaktieren.
+license.status_move_limit_no_date = Diese Lizenz wurde kürzlich bereits übertragen. Sie können sie später erneut übertragen oder {email} kontaktieren.
+license.status_move_unavailable = {reason} Wenden Sie sich an {email}, wenn Sie den anderen Computer nicht mehr haben.
+license.support_mail_subject = Hilfe zur VirtualZones-Lizenz
+license.support_mail_greeting = Hallo,
+license.support_mail_placeholder = [Geben Sie hier Ihre Nachricht ein]
+license.support_mail_shown = Was VirtualZones angezeigt hat:
+license.support_mail_key = Lizenzschlüssel:
+license.support_mail_computer = Computer:
+license.support_mail_version = VirtualZones-Version:
 license.trial_days_left = Testzeitraum: noch {days} Tag(e).
 
 # Keyboard Shortcuts dialog

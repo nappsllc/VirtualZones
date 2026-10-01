@@ -63,6 +63,21 @@ license.status_wrong_product = Khóa giấy phép này không dành cho VirtualZ
 license.status_deactivating = Đang hủy kích hoạt thiết bị này…
 license.status_deactivated = Thiết bị này đã được hủy kích hoạt. Bây giờ bạn có thể kích hoạt giấy phép trên một máy tính khác.
 license.status_deactivate_failed = Không thể hủy kích hoạt thiết bị này ({reason}). Kiểm tra kết nối internet của bạn và thử lại.
+license.move_title = Chuyển giấy phép
+license.move_confirm = Giấy phép này đang hoạt động trên {device} (từ {date}). Chuyển giấy phép sang máy tính này? Máy tính kia sẽ không còn được cấp phép.
+license.move_confirm_no_date = Giấy phép này đang hoạt động trên {device}. Chuyển giấy phép sang máy tính này? Máy tính kia sẽ không còn được cấp phép.
+license.move_other_computer = một máy tính khác
+license.status_moving = Đang chuyển giấy phép của bạn sang máy tính này…
+license.status_move_limit = Giấy phép này vừa được chuyển gần đây. Bạn có thể chuyển lại vào {date} hoặc liên hệ {email}.
+license.status_move_limit_no_date = Giấy phép này vừa được chuyển gần đây. Bạn có thể chuyển lại sau hoặc liên hệ {email}.
+license.status_move_unavailable = {reason} Liên hệ {email} nếu bạn không còn máy tính kia.
+license.support_mail_subject = Hỗ trợ giấy phép VirtualZones
+license.support_mail_greeting = Xin chào,
+license.support_mail_placeholder = [Nhập tin nhắn của bạn tại đây]
+license.support_mail_shown = VirtualZones đã hiển thị:
+license.support_mail_key = Khóa giấy phép:
+license.support_mail_computer = Máy tính:
+license.support_mail_version = Phiên bản VirtualZones:
 license.trial_days_left = Dùng thử: còn {days} ngày.
 
 # Keyboard Shortcuts dialog

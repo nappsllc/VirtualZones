@@ -63,6 +63,21 @@ license.status_wrong_product = このライセンスキーは VirtualZones の�
 license.status_deactivating = このデバイスを無効化しています…
 license.status_deactivated = このデバイスを無効化しました。別のコンピューターでライセンスを有効化できます。
 license.status_deactivate_failed = このデバイスを無効化できませんでした ({reason})。インターネット接続を確認して再試行してください。
+license.move_title = ライセンスの移行
+license.move_confirm = このライセンスは既に{device}で有効です ({date}から)。このコンピューターに移行しますか?もう一方のコンピューターではライセンスが無効になります。
+license.move_confirm_no_date = このライセンスは既に{device}で有効です。このコンピューターに移行しますか?もう一方のコンピューターではライセンスが無効になります。
+license.move_other_computer = 別のコンピューター
+license.status_moving = ライセンスをこのコンピューターに移行しています…
+license.status_move_limit = このライセンスは最近移行済みです。{date}以降に再度移行するか、{email} までお問い合わせください。
+license.status_move_limit_no_date = このライセンスは最近移行済みです。後で再度移行するか、{email} までお問い合わせください。
+license.status_move_unavailable = {reason} もう一方のコンピューターがお手元にない場合は、{email} までお問い合わせください。
+license.support_mail_subject = VirtualZonesのライセンスに関するお問い合わせ
+license.support_mail_greeting = こんにちは。
+license.support_mail_placeholder = [ここにメッセージを入力してください]
+license.support_mail_shown = VirtualZonesの表示内容:
+license.support_mail_key = ライセンスキー:
+license.support_mail_computer = コンピューター:
+license.support_mail_version = VirtualZonesのバージョン:
 license.trial_days_left = 試用期間: 残り{days}日。
 
 # Keyboard Shortcuts dialog

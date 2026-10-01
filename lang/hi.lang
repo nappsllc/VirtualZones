@@ -63,6 +63,21 @@ license.status_wrong_product = यह लाइसेंस कुंजी Virt
 license.status_deactivating = इस डिवाइस को निष्क्रिय किया जा रहा है…
 license.status_deactivated = यह डिवाइस निष्क्रिय कर दिया गया है। अब आप अपना लाइसेंस किसी दूसरे कंप्यूटर पर सक्रिय कर सकते हैं।
 license.status_deactivate_failed = इस डिवाइस को निष्क्रिय नहीं किया जा सका ({reason})। अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें।
+license.move_title = लाइसेंस स्थानांतरित करें
+license.move_confirm = यह लाइसेंस पहले से {device} पर सक्रिय है ({date} से)। क्या इसे इस कंप्यूटर पर स्थानांतरित करें? दूसरे कंप्यूटर का लाइसेंस हट जाएगा।
+license.move_confirm_no_date = यह लाइसेंस पहले से {device} पर सक्रिय है। क्या इसे इस कंप्यूटर पर स्थानांतरित करें? दूसरे कंप्यूटर का लाइसेंस हट जाएगा।
+license.move_other_computer = किसी दूसरे कंप्यूटर
+license.status_moving = आपका लाइसेंस इस कंप्यूटर पर स्थानांतरित किया जा रहा है…
+license.status_move_limit = यह लाइसेंस हाल ही में स्थानांतरित किया गया था। आप इसे {date} को फिर से स्थानांतरित कर सकते हैं, या {email} पर संपर्क करें।
+license.status_move_limit_no_date = यह लाइसेंस हाल ही में स्थानांतरित किया गया था। आप इसे बाद में फिर से स्थानांतरित कर सकते हैं, या {email} पर संपर्क करें।
+license.status_move_unavailable = {reason} यदि अब आपके पास दूसरा कंप्यूटर नहीं है, तो {email} पर संपर्क करें।
+license.support_mail_subject = VirtualZones लाइसेंस सहायता
+license.support_mail_greeting = नमस्ते,
+license.support_mail_placeholder = [अपना संदेश यहां लिखें]
+license.support_mail_shown = VirtualZones ने क्या दिखाया:
+license.support_mail_key = लाइसेंस कुंजी:
+license.support_mail_computer = कंप्यूटर:
+license.support_mail_version = VirtualZones संस्करण:
 license.trial_days_left = परीक्षण: {days} दिन शेष।
 
 # Keyboard Shortcuts dialog

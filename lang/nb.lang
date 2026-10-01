@@ -63,6 +63,21 @@ license.status_wrong_product = Denne lisensnøkkelen er ikke for VirtualZones.
 license.status_deactivating = Deaktiverer denne enheten…
 license.status_deactivated = Denne enheten er deaktivert. Du kan nå aktivere lisensen på en annen datamaskin.
 license.status_deactivate_failed = Kunne ikke deaktivere denne enheten ({reason}). Sjekk internettforbindelsen og prøv igjen.
+license.move_title = Flytt lisens
+license.move_confirm = Denne lisensen er allerede aktiv på {device} (siden {date}). Vil du flytte den til denne datamaskinen? Den andre datamaskinen mister lisensen.
+license.move_confirm_no_date = Denne lisensen er allerede aktiv på {device}. Vil du flytte den til denne datamaskinen? Den andre datamaskinen mister lisensen.
+license.move_other_computer = en annen datamaskin
+license.status_moving = Flytter lisensen til denne datamaskinen…
+license.status_move_limit = Denne lisensen ble nylig flyttet. Du kan flytte den igjen fra {date}, eller kontakte {email}.
+license.status_move_limit_no_date = Denne lisensen ble nylig flyttet. Du kan flytte den igjen senere, eller kontakte {email}.
+license.status_move_unavailable = {reason} Kontakt {email} hvis du ikke lenger har den andre datamaskinen.
+license.support_mail_subject = Hjelp med VirtualZones-lisens
+license.support_mail_greeting = Hei,
+license.support_mail_placeholder = [Skriv meldingen din her]
+license.support_mail_shown = Hva VirtualZones viste:
+license.support_mail_key = Lisensnøkkel:
+license.support_mail_computer = Datamaskin:
+license.support_mail_version = VirtualZones-versjon:
 license.trial_days_left = Prøveperiode: {days} dag(er) igjen.
 
 # Keyboard Shortcuts dialog

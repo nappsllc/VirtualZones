@@ -64,6 +64,21 @@ license.status_wrong_product = 此授權金鑰不適用於 VirtualZones。
 license.status_deactivating = 正在停用此裝置…
 license.status_deactivated = 此裝置已停用。您現在可以在其他電腦上啟用您的授權。
 license.status_deactivate_failed = 無法停用此裝置（{reason}）。請檢查您的網際網路連線並重試。
+license.move_title = 移轉授權
+license.move_confirm = 此授權已在 {device} 上啟用（自 {date} 起）。要將其移轉到這台電腦嗎？另一台電腦將不再獲得授權。
+license.move_confirm_no_date = 此授權已在 {device} 上啟用。要將其移轉到這台電腦嗎？另一台電腦將不再獲得授權。
+license.move_other_computer = 另一台電腦
+license.status_moving = 正在將您的授權移轉到這台電腦…
+license.status_move_limit = 此授權最近已移轉過。您可以在 {date} 再次移轉，或聯絡 {email}。
+license.status_move_limit_no_date = 此授權最近已移轉過。您可以稍後再次移轉，或聯絡 {email}。
+license.status_move_unavailable = {reason} 如果您已不再擁有另一台電腦，請聯絡 {email}。
+license.support_mail_subject = VirtualZones 授權協助
+license.support_mail_greeting = 您好，
+license.support_mail_placeholder = [在此輸入您的訊息]
+license.support_mail_shown = VirtualZones 顯示的內容：
+license.support_mail_key = 授權金鑰：
+license.support_mail_computer = 電腦：
+license.support_mail_version = VirtualZones 版本：
 license.trial_days_left = 試用：剩餘 {days} 天。
 
 # Keyboard Shortcuts dialog

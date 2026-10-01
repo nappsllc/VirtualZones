@@ -63,6 +63,21 @@ license.status_wrong_product = Deze licentiesleutel is niet voor VirtualZones.
 license.status_deactivating = Dit apparaat wordt gedeactiveerd…
 license.status_deactivated = Dit apparaat is gedeactiveerd. U kunt uw licentie nu op een andere computer activeren.
 license.status_deactivate_failed = Kan dit apparaat niet deactiveren ({reason}). Controleer uw internetverbinding en probeer het opnieuw.
+license.move_title = Licentie overzetten
+license.move_confirm = Deze licentie is al actief op {device} (sinds {date}). Overzetten naar deze computer? De andere computer heeft dan geen licentie meer.
+license.move_confirm_no_date = Deze licentie is al actief op {device}. Overzetten naar deze computer? De andere computer heeft dan geen licentie meer.
+license.move_other_computer = een andere computer
+license.status_moving = Uw licentie wordt overgezet naar deze computer…
+license.status_move_limit = Deze licentie is onlangs al overgezet. U kunt deze op {date} opnieuw overzetten of contact opnemen met {email}.
+license.status_move_limit_no_date = Deze licentie is onlangs al overgezet. U kunt deze later opnieuw overzetten of contact opnemen met {email}.
+license.status_move_unavailable = {reason} Neem contact op met {email} als u de andere computer niet meer hebt.
+license.support_mail_subject = Hulp bij VirtualZones-licentie
+license.support_mail_greeting = Hallo,
+license.support_mail_placeholder = [Typ hier uw bericht]
+license.support_mail_shown = Wat VirtualZones liet zien:
+license.support_mail_key = Licentiesleutel:
+license.support_mail_computer = Computer:
+license.support_mail_version = VirtualZones-versie:
 license.trial_days_left = Proefperiode: nog {days} dag(en).
 
 # Keyboard Shortcuts dialog
