@@ -24,11 +24,13 @@ It replaces PowerToys FancyZones, RegionToShare and virtual-display splitters wi
 
 **[Download VirtualZones free here](https://virtualzones.cc/download)**
 
+New to VirtualZones? The **[docs](https://virtualzones.cc/docs/)** walk you through setup and every feature.
+
 Windows 10 and 11. Mac version coming soon.
 
 Learn more at **[virtualzones.cc](https://virtualzones.cc)** ·
 [Features](https://virtualzones.cc/features) ·
-[Help](https://virtualzones.cc/docs/) · [FAQ](https://virtualzones.cc/faq)
+[Docs](https://virtualzones.cc/docs/) · [FAQ](https://virtualzones.cc/faq)
 
 ---
 
