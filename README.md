@@ -22,13 +22,12 @@ It replaces PowerToys FancyZones, RegionToShare and virtual-display splitters wi
 
 ### Get it
 
-**[Download VirtualZones for Windows](https://virtualzones.cc/download)**: free for 7 days, with
-everything unlocked. Then $2.99/month or $29.99 once for a lifetime license.
+**[Download VirtualZones free here](https://virtualzones.cc/download)**
 
 Windows 10 and 11. Mac version coming soon.
 
 Learn more at **[virtualzones.cc](https://virtualzones.cc)** ·
-[Features](https://virtualzones.cc/features) · [Pricing](https://virtualzones.cc/pricing) ·
+[Features](https://virtualzones.cc/features) ·
 [Help](https://virtualzones.cc/docs/) · [FAQ](https://virtualzones.cc/faq)
 
 ---
